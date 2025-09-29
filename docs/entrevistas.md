@@ -62,6 +62,4 @@ El objetivo es entender mejor las necesidades de la empresa y poder definir los 
 
 ---
 
-✍️ **Notas:**  
-- Todas las respuestas se irán completando durante la reunión.  
-- Después se trasladarán a la sección de “Requisitos con REM” del proyecto.  
+
