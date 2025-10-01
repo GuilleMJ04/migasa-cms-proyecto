@@ -45,10 +45,10 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 
 **Objetivos Principales:**
 
-   *Funcionalidad Comercial:* Implementar tienda online con catálogo de productos, carrito de compra, sistema de pagos (PayPal y otros) y seguimiento de pedidos.
-Gestión de Usuarios: Crear áreas diferenciadas para clientes VIP (mayoristas) con funcionalidades especiales y portal privado para empleados con descuentos.
-Interacción y Soporte: Desarrollar formularios de contacto, sección FAQ y canales de comunicación directa con clientes.
-Análisis y Autonomía: Integrar herramientas de analítica web e implementar un CMS intuitivo que permita al personal interno gestionar contenidos sin conocimientos técnicos.
+- **Funcionalidad Comercial:** Implementar tienda online con catálogo de productos, carrito de compra, sistema de pagos (PayPal y otros) y seguimiento de pedidos.
+- **Gestión de Usuarios:** Crear áreas diferenciadas para clientes VIP (mayoristas) con funcionalidades especiales y portal privado para empleados con descuentos.
+- **Interacción y Soporte:** Desarrollar formularios de contacto, sección FAQ y canales de comunicación directa con clientes.
+- **Análisis y Autonomía:** Integrar herramientas de analítica web e implementar un CMS intuitivo que permita al personal interno gestionar contenidos sin conocimientos técnicos.
 
 Beneficios Esperados:
 
