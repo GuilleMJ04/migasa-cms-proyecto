@@ -352,11 +352,3 @@ proyecto-migasa-cms/
 ## REFERENCIAS
 
 *[PENDIENTE: Referencias utilizadas]*
-
----
-
-**Notas para el desarrollo:**
-- Este documento debe ser completado progresivamente
-- Las secciones marcadas como *[PENDIENTE]* requieren información específica
-- Todos los diagramas y mockups deben ser incluidos como imágenes
-- El documento final debe exportarse a PDF
