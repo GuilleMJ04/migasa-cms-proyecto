@@ -1,4 +1,4 @@
-# migasa-cms-proyecto
+# Grupo MIGASA
 Proyecto CMS WordPress para MIGASA - Aceites de Oliva
 
 # PROYECTO CMS - WORDPRESS
