@@ -324,8 +324,8 @@ proyecto-migasa-cms/
 
 | ID | Tarea | Responsable | Estado | Horas Estimadas | Horas Reales |
 |----|-------|-------------|--------|----------------|--------------|
-| T-01 | Instalación y configuración WordPress | *[Asignar]* | To Do | 4 | - |
-| T-02 | Análisis y selección de tema | *[Asignar]* | To Do | 6 | - |
+| T-01 | Instalación y configuración WordPress | *[Asignar]* | Done | 4 | - |
+| T-02 | Análisis y selección de tema | *[Asignar]* | Done | 6 | - |
 | T-03 | Instalación plugins básicos (seguridad, SEO) | *[Asignar]* | To Do | 3 | - |
 | T-04 | Creación de mockups principales | *[Asignar]* | To Do | 8 | - |
 | T-05 | Configuración de menús y estructura | *[Asignar]* | To Do | 4 | - |
@@ -352,6 +352,7 @@ proyecto-migasa-cms/
 ## REFERENCIAS
 
 **Bibliografía:**
+*[PENDIENTE: PDFs usados]*
 
 **Herramientas y tecnología:**
 
