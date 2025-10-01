@@ -354,6 +354,7 @@ proyecto-migasa-cms/
 **Bibliografía:**
 
 **Herramientas y tecnología:**
+
 | App | Valoración | Características | Compatibilidad | Decisión |
 |------|--------|-----------|----------------|----------------|----------|
 | *[Tema 1]* | *[★★★★★]* | *Grabación y transcripción de videocalls, contenido ordenado colaborativo* | *No se pueden hacer llamadas con invitados* | *[Descartado]* |
