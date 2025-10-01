@@ -120,7 +120,16 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 - **Falta de áreas diferenciadas:** No existen espacios específicos para clientes VIP, empleados o particulares.
 
 ### 2.3 Oportunidades de Mejora
-*[PENDIENTE: Qué mejoras podemos aportar - a definir tras la entrevista]*
+- **Nuevo canal de ventas 24/7:** E-commerce completo que genere ingresos adicionales y reduzca dependencia de canales tradicionales.
+- **Visibilidad total del catálogo:** Mostrar todos los productos envasados de forma organizada, accesible sin contacto previo.
+- **Experiencia personalizada:** Áreas diferenciadas para clientes VIP (pedidos mayoristas) y empleados (descuentos), mejorando satisfacción y fidelización.
+- **Automatización de procesos:** Reducir carga administrativa mediante sistemas automatizados de pedidos, pagos y seguimiento.
+- **Decisiones basadas en datos:** Analítica web para identificar productos demandados y optimizar estrategias comerciales.
+- **Autonomía en gestión:** CMS intuitivo para que personal interno actualice contenidos sin dependencia técnica externa.
+- **Mejor atención al cliente:** FAQ, formularios estructurados y seguimiento de pedidos que reduzcan consultas repetitivas.
+- **Escalabilidad futura:** Base tecnológica sólida para futuras expansiones (venta a granel, integración ERP, apps móviles).
+- **Fortalecimiento de marca:** Plataforma moderna que transmita profesionalidad y confianza, especialmente para clientes internacionales.
+- **Ventaja competitiva:** Diferenciación frente a competidores (Coesagro, Coesur, La Española) mediante experiencia digital superior.
 
 ---
 
