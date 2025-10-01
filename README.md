@@ -111,7 +111,7 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 ### 2.2 Problemática Identificada
 **Problemas principales del sitio web actual:**
 
-- **Falta de funcionalidad transaccional: El sitio es meramente informativo, sin capacidad para mostrar catálogo completo ni realizar ventas online.
+- **Falta de funcionalidad transaccional:** El sitio es meramente informativo, sin capacidad para mostrar catálogo completo ni realizar ventas online.
 - **Información limitada:** No refleja la amplitud real del negocio, ofreciendo solo una visión general de la empresa sin detalles de productos.
 - **Ausencia de interacción:** No dispone de formularios de contacto avanzados, sección FAQ ni canales para que proveedores o clientes contacten directamente.
 - **Carencia de analíticas:** Sin herramientas para monitorizar comportamiento de visitantes o medir efectividad de la presencia digital.
