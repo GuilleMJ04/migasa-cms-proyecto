@@ -351,4 +351,11 @@ proyecto-migasa-cms/
 
 ## REFERENCIAS
 
-*[PENDIENTE: Referencias utilizadas]*
+**Bibliografía:**
+
+**Herramientas y tecnología:**
+| App | Valoración | Características | Compatibilidad | Decisión |
+|------|--------|-----------|----------------|----------------|----------|
+| *[Tema 1]* | *[★★★★★]* | *Grabación y transcripción de videocalls, contenido ordenado colaborativo* | *No se pueden hacer llamadas con invitados* | *[Descartado]* |
+| *[Tema 2]* | *[★★★★☆]* | *[Características]* | *[Plugins compatibles]* | *[Seleccionado/Descartado]* |
+| *[Tema 3]* | *[★★★☆☆]* | *[Características]* | *[Plugins compatibles]* | *[Seleccionado/Descartado]* |
