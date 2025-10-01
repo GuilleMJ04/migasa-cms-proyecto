@@ -370,3 +370,4 @@ proyecto-migasa-cms/
 | *Microsoft Teams* | *[★★★★☆]* | *Grabación y transcripción de videollamadas, contenido ordenado colaborativo* | *No se pueden hacer llamadas con invitados* | *[Seleccionado para reuniones privadas y datos]* |
 | *Zoom* | *[★★★★☆]* | *Grabación y transcripción de videollamadas* | *Sí admite llamadas con invitados, pero de solo 40 minutos* | *[Seleccionado para llamadas con cliente]* |
 | *GitHub* | *[★★★★☆]* | *Actualización de versiones y posibilidad de edición conjunta* | *No es tan práctico como Teams* | *[Seleccionado para documentación]* |
+| *WhatsApp* | *[★★★★☆]* | *Mensajería instantánea, llamadas* | *No graba ni transcribe llamadas* | *[Seleccionado para comunicación grupal y con el cliente]* |
