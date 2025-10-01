@@ -58,7 +58,34 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 - Optimización de procesos comerciales
 - Toma de decisiones basada en datos
 ### 1.2 Alcance
-*[PENDIENTE: Definir el alcance del proyecto]*
+**Incluido en el Proyecto:**
+
+- **Productos:** Línea de productos envasados únicamente (botellas, botes). Marcas: La Masía, Ibarra y otras del grupo.
+- **Funcionalidades:** E-commerce completo (catálogo, carrito, checkout, pagos), seguimiento de pedidos, área clientes VIP, portal empleados, formularios de contacto, FAQ, CMS, analítica web y soporte multilingüe (español, inglés, francés, portugués, chino).
+- **Diseño:** Implementación de identidad corporativa existente (logo, colores, guía de estilo), diseño responsive e interfaz moderna.
+
+**Excluido del Proyecto:**
+
+- Venta de productos a granel (camiones cisterna, contenedores)
+- Gestión de contratos personalizados para grandes volúmenes
+- Integración con sistemas ERP internos (a evaluar posteriormente)
+- Migración de datos históricos
+- Aplicaciones móviles nativas
+
+**Usuarios Objetivo:**
+
+- Clientes particulares (consumidores finales)
+- Clientes empresariales (PYMEs de comercio y hostelería)
+- Clientes VIP mayoristas (Mercadona, Lidl, Carrefour, Meliá)
+- Empleados (acceso a portal de descuentos)
+- Administradores (encargado interno de aplicaciones web)
+
+**Consideraciones:**
+
+- Mantenimiento a cargo del encargado interno de aplicaciones web
+- CMS sencillo para personal no técnico
+- Plataforma escalable para futuras ampliaciones
+- Cumplimiento de normativas de seguridad y protección de datos (RGPD)
 
 ### 1.3 Empresa Seleccionada
 **Nombre de la empresa:** MIGASA (Grupo Migasa)
