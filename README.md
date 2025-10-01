@@ -61,16 +61,8 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 **Incluido en el Proyecto:**
 
 - **Productos:** Línea de productos envasados únicamente (botellas, botes). Marcas: La Masía, Ibarra y otras del grupo.
-- **Funcionalidades:** E-commerce completo (catálogo, carrito, checkout, pagos), seguimiento de pedidos, área clientes VIP, portal empleados, formularios de contacto, FAQ, CMS, analítica web y soporte multilingüe (español, inglés, francés, portugués, chino).
+- **Funcionalidades:** E-commerce completo (catálogo, carrito, checkout, pagos), seguimiento de pedidos, portal empleados, formularios de contacto, FAQ, CMS, analítica web y soporte multilingüe (español, inglés, francés, portugués, chino).
 - **Diseño:** Implementación de identidad corporativa existente (logo, colores, guía de estilo), diseño responsive e interfaz moderna.
-
-**Excluido del Proyecto:**
-
-- Venta de productos a granel (camiones cisterna, contenedores)
-- Gestión de contratos personalizados para grandes volúmenes
-- Integración con sistemas ERP internos (a evaluar posteriormente)
-- Migración de datos históricos
-- Aplicaciones móviles nativas
 
 **Usuarios Objetivo:**
 
