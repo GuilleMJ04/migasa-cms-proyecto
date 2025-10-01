@@ -357,6 +357,6 @@ proyecto-migasa-cms/
 
 | App | Valoración | Características | Compatibilidad | Decisión |
 |-----|------------|-----------------|----------------|----------|
-| *[Tema 1]* | *[★★★★★]* | *Grabación y transcripción de videocalls, contenido ordenado colaborativo* | *No se pueden hacer llamadas con invitados* | *[Descartado]* |
-| *[Tema 2]* | *[★★★★☆]* | *[Características]* | *[Plugins compatibles]* | *[Seleccionado/Descartado]* |
-| *[Tema 3]* | *[★★★☆☆]* | *[Características]* | *[Plugins compatibles]* | *[Seleccionado/Descartado]* |
+| *Microsoft Teams* | *[★★★★☆]* | *Grabación y transcripción de videollamadas, contenido ordenado colaborativo* | *No se pueden hacer llamadas con invitados* | *[Seleccionado para reuniones privadas y datos]* |
+| *Zoom* | *[★★★★☆]* | *Grabación y transcripción de videollamadas* | *Sí admite llamadas con invitados* | *[Seleccionado para llamadas con cliente]* |
+| *GitHub* | *[★★★★☆]* | *Actualización de versiones y posibilidad de edición conjunta* | *No es tan práctico como Teams* | *[Seleccionado para documentación]* |
