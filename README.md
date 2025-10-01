@@ -118,11 +118,15 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 - Capacidad para trabajar con todo tipo de envases y volúmenes
 
 ### 2.2 Problemática Identificada
-*[PENDIENTE: Información a obtener tras la entrevista de esta noche con la empresa]*
+**Problemas principales del sitio web actual:**
 
-**Problemas potenciales identificados inicialmente:**
-- *[A completar después de la entrevista]*
-- *[A completar después de la entrevista]*
+- **Falta de funcionalidad transaccional: El sitio es meramente informativo, sin capacidad para mostrar catálogo completo ni realizar ventas online.
+- **Información limitada:** No refleja la amplitud real del negocio, ofreciendo solo una visión general de la empresa sin detalles de productos.
+- **Ausencia de interacción:** No dispone de formularios de contacto avanzados, sección FAQ ni canales para que proveedores o clientes contacten directamente.
+- **Carencia de analíticas:** Sin herramientas para monitorizar comportamiento de visitantes o medir efectividad de la presencia digital.
+- **Problemas de gestión:** Incidentes como olvido de renovación del dominio que causaron interrupciones del servicio.
+- **Desaprovechamiento del canal digital:** A pesar de tener grandes clientes (Mercadona, Lidl, Carrefour) y presencia internacional, la web no funciona como herramienta de captación ni ventas.
+- **Falta de áreas diferenciadas:** No existen espacios específicos para clientes VIP, empleados o particulares.
 
 ### 2.3 Oportunidades de Mejora
 *[PENDIENTE: Qué mejoras podemos aportar - a definir tras la entrevista]*
