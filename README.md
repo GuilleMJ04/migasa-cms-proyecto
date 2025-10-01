@@ -68,7 +68,6 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 
 - Clientes particulares (consumidores finales)
 - Clientes empresariales (PYMEs de comercio y hostelería)
-- Clientes VIP mayoristas (Mercadona, Lidl, Carrefour, Meliá)
 - Empleados (acceso a portal de descuentos)
 - Administradores (encargado interno de aplicaciones web)
 
