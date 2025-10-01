@@ -42,7 +42,7 @@ Proyecto CMS WordPress para MIGASA - Aceites de Oliva
 
 ### 1.1 Propósito del Proyecto
 Transformar el sitio web actual, de carácter meramente informativo, en una plataforma completa de comercio electrónico que funcione como canal activo de ventas para los productos envasados de la compañía.
-Objetivos Principales:
+*Objetivos Principales:*
 
 Funcionalidad Comercial: Implementar tienda online con catálogo de productos, carrito de compra, sistema de pagos (PayPal y otros) y seguimiento de pedidos.
 Gestión de Usuarios: Crear áreas diferenciadas para clientes VIP (mayoristas) con funcionalidades especiales y portal privado para empleados con descuentos.
