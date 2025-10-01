@@ -50,13 +50,13 @@ Transformar el sitio web actual, de carácter meramente informativo, en una plat
 - **Interacción y Soporte:** Desarrollar formularios de contacto, sección FAQ y canales de comunicación directa con clientes.
 - **Análisis y Autonomía:** Integrar herramientas de analítica web e implementar un CMS intuitivo que permita al personal interno gestionar contenidos sin conocimientos técnicos.
 
-Beneficios Esperados:
+**Beneficios Esperados:**
 
-Nuevo canal de ventas digital 24/7
-Mayor visibilidad del catálogo completo
-Mejora en la experiencia de compra
-Optimización de procesos comerciales
-Toma de decisiones basada en datos
+- Nuevo canal de ventas digital 24/7
+- Mayor visibilidad del catálogo completo
+- Mejora en la experiencia de compra
+- Optimización de procesos comerciales
+- Toma de decisiones basada en datos
 ### 1.2 Alcance
 *[PENDIENTE: Definir el alcance del proyecto]*
 
