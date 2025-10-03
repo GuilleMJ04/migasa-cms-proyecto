@@ -649,8 +649,6 @@ proyecto-migasa-cms/
 - Página Home y templates productos
 - Documentación visual
 
-### 6.5 Burndown Chart
-
 ### 6.5 Burndown Chart - Sprint 1
 
 *[PENDIENTE: Gráfico burndown que debe actualizarse diariamente]*
