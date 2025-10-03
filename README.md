@@ -1,124 +1,4 @@
-### 6.5 Burndown Chart - Sprint 1
 
-*[PENDIENTE: Gráfico burndown que debe actualizarse diariamente]*
-
-**Estructura del gráfico:**
-- Eje X: Días del sprint (10 días laborables)
-- Eje Y: Horas pendientes (de 96 a 0)
-- Línea ideal: Descenso lineal de 96 a 0 (9.6 horas/día)
-- Línea real: Progreso actual del equipo
-
-**Herramientas para crear el burndown:**
-- GitHub Projects (gráficos automáticos)
-- Excel/Google Sheets
-- Jira (si se usa en lugar de GitHub Projects)
-- Trello con Power-Ups
-
-**Observaciones del Sprint 1:**
-*[Actualizar diariamente durante el sprint]*
-
-**Ejemplo de seguimiento:**
-| Día | Fecha | Horas Ideales Restantes | Horas Reales Restantes | Diferencia | Observaciones |
-|-----|-------|------------------------|------------------------|------------|---------------|
-| 1 | *[Fecha]* | 86.4 | *[Real]* | *[Calc]* | *[Notas]* |
-| 2 | *[Fecha]* | 76.8 | *[Real]* | *[Calc]* | *[Notas]* |
-| 3 | *[Fecha]* | 67.2 | *[Real]* | *[Calc]* | *[Notas]* |
-| 4 | *[Fecha]* | 57.6 | *[Real]* | *[Calc]* | *[Notas]* |
-| 5 | *[Fecha]* | 48.0 | *[Real]* | *[Calc]* | *[Notas]* |
-| 6 | *[Fecha]* | 38.4 | *[Real]* | *[Calc]* | *[Notas]* |
-| 7 | *[Fecha]* | 28.8 | *[Real]* | *[Calc]* | *[Notas]* |
-| 8 | *[Fecha]* | 19.2 | *[Real]* | *[Calc]* | *[Notas]* |
-| 9 | *[Fecha]* | 9.6 | *[Real]* | *[Calc]* | *[Notas]* |
-| 10 | *[Fecha]* | 0 | *[Real]* | *[Calc]* | Sprint Review |
-
-**Métricas a monitorizar:**
-- Velocidad del equipo (puntos de historia completados)
-- Impedimentos encontrados
-- Tareas bloqueadas
-- Tareas añadidas durante el sprint
-- Horas extra necesarias (si aplica)
-
----
-
-## CONCLUSIONES DEL PRIMER ENTREGABLE
-
-### Logros Principales
-
-1. **Análisis exhaustivo de MIGASA:**
-   - Empresa familiar líder mundial con 90+ años de historia
-   - Presencia en 120 países, facturación >1000M€
-   - Identificación clara de oportunidades de mejora web
-
-2. **Requisitos bien definidos:**
-   - 4 objetivos principales (Goals)
-   - 6 requisitos de información
-   - 5 requisitos de interfaz alineados con identidad corporativa
-   - 8 requisitos funcionales priorizados
-   - 5 requisitos no funcionales (rendimiento, seguridad, usabilidad)
-   - 7 reglas de negocio basadas en manual corporativo
-
-3. **Diseño técnico sól### 5.2 Análisis y Selección de Temas
-
-| Tema | Precio | Valoración | Características Principales | Compatibilidad | Decisión |
-|------|--------|-----------|----------------------------|----------------|----------|
-| **Divi** | $89/año | ★★★★★ (4.9/5) | Visual Builder drag&drop, +800 diseños, responsive, WooCommerce, tema+plugin | Todos plugins seleccionados | ✅ **SELECCIONADO** |
-| **Astra Pro** | $59/año | ★★★★★ (4.8/5) | Ultraligero (50KB), velocidad optimizada, +180 templates, compatible page builders | WPML, Yoast, WPForms | ❌ Descartado |
-| **OceanWP** | Gratuito + Pro $39 | ★★★★☆ (4.7/5) | Multiuso, demos pre-construidas, e-commerce ready, extensiones modulares | Mayoría plugins | ❌ Descartado |
-
-**Tema seleccionado:** Divi by Elegant Themes
-
-**Justificación detallada:**
-
-1. **Flexibilidad de diseño:**
-   - Visual Builder permite diseñar páginas sin código
-   - Fácil implementación de la identidad corporativa MIGASA
-   - Control pixel-perfect de colores Pantone corporativos
-   - Más de 200 elementos de diseño personalizables
-
-2. **Rendimiento:**
-   - Optimizado para SEO out-of-the-box
-   - Compatible con WP Rocket
-   - Código limpio y estructurado
-   - Carga condicional de assets
-
-3. **Responsive design:**
-   - Responsive por defecto con controles específicos para móvil/tablet/desktop
-   - Vista previa en tiempo real para cada dispositivo
-   - Menú hamburguesa personalizable
-   - Optimización automática de imágenes según dispositivo
-
-4. **Compatibilidad:**
-   - 100% compatible con Yoast SEO, WPML, WPForms
-   - Integración nativa con WooCommerce (futuro e-commerce)
-   - Compatible con todos los plugins seleccionados
-   - Actualizaciones regulares y soporte continuo
-
-5. **Facilidad de uso:**
-   - El equipo de MIGASA podrá editar contenido sin conocimientos técnicos
-   - Biblioteca de layouts pre-diseñados para acelerar desarrollo
-   - Split testing A/B integrado
-   - Roles y permisos personalizables
-
-6. **Identidad corporativa:**
-   - Fácil implementación de colores Pantone exactos (RGB)
-   - Carga de tipografías personalizadas (DIN Black, Myriad Pro)
-   - Control total sobre spacing y áreas de seguridad del logo
-   - Módulos reutilizables para mantener consistencia
-
-7. **Multiidioma:**
-   - Totalmente compatible con WPML
-   - Gestión sencilla de contenido traducido
-   - URLs amigables por idioma
-
-8. **ROI:**
-   - Inversión única anual razonable ($89)
-   - Ahorro en desarrollo al no necesitar programación custom
-   - Licencia incluye uso ilimitado en sitios
-   - Soporte premium incluido
-
-**Alternativas descartadas:**
-- **Astra Pro:** Aunque más ligero y económico, requiere plugins adicionales (page builder) y tiene menos opciones de diseño visual avanzado
-- **OceanWP:** Buena opción gratuita pero menos profesional para una empresa del calibre de MIGASA, documentación limitada en español# PROYECTO CMS - WORDPRESS
 ## Primer Entregable - Sprint 1
 
 **Integrantes del equipo:**
@@ -771,12 +651,127 @@ proyecto-migasa-cms/
 
 ### 6.5 Burndown Chart
 
-*[PENDIENTE: Incluir gráfico burndown del Sprint 1]*
+### 6.5 Burndown Chart - Sprint 1
 
-**Observaciones:**
-*[PENDIENTE: Comentarios sobre el progreso del sprint]*
+*[PENDIENTE: Gráfico burndown que debe actualizarse diariamente]*
+
+**Estructura del gráfico:**
+- Eje X: Días del sprint (10 días laborables)
+- Eje Y: Horas pendientes (de 96 a 0)
+- Línea ideal: Descenso lineal de 96 a 0 (9.6 horas/día)
+- Línea real: Progreso actual del equipo
+
+**Herramientas para crear el burndown:**
+- GitHub Projects (gráficos automáticos)
+- Excel/Google Sheets
+- Jira (si se usa en lugar de GitHub Projects)
+- Trello con Power-Ups
+
+**Observaciones del Sprint 1:**
+*[Actualizar diariamente durante el sprint]*
+
+**Ejemplo de seguimiento:**
+| Día | Fecha | Horas Ideales Restantes | Horas Reales Restantes | Diferencia | Observaciones |
+|-----|-------|------------------------|------------------------|------------|---------------|
+| 1 | *[Fecha]* | 86.4 | *[Real]* | *[Calc]* | *[Notas]* |
+| 2 | *[Fecha]* | 76.8 | *[Real]* | *[Calc]* | *[Notas]* |
+| 3 | *[Fecha]* | 67.2 | *[Real]* | *[Calc]* | *[Notas]* |
+| 4 | *[Fecha]* | 57.6 | *[Real]* | *[Calc]* | *[Notas]* |
+| 5 | *[Fecha]* | 48.0 | *[Real]* | *[Calc]* | *[Notas]* |
+| 6 | *[Fecha]* | 38.4 | *[Real]* | *[Calc]* | *[Notas]* |
+| 7 | *[Fecha]* | 28.8 | *[Real]* | *[Calc]* | *[Notas]* |
+| 8 | *[Fecha]* | 19.2 | *[Real]* | *[Calc]* | *[Notas]* |
+| 9 | *[Fecha]* | 9.6 | *[Real]* | *[Calc]* | *[Notas]* |
+| 10 | *[Fecha]* | 0 | *[Real]* | *[Calc]* | Sprint Review |
+
+**Métricas a monitorizar:**
+- Velocidad del equipo (puntos de historia completados)
+- Impedimentos encontrados
+- Tareas bloqueadas
+- Tareas añadidas durante el sprint
+- Horas extra necesarias (si aplica)
 
 ---
+
+## CONCLUSIONES DEL PRIMER ENTREGABLE
+
+### Logros Principales
+
+1. **Análisis exhaustivo de MIGASA:**
+   - Empresa familiar líder mundial con 90+ años de historia
+   - Presencia en 120 países, facturación >1000M€
+   - Identificación clara de oportunidades de mejora web
+
+2. **Requisitos bien definidos:**
+   - 4 objetivos principales (Goals)
+   - 6 requisitos de información
+   - 5 requisitos de interfaz alineados con identidad corporativa
+   - 8 requisitos funcionales priorizados
+   - 5 requisitos no funcionales (rendimiento, seguridad, usabilidad)
+   - 7 reglas de negocio basadas en manual corporativo
+
+3. **Diseño técnico sól### 5.2 Análisis y Selección de Temas
+
+| Tema | Precio | Valoración | Características Principales | Compatibilidad | Decisión |
+|------|--------|-----------|----------------------------|----------------|----------|
+| **Divi** | $89/año | ★★★★★ (4.9/5) | Visual Builder drag&drop, +800 diseños, responsive, WooCommerce, tema+plugin | Todos plugins seleccionados | ✅ **SELECCIONADO** |
+| **Astra Pro** | $59/año | ★★★★★ (4.8/5) | Ultraligero (50KB), velocidad optimizada, +180 templates, compatible page builders | WPML, Yoast, WPForms | ❌ Descartado |
+| **OceanWP** | Gratuito + Pro $39 | ★★★★☆ (4.7/5) | Multiuso, demos pre-construidas, e-commerce ready, extensiones modulares | Mayoría plugins | ❌ Descartado |
+
+**Tema seleccionado:** Divi by Elegant Themes
+
+**Justificación detallada:**
+
+1. **Flexibilidad de diseño:**
+   - Visual Builder permite diseñar páginas sin código
+   - Fácil implementación de la identidad corporativa MIGASA
+   - Control pixel-perfect de colores Pantone corporativos
+   - Más de 200 elementos de diseño personalizables
+
+2. **Rendimiento:**
+   - Optimizado para SEO out-of-the-box
+   - Compatible con WP Rocket
+   - Código limpio y estructurado
+   - Carga condicional de assets
+
+3. **Responsive design:**
+   - Responsive por defecto con controles específicos para móvil/tablet/desktop
+   - Vista previa en tiempo real para cada dispositivo
+   - Menú hamburguesa personalizable
+   - Optimización automática de imágenes según dispositivo
+
+4. **Compatibilidad:**
+   - 100% compatible con Yoast SEO, WPML, WPForms
+   - Integración nativa con WooCommerce (futuro e-commerce)
+   - Compatible con todos los plugins seleccionados
+   - Actualizaciones regulares y soporte continuo
+
+5. **Facilidad de uso:**
+   - El equipo de MIGASA podrá editar contenido sin conocimientos técnicos
+   - Biblioteca de layouts pre-diseñados para acelerar desarrollo
+   - Split testing A/B integrado
+   - Roles y permisos personalizables
+
+6. **Identidad corporativa:**
+   - Fácil implementación de colores Pantone exactos (RGB)
+   - Carga de tipografías personalizadas (DIN Black, Myriad Pro)
+   - Control total sobre spacing y áreas de seguridad del logo
+   - Módulos reutilizables para mantener consistencia
+
+7. **Multiidioma:**
+   - Totalmente compatible con WPML
+   - Gestión sencilla de contenido traducido
+   - URLs amigables por idioma
+
+8. **ROI:**
+   - Inversión única anual razonable ($89)
+   - Ahorro en desarrollo al no necesitar programación custom
+   - Licencia incluye uso ilimitado en sitios
+   - Soporte premium incluido
+
+**Alternativas descartadas:**
+- **Astra Pro:** Aunque más ligero y económico, requiere plugins adicionales (page builder) y tiene menos opciones de diseño visual avanzado
+- **OceanWP:** Buena opción gratuita pero menos profesional para una empresa del calibre de MIGASA, documentación limitada en español# PROYECTO CMS - WORDPRESS
 
 ## 7. IMPLEMENTACIÓN
 
