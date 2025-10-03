@@ -731,4 +731,395 @@ FormularioContacto (N) ─── envía a ─── (1) Usuario
 |--------|---------------------|-----------|-----------|----------------------------|----------|
 | **Wordfence Security** | Actualización continua | 5M+ | ★★★★★ (4.7/5) | • Firewall de aplicación web (WAF)<br>• Escaneo de malware y vulnerabilidades<br>• Autenticación de dos factores (2FA)<br>• Bloqueo de fuerza bruta<br>• Monitorización en tiempo real<br>• Alertas por email | ✅ **SELECCIONADO** |
 | **Sucuri Security** | Actualización mensual | 800K+ | ★★★★☆ (4.5/5) | • Auditoría de actividad de seguridad<br>• Monitoreo de integridad de archivos<br>• Lista negra de monitorización remota<br>• Limpieza post-hackeo<br>• Acciones de seguridad posteriores al hack | ❌ Descartado |
-| **iThemes Security** | Actualización continua | 1M+ | ★★★★☆ (4.6/5) | • Más de 50 formas de protección<br>• Autenticación de dos factores<br>• Forzar contraseñas fuertes<br>• Detección de cambios en archivos<br>• Programación de escaneos | ❌
+| **iThemes Security** | Actualización continua | 1M+ | ★★★★☆ (4.6/5) | • Más de 50 formas de protección<br>• Autenticación de dos factores<br>• Forzar contraseñas fuertes<br>• Detección de cambios en archivos<br>• Programación de escaneos | ❌ Descartado |
+
+**Plugin seleccionado:** Wordfence Security
+
+**Justificación detallada:**
+- **Mayor número de instalaciones activas** (5M+), lo que demuestra confianza de la comunidad
+- **Firewall de aplicación web incluido** en versión gratuita, protección avanzada contra amenazas
+- **Escaneo de malware más completo** que la competencia, detecta backdoors y código malicioso
+- **Dashboard intuitivo** con alertas en tiempo real y métricas de seguridad fáciles de interpretar
+- **Actualizaciones automáticas** de reglas de firewall para protección contra amenazas emergentes
+- **Ideal para empresas** con información sensible como MIGASA (datos de clientes, información comercial)
+- **Soporte técnico responsive** y documentación extensa en español
+- **Integración con tráfico en vivo** para monitorizar intentos de acceso sospechosos
+
+#### 5.1.2 Plugins de Cache (OBLIGATORIO)
+
+| Plugin | Última Actualización | Descargas | Valoración | Características Principales | Decisión |
+|--------|---------------------|-----------|-----------|----------------------------|----------|
+| **WP Rocket** | Actualización continua | Premium (pago) | ★★★★★ (4.9/5) | • Cache de página completa<br>• Lazy loading de imágenes y videos<br>• Minificación de CSS/JS/HTML<br>• Compatible con CDN<br>• Preload de cache<br>• Optimización de base de datos<br>• Configuración 1-click | ✅ **SELECCIONADO** |
+| **W3 Total Cache** | Actualización mensual | 1M+ | ★★★★☆ (4.3/5) | • Cache completa (página, objeto, base datos)<br>• Integración CDN<br>• Minificación recursos<br>• Gratuito<br>• Muchas opciones de configuración<br>• Compatible con SSL | ❌ Descartado |
+| **WP Super Cache** | Actualización trimestral | 2M+ | ★★★★☆ (4.4/5) | • Genera archivos HTML estáticos<br>• Cache simple y efectiva<br>• Totalmente gratuito<br>• Configuración sencilla<br>• Ligero y sin complejidades | ❌ Descartado |
+
+**Plugin seleccionado:** WP Rocket
+
+**Justificación detallada:**
+- **Mejores resultados en velocidad:** reduce tiempo de carga entre 40-50% en promedio
+- **Configuración automática:** no requiere conocimientos técnicos, activar y funciona
+- **Lazy loading integrado** de imágenes (crucial para catálogo de productos de MIGASA)
+- **Preload de cache:** garantiza que siempre haya versión cacheada disponible
+- **Optimización de base de datos:** limpia revisiones, spam, transients automáticamente
+- **Compatible con WooCommerce:** por si en futuro se implementa tienda online
+- **Soporte premium en español:** respuesta en menos de 24h
+- **ROI justificado:** inversión ($59/año) compensada por mejora en conversiones y SEO
+- **Actualizaciones frecuentes:** siempre compatible con última versión WordPress
+
+**Alternativas descartadas:**
+- **W3 Total Cache:** Aunque gratuito, configuración muy compleja para usuario no técnico
+- **WP Super Cache:** Funcionalidad básica insuficiente para necesidades de MIGASA
+
+#### 5.1.3 Plugins de Analytics (OBLIGATORIO)
+
+| Plugin | Última Actualización | Descargas | Valoración | Características Principales | Decisión |
+|--------|---------------------|-----------|-----------|----------------------------|----------|
+| **MonsterInsights** | Actualización continua | 3M+ | ★★★★★ (4.6/5) | • Integración Google Analytics 4 en dashboard<br>• Tracking de e-commerce<br>• Informes automáticos por email<br>• Cumplimiento GDPR<br>• Tracking de formularios y descargas<br>• Segmentación de audiencia<br>• Informes de velocidad de página | ✅ **SELECCIONADO** |
+| **Google Analytics Dashboard** | Actualización mensual | 1M+ | ★★★★☆ (4.5/5) | • Integración básica con GA4<br>• Informes en dashboard WP<br>• Totalmente gratuito<br>• Configuración simple<br>• Estadísticas en tiempo real | ❌ Descartado |
+| **Analytify** | Actualización continua | 200K+ | ★★★★☆ (4.7/5) | • Dashboard visual atractivo<br>• Estadísticas en tiempo real<br>• Tracking de eventos<br>• Informes por página/post<br>• Compatible con Google Analytics | ❌ Descartado |
+
+**Plugin seleccionado:** MonsterInsights
+
+**Justificación detallada:**
+- **Integración completa con Google Analytics 4:** configuración guiada paso a paso
+- **Dashboard visual en WordPress:** no necesita salir del admin para ver estadísticas
+- **Tracking automático avanzado:** formularios, clics externos, descargas de catálogos PDF
+- **Informes de e-commerce preparados:** útil si MIGASA implementa tienda online futura
+- **Compatible con GDPR:** importante para empresa europea, gestión de consentimientos
+- **Segmentación por país:** crucial para MIGASA con presencia en 120 países
+- **Informes automáticos por email:** envío semanal/mensual a stakeholders
+- **Tracking de eventos personalizados:** medir interacciones específicas (ver productos, contacto)
+- **Soporte premium con prioridad** y actualizaciones garantizadas
+
+#### 5.1.4 Plugins de SEO (OBLIGATORIO)
+
+| Plugin | Última Actualización | Descargas | Valoración | Características Principales | Decisión |
+|--------|---------------------|-----------|-----------|----------------------------|----------|
+| **Yoast SEO** | Actualización semanal | 5M+ | ★★★★★ (4.9/5) | • Análisis de contenido en tiempo real<br>• Generación de XML sitemaps<br>• Breadcrumbs para navegación<br>• Control de meta descripciones<br>• Schema.org markup (Rich Snippets)<br>• Integración redes sociales<br>• Análisis de legibilidad<br>• Redirecciones (versión premium) | ✅ **SELECCIONADO** |
+| **Rank Math** | Actualización continua | 2M+ | ★★★★★ (4.8/5) | • 40+ herramientas SEO gratuitas<br>• Google Search Console integrado<br>• Análisis automático de 404<br>• Redirecciones ilimitadas gratuitas<br>• Múltiples keywords por página<br>• Rich snippets avanzados | ❌ Descartado |
+| **All in One SEO** | Actualización semanal | 3M+ | ★★★★☆ (4.6/5) | • Optimización automática de SEO<br>• Generación de XML sitemaps<br>• Integración con redes sociales<br>• TruSEO score<br>• Schema markup | ❌ Descartado |
+
+**Plugin seleccionado:** Yoast SEO
+
+**Justificación detallada:**
+- **Estándar de la industria:** plugin más maduro y estable del mercado
+- **Interfaz intuitiva:** semáforo verde/amarillo/rojo fácil de entender para no expertos
+- **Análisis en tiempo real:** feedback inmediato sobre legibilidad y SEO mientras escribes
+- **Optimización para palabras clave:** guía para optimizar términos como "aceite de oliva", "MIGASA"
+- **Schema markup automático:** rich snippets para productos (crucial para catálogo)
+- **Compatibilidad multiidioma:** funciona perfectamente con WPML (español/inglés)
+- **Breadcrumbs SEO-friendly:** mejora navegación y estructura de URLs
+- **Documentación extensa en español:** tutoriales, webinars, soporte activo
+- **Actualizaciones semanales:** siempre al día con algoritmos de Google
+- **Integración con Google Search Console:** monitorización de errores y rendimiento
+
+**Alternativas descartadas:**
+- **Rank Math:** Aunque tiene más funciones gratuitas, menos maduro y estable
+- **All in One SEO:** Interfaz menos intuitiva, documentación menos completa
+
+#### 5.1.5 Otros Plugins Específicos
+
+**Plugin de Formularios:**
+- **WPForms** (Seleccionado)
+- **Características:** Drag & drop builder, plantillas pre-diseñadas, protección anti-spam, notificaciones email, integración con MonsterInsights
+- **Justificación:** Interfaz visual sin código, formularios responsive, tracking de conversiones, GDPR compliant
+
+**Plugin Multiidioma:**
+- **WPML** (Seleccionado)
+- **Características:** Traducción completa del sitio, compatible con Yoast SEO, gestión de URLs por idioma, traductor integrado
+- **Justificación:** Presencia en 120 países requiere mínimo español/inglés, posibilidad de añadir más idiomas, SEO multiidioma optimizado
+
+**Plugin de Galería:**
+- **Envira Gallery** (Seleccionado)
+- **Características:** Lightbox responsive, lazy loading integrado, álbumes de productos, protección de imágenes
+- **Justificación:** Catálogo visual atractivo de productos, presentación profesional, optimización automática
+
+**Plugin de Backup:**
+- **UpdraftPlus** (Seleccionado)
+- **Características:** Backup automático programable, restauración 1-click, almacenamiento en cloud (Google Drive, Dropbox), backups incrementales
+- **Justificación:** Protección de datos críticos, fácil recuperación ante desastres, backups off-site
+
+**Plugin de Optimización de Imágenes:**
+- **ShortPixel** (Seleccionado)
+- **Características:** Compresión automática, conversión a WebP, lazy load, optimización bulk
+- **Justificación:** Catálogo con muchas imágenes de productos, mejora velocidad, mantiene calidad visual
+
+### 5.2 Análisis y Selección de Temas
+
+| Tema | Precio | Valoración | Características Principales | Compatibilidad | Decisión |
+|------|--------|-----------|----------------------------|----------------|----------|
+| **Divi** | $89/año | ★★★★★ (4.9/5) | • Visual Builder drag & drop<br>• +800 diseños prediseñados<br>• Responsive por defecto<br>• Compatible WooCommerce<br>• Tema + plugin incluido<br>• 47 elementos de diseño<br>• Actualizaciones de por vida | Todos los plugins seleccionados | ✅ **SELECCIONADO** |
+| **Astra Pro** | $59/año | ★★★★★ (4.8/5) | • Ultraligero (menos de 50KB)<br>• Velocidad optimizada<br>• +180 templates starter<br>• Compatible con page builders<br>• WooCommerce ready<br>• Schema markup integrado | WPML, Yoast, WPForms, compatible con Elementor | ❌ Descartado |
+| **OceanWP** | Gratis + Pro $39 | ★★★★☆ (4.7/5) | • Tema multiuso flexible<br>• Demos pre-construidas<br>• E-commerce ready<br>• Extensiones modulares<br>• Compatible page builders<br>• RTL y traducible | Mayoría de plugins populares | ❌ Descartado |
+
+**Tema seleccionado:** Divi by Elegant Themes
+
+**Justificación detallada:**
+
+**1. Flexibilidad de diseño:**
+- Visual Builder permite diseñar páginas sin escribir código
+- Fácil implementación precisa de la identidad corporativa MIGASA
+- Control pixel-perfect de colores Pantone corporativos (RGB exactos)
+- Más de 200 elementos de diseño personalizables
+- Módulos reutilizables para mantener consistencia visual
+
+**2. Rendimiento:**
+- Optimizado para SEO out-of-the-box
+- Compatible con WP Rocket para máxima velocidad
+- Código limpio y estructurado según estándares WordPress
+- Carga condicional de assets (solo carga lo necesario)
+- Minificación automática de CSS/JS
+
+**3. Responsive design:**
+- Responsive por defecto con controles específicos desktop/tablet/móvil
+- Vista previa en tiempo real para cada dispositivo
+- Menú hamburguesa personalizable y táctil
+- Optimización automática de imágenes según dispositivo
+- Control independiente de márgenes y padding por breakpoint
+
+**4. Compatibilidad total:**
+- 100% compatible con Yoast SEO, WPML, WPForms
+- Integración nativa con WooCommerce (para futuro e-commerce)
+- Compatible con todos los plugins seleccionados
+- Actualizaciones regulares y soporte continuo
+- No genera conflictos con plugins de terceros
+
+**5. Facilidad de uso para el cliente:**
+- El equipo de MIGASA podrá editar contenido sin conocimientos técnicos
+- Biblioteca de layouts pre-diseñados acelera desarrollo
+- Split testing A/B integrado (versión premium)
+- Roles y permisos personalizables por usuario
+- Interfaz visual intuitiva en español
+
+**6. Implementación de identidad corporativa:**
+- Carga sencilla de colores Pantone exactos (RGB: #A3AB11, #7C9323, #3B593B)
+- Subida de tipografías personalizadas (DIN Black, Myriad Pro) sin plugins adicionales
+- Control total sobre spacing y áreas de seguridad del logo
+- Módulos reutilizables para elementos de marca (headers, footers, CTAs)
+- Presets de estilo guardables para reutilizar diseños
+
+**7. Multiidioma:**
+- Totalmente compatible con WPML
+- Gestión sencilla de contenido traducido
+- URLs amigables por idioma (/es/, /en/)
+- Menús y widgets traducibles
+- Visual Builder funciona en todos los idiomas
+
+**8. ROI y valor:**
+- Inversión única anual razonable ($89)
+- Incluye tema + Divi Builder (plugin standalone)
+- Licencia incluye uso ilimitado en sitios web
+- Soporte premium incluido (chat y tickets)
+- Actualizaciones de por vida garantizadas
+- Ahorro en desarrollo al no necesitar programación custom
+
+**9. Comunidad y recursos:**
+- Comunidad masiva de usuarios (millones)
+- Miles de tutoriales en YouTube y blogs
+- Layouts gratuitos compartidos por la comunidad
+- Child themes disponibles
+- Documentación oficial extensa en español
+
+**Alternativas descartadas:**
+
+**Astra Pro:** 
+- **Pros:** Más ligero, más económico ($59), excelente velocidad
+- **Contras:** Requiere page builder adicional (Elementor), menos opciones de diseño visual avanzado, curva de aprendizaje mayor para cliente final
+- **Razón descarte:** Aunque técnicamente sólido, Divi ofrece más valor integral
+
+**OceanWP:**
+- **Pros:** Opción gratuita robusta, buena base para proyectos simples
+- **Contras:** Menos profesional para empresa del calibre de MIGASA, documentación limitada en español, extensiones modulares fragmentan la experiencia
+- **Razón descarte:** No refleja el nivel corporativo requerido, soporte menos robusto
+
+---
+
+## 6. PLANIFICACIÓN SCRUM
+
+### 6.1 Software Colaborativo Seleccionado
+
+**Software elegido:** GitHub (con GitHub Issues y GitHub Projects)
+
+**Justificación de la selección:**
+
+**Ventajas principales:**
+- **Integración completa:** Combina control de versiones y gestión de proyectos en una sola plataforma
+- **Colaboración eficiente:** Permite trabajo conjunto en código, documentación y seguimiento de tareas
+- **Transparencia total:** Historial completo de cambios, decisiones y progreso del proyecto
+- **Accesibilidad:** Gratuito para repositorios públicos, sin límite de colaboradores
+- **Funcionalidades SCRUM nativas:** GitHub Projects permite crear tableros Kanban, sprints y seguimiento
+
+**Características principales utilizadas:**
+
+1. **GitHub Issues:**
+   - Creación de historias de usuario como issues
+   - Labels para categorizar (bug, enhancement, sprint-1, high-priority)
+   - Asignación de responsables
+   - Comentarios y discusiones en cada issue
+   - Referencias cruzadas entre issues y commits
+
+2. **GitHub Projects:**
+   - Tablero Kanban visual (Product Backlog, Sprint Backlog, In Progress, Review, Done)
+   - Automatización de movimiento de tarjetas
+   - Vista de progreso en tiempo real
+   - Filtros por sprint, responsable, prioridad
+   - Integración automática con issues y pull requests
+
+3. **Milestones:**
+   - Sprint 1 y Sprint 2 como milestones
+   - Agrupación de issues por sprint
+   - Porcentaje de completitud visible
+   - Fechas de inicio y fin
+
+4. **GitHub Wiki:**
+   - Documentación del proyecto
+   - Guías de instalación y configuración
+   - Estándares de código
+   - Manual de usuario
+
+**Comparativa con alternativas:**
+
+| Herramienta | Ventajas | Desventajas | Decisión |
+|-------------|----------|-------------|----------|
+| **GitHub Projects** | Integrado con Git, gratuito, todo en uno | Funciones SCRUM básicas | ✅ Seleccionado |
+| **Trello** | Interfaz visual intuitiva, fácil de usar | Separado del código, limitado gratuito | ❌ Descartado |
+| **Jira** | SCRUM robusto, reporting avanzado | Costoso, complejo para proyecto pequeño | ❌ Descartado |
+| **Asana** | Gestión tareas potente, vistas múltiples | No integrado con Git, pago para equipos | ❌ Descartado |
+
+### 6.2 Control de Versiones
+
+**Sistema seleccionado:** Git con GitHub como repositorio remoto
+
+**Justificación:**
+- **Estándar de la industria:** Sistema de control de versiones más utilizado mundialmente
+- **Trabajo colaborativo eficiente:** Branching y merging facilitan desarrollo paralelo
+- **Historial completo:** Registro detallado de todos los cambios (quién, qué, cuándo, por qué)
+- **Backup automático:** Código siempre respaldado en la nube
+- **Reversión sencilla:** Posibilidad de volver a versiones anteriores ante errores
+- **Resolución de conflictos:** Herramientas visuales para merge conflicts
+
+**Estructura del repositorio:**
+
+```
+migasa-cms-proyecto/
+├── README.md                           # Descripción general del proyecto
+├── .gitignore                         # Archivos a ignorar (wp-config.php, uploads)
+├── docs/                              # Documentación del proyecto
+│   ├── sprint-1/
+│   │   ├── 01-requisitos-rem.md
+│   │   ├── 02-analisis.md
+│   │   ├── 03-diseño.md
+│   │   ├── 04-implementacion.md
+│   │   └── 05-planificacion.md
+│   ├── sprint-2/
+│   ├── manual-usuario.md
+│   └── manual-identidad-migasa.pdf
+├── mockups/                           # Diseños y prototipos
+│   ├── home.bmpr
+│   ├── empresa.bmpr
+│   ├── productos.bmpr
+│   ├── mercados.bmpr
+│   ├── sostenibilidad.bmpr
+│   └── contacto.bmpr
+├── diagrams/                          # Diagramas UML y técnicos
+│   ├── diagrama-clases.png
+│   └── arquitectura-sistema.png
+├── wordpress/                         # Instalación WordPress
+│   ├── wp-content/
+│   │   ├── themes/
+│   │   │   └── divi-child-migasa/    # Child theme personalizado
+│   │   ├── plugins/
+│   │   │   └── migasa-custom/        # Plugin custom si necesario
+│   │   └── uploads/                   # (ignorado en .gitignore)
+│   ├── wp-config-sample.php          # Plantilla configuración
+│   └── .htaccess
+├── scrum/                             # Documentos SCRUM
+│   ├── product-backlog.md
+│   ├── sprint-1-backlog.md
+│   ├── sprint-2-backlog.md
+│   └── burndown-charts/
+│       ├── sprint-1.png
+│       └── sprint-2.png
+├── resources/                         # Recursos adicionales
+│   ├── comparativas-plugins.xlsx
+│   ├── comparativas-temas.xlsx
+│   ├── assets-migasa/                # Logos, imágenes corporativas
+│   └── documentacion-empresa/
+└── tests/                            # Tests y validaciones
+    ├── test-plan.md
+    └── test-results/
+```
+
+**Flujo de trabajo Git (Git Flow simplificado):**
+
+**Ramas principales:**
+- `main`: Código en producción, siempre estable
+- `develop`: Rama de desarrollo, integración continua
+
+**Ramas de funcionalidad:**
+- `feature/nombre-funcionalidad`: Para cada nueva característica
+- `bugfix/nombre-bug`: Para corrección de errores
+- `hotfix/nombre-critico`: Para fixes urgentes en producción
+
+**Convención de commits:**
+```
+tipo(ámbito): descripción breve
+
+- feat: Nueva funcionalidad
+- fix: Corrección de bug
+- docs: Cambios en documentación
+- style: Cambios de formato (sin afectar código)
+- refactor: Refactorización de código
+- test: Añadir o modificar tests
+- chore: Tareas de mantenimiento
+
+Ejemplos:
+feat(productos): añadir filtro por tipo de aceite
+fix(formulario): corregir validación email
+docs(readme): actualizar instrucciones instalación
+style(home): ajustar colores corporativos Pantone
+```
+
+### 6.3 Product Backlog
+
+**Total puntos Product Backlog:** 80 puntos  
+**Velocidad estimada:** 40 puntos por sprint (2 semanas cada uno)
+
+| ID | Historia de Usuario | Descripción Detallada | Criterios de Aceptación | Prioridad | Puntos | Sprint |
+|----|--------------------|-----------------------|------------------------|-----------|--------|---------|
+| **PBI-01** | Como visitante, quiero navegar fácilmente por el sitio | Implementar menú responsive con estructura jerárquica clara y breadcrumbs | • Menú visible en todas las páginas<br>• Hamburguesa en móvil funcional<br>• Breadcrumbs en todas las páginas internas<br>• Navegación intuitiva (máximo 3 clics) | Alta | 8 | Sprint 1 |
+| **PBI-02** | Como administrador, quiero gestionar contenido fácilmente | Configurar WordPress con roles, permisos y Divi Builder | • Dashboard WordPress intuitivo<br>• Roles definidos (admin/editor)<br>• Divi Builder configurado y funcional<br>• Documentación de uso entregada | Alta | 5 | Sprint 1 |
+| **PBI-03** | Como visitante, quiero ver productos de aceite | Catálogo de productos con filtros por tipo y ficha detallada | • Mínimo 10 productos publicados<br>• Filtro por tipo de aceite funcional<br>• Ficha detallada con specs técnicas<br>• Imágenes de alta calidad | Alta | 13 | Sprint 1 |
+| **PBI-04** | Como visitante, quiero contactar con MIGASA | Formulario funcional con validación y notificaciones email | • Campos obligatorios validados<br>• Email confirmación a usuario<br>• Notificación a MIGASA funcional<br>• Anti-spam activo (Akismet)<br>• GDPR checkbox obligatorio | Alta | 3 | Sprint 1 |
+| **PBI-05** | Como visitante, quiero un sitio rápido | Optimizar rendimiento con cache, compresión y lazy loading | • PageSpeed Insights >80/100<br>• Tiempo de carga <3 segundos<br>• Lazy loading activado<br>• Imágenes optimizadas (WebP) | Media | 5 | Sprint 1 |
+| **PBI-06** | Como administrador, quiero analizar el tráfico | Integrar Google Analytics 4 y configurar Yoast SEO | • GA4 conectado y rastreando<br>• Dashboard MonsterInsights funcional<br>• Yoast SEO configurado (sitemap, meta)<br>• Search Console vinculado | Media | 3 | Sprint 2 |
+| **PBI-07** | Como visitante móvil, quiero acceso completo | Diseño 100% responsive y optimizado para táctil | • Funcional en iOS y Android<br>• Menú táctil optimizado<br>• Formularios mobile-friendly<br>• Imágenes adaptativas<br>• Testing en dispositivos reales | Alta | 8 | Sprint 2 |
+| **PBI-08** | Como visitante internacional, quiero el sitio en inglés | Implementar multiidioma español/inglés con WPML | • Todo el contenido traducido<br>• Selector de idioma visible<br>• URLs por idioma (/es/, /en/)<br>• Menús traducidos<br>• SEO multiidioma optimizado | Media | 8 | Sprint 2 |
+| **PBI-09** | Como visitante, quiero conocer la historia de MIGASA | Página "Empresa" con timeline interactiva y valores | • Timeline con hitos históricos<br>• Sección 90 años de historia<br>• Fotos de familia/instalaciones<br>• Video institucional embebido<br>• Misión, visión y valores | Media | 5 | Sprint 2 |
+| **PBI-10** | Como visitante, quiero ver la presencia internacional | Mapa interactivo con los 120 países donde opera MIGASA | • Mapa mundial con markers<br>• Info tooltip por país/región<br>• Datos de presencia por continente<br>• Responsive en móvil | Baja | 8 | Sprint 2 |
+| **PBI-11** | Como administrador, quiero seguridad robusta | Configurar firewall, 2FA, SSL y backups automáticos | • Wordfence activo y escaneando<br>• 2FA obligatorio para admin<br>• Backups semanales automáticos<br>• SSL certificado configurado<br>• Login protegido contra fuerza bruta | Alta | 5 | Sprint 1 |
+| **PBI-12** | Como visitante, quiero leer noticias del sector | Blog/área de noticias actualizable con categorías | • Mínimo 5 entradas publicadas<br>• Categorías definidas<br>• RSS feed generado<br>• Botones compartir en redes<br>• Comentarios (opcional) | Baja | 5 | Sprint 2 |
+
+**Priorización:**
+- **Alta prioridad (Sprint 1):** Funcionalidades core (navegación, productos, contacto, seguridad)
+- **Media prioridad (Sprint 2):** Optimizaciones y contenido adicional (analytics, multiidioma, historia)
+- **Baja prioridad:** Nice-to-have (mapa interactivo, blog)
+
+### 6.4 Sprint Backlog - Sprint 1
+
+**Objetivo del Sprint:** Establecer la base funcional del sitio WordPress con diseño responsive, catálogo de productos, formulario de contacto y medidas de seguridad, todo respetando la identidad corporativa de MIGASA.
+
+**Duración:** 2 semanas (10 días laborables)  
+**Fecha inicio:** *[PENDIENTE: Completar con fecha real]*  
+**Fecha fin:** *[PENDIENTE: Completar con fecha real]*  
+**Puntos comprometidos:** 39 puntos
+
+| ID | Tarea | Descripción Detallada | Responsable | Estado | Horas Est. | Horas Real | Dependencias | Observaciones |
+|----|-------|-----------------------|-------------|--------|------------|------------|--------------|---------------|
+| **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear base de datos migasa_cms_db | Guillermo | To Do | 4 | - | Ninguna | Documentar credenciales |
+| **T-02** | Análisis de temas | Investigar y comparar Divi, Astra Pro y OceanWP con tabla comparativa | Emilio | To Do | 6 | - | Ninguna | Incluir criterios de decisión |
+| **T-03** | Instalación tema Divi | Descargar, instalar, activar licencia Elegant Themes | Guillermo | To Do | 2 | - | T-01, T-02 | Guardar licencia segura |
+| **T-04** | Configurar colores corporativos | Aplicar RGB Pantone (#A3AB11, #7C9323, #3B593B) en Theme Customizer | Nazaret | To Do | 2 | - | T-03 | Usar manual identidad |
+| **T-05** | Cargar tipografías | Subir DIN Black y Myriad Pro, configurar en Divi | Nazaret | To Do | 1 | - | T-03 | Formato web (WOFF2) |
+| **T-06** | Análisis plugins seguridad | Comparar Wordfence, Sucuri, iThemes Security con tabla | Iluminada | To Do | 3 | - | Ninguna | Criterios: descargas, rating, features |
+| **T-07** | Análisis
