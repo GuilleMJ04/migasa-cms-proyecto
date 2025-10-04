@@ -656,9 +656,7 @@ El proyecto abarca:
 - **Reversión sencilla:** Posibilidad de volver a versiones anteriores ante errores
 - **Resolución de conflictos:** Herramientas visuales para merge conflicts
 
-```
 
-```
 tipo(ámbito): descripción breve
 
 - feat: Nueva funcionalidad
