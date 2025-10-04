@@ -1198,12 +1198,6 @@ El proyecto abarca:
 
 | Riesgo | Probabilidad | Impacto | Estado | Mitigación Aplicada |
 |--------|--------------|---------|--------|---------------------|
-| Retrasos en obtención de contenido real | Media | Alto | *[Estado]* | Uso de contenido placeholder profesional temporalmente |
-| Problemas de rendimiento con muchas imágenes | Media | Medio | Mitigado | Lazy loading + ShortPixel + WebP desde Sprint 1 |
-| Incompatibilidades entre plugins | Baja | Alto | Controlado | Testing exhaustivo, plugins con >1M descargas |
-| Cambios en requisitos del cliente | Media | Medio | *[Estado]* | Reuniones de seguimiento, backlog priorizado flexible |
-| Falta de experiencia equipo en Divi | Media | Bajo | Superado | Tutoriales oficiales Elegant Themes, documentación |
-| Problemas de coordinación equipo | Media | Medio | Controlado | GitHub Projects, daily standups cada 2 días |
 
 ### 8.6 Entregables Completados - Sprint 1
 
