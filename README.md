@@ -623,18 +623,6 @@ El proyecto abarca:
    - Filtros por sprint, responsable, prioridad
    - Integración automática con issues y pull requests
 
-3. **Milestones:**
-   - Sprint 1 y Sprint 2 como milestones
-   - Agrupación de issues por sprint
-   - Porcentaje de completitud visible
-   - Fechas de inicio y fin
-
-4. **GitHub Wiki:**
-   - Documentación del proyecto
-   - Guías de instalación y configuración
-   - Estándares de código
-   - Manual de usuario
-
 **Comparativa con alternativas:**
 
 | Herramienta | Ventajas | Desventajas | Decisión |
