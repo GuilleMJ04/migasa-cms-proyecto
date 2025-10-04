@@ -1355,40 +1355,44 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 16. **Draw.io** - Diagramming Tool  
     https://app.diagrams.net/
 
+17. **CLAUDE AI & CHAT GPT** - Content Generator
+    https://claude.com
+    https://chatgpt.com
+
 ### 9.5 Estándares y Buenas Prácticas
 
-17. **WCAG 2.1** - Web Content Accessibility Guidelines  
+18. **WCAG 2.1** - Web Content Accessibility Guidelines  
     https://www.w3.org/WAI/WCAG21/quickref/
 
-18. **Schema.org** - Structured Data Vocabulary  
+19. **Schema.org** - Structured Data Vocabulary  
     https://schema.org/
 
-19. **Google SEO Starter Guide**  
+20. **Google SEO Starter Guide**  
     https://developers.google.com/search/docs/beginner/seo-starter-guide
 
-20. **WPBeginner** - WordPress Tutorials for Beginners  
+21. **WPBeginner** - WordPress Tutorials for Beginners  
     https://www.wpbeginner.com/
 
 ### 9.6 Diseño Web y UX
 
-21. **Material Design** - Design System  
+22. **Material Design** - Design System  
     https://material.io/design
 
-22. **Nielsen Norman Group** - UX Research and Guidelines  
+23. **Nielsen Norman Group** - UX Research and Guidelines  
     https://www.nngroup.com/
 
-23. **A11Y Project** - Accessibility Resources  
+24. **A11Y Project** - Accessibility Resources  
     https://www.a11yproject.com/
 
 ### 9.7 Recursos de Aprendizaje
 
-24. **YouTube** - Divi Theme Tutorials  
+25. **YouTube** - Divi Theme Tutorials  
     Canal: Elegant Themes
 
-25. **CSS-Tricks** - Web Development Blog  
+26. **CSS-Tricks** - Web Development Blog  
     https://css-tricks.com/
 
-26. **Stack Overflow** - Developer Community  
+27. **Stack Overflow** - Developer Community  
     https://stackoverflow.com/
 
 ---
