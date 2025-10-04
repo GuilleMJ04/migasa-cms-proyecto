@@ -672,7 +672,7 @@ feat(productos): añadir filtro por tipo de aceite
 fix(formulario): corregir validación email
 docs(readme): actualizar instrucciones instalación
 style(home): ajustar colores corporativos Pantone
-```
+
 
 ### 6.3 Product Backlog
 
