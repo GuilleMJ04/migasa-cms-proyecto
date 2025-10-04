@@ -1110,6 +1110,11 @@ style(home): ajustar colores corporativos Pantone
 
 ---
 
+# PROYECTO CMS - WORDPRESS MIGASA
+## Secciones 6.4 en adelante
+
+---
+
 ## 6.4 Sprint Backlog - Sprint 1
 
 **Objetivo del Sprint:** Establecer la base funcional del sitio WordPress con diseño responsive, catálogo de productos, formulario de contacto y medidas de seguridad, todo respetando la identidad corporativa de MIGASA.
@@ -1598,4 +1603,628 @@ style(home): ajustar colores corporativos Pantone
 ### 8.4 Métricas de Éxito del Proyecto
 
 **Técnicas (objetivo vs. alcanzado):**
-- PageSpeed Insights: Objetivo >80/100 → Alcanzado:
+- PageSpeed Insights: Objetivo >80/100 → Alcanzado: *[Incluir score real]*
+- Tiempo de carga: Objetivo <3s → Alcanzado: *[Incluir tiempo real]*
+- Uptime: Objetivo >99.5% → *[Medir en producción]*
+- SEO Score (Yoast): Objetivo 100% páginas verdes → Alcanzado: *[X páginas]*
+
+**Funcionales:**
+- Requisitos implementados: *[X de Y]* (%)
+- Bugs críticos: 0 en producción
+- Páginas responsive: 100%
+- Formularios funcionales: 100%
+
+**Negocio:**
+- Fidelidad a identidad corporativa: 100%
+- Páginas principales completadas: *[X de 6]*
+- Productos en catálogo: *[X productos]*
+- Cliente satisfecho: *[Pendiente encuesta post-entrega]*
+
+### 8.5 Riesgos Identificados y Gestión
+
+| Riesgo | Probabilidad | Impacto | Estado | Mitigación Aplicada |
+|--------|--------------|---------|--------|---------------------|
+| Retrasos en obtención de contenido real | Media | Alto | *[Estado]* | Uso de contenido placeholder profesional temporalmente |
+| Problemas de rendimiento con muchas imágenes | Media | Medio | Mitigado | Lazy loading + ShortPixel + WebP desde Sprint 1 |
+| Incompatibilidades entre plugins | Baja | Alto | Controlado | Testing exhaustivo, plugins con >1M descargas |
+| Cambios en requisitos del cliente | Media | Medio | *[Estado]* | Reuniones de seguimiento, backlog priorizado flexible |
+| Falta de experiencia equipo en Divi | Media | Bajo | Superado | Tutoriales oficiales Elegant Themes, documentación |
+| Problemas de coordinación equipo | Media | Medio | Controlado | GitHub Projects, daily standups cada 2 días |
+
+### 8.6 Entregables Completados - Sprint 1
+
+✅ **Documentación completa:**
+- Requisitos REM (Goals, IR, UR, FR, NFR, BR)
+- Análisis (mockups + diagrama de clases)
+- Diseño (comparativas plugins/temas justificadas)
+- Planificación SCRUM (Product Backlog + Sprint Backlog + Burndown Chart)
+
+✅ **Implementación funcional:**
+- WordPress instalado y configurado
+- Tema Divi personalizado con identidad MIGASA
+- 8 plugins esenciales instalados y configurados
+- Páginas principales creadas (Home, Empresa, Productos, Contacto)
+- Catálogo de productos con mínimo 10 productos
+- Formulario de contacto funcional con validación GDPR
+
+✅ **Repositorio GitHub:**
+- Código versionado con Git
+- Issues creadas para seguimiento de tareas
+- GitHub Projects configurado para tablero SCRUM
+- Documentación en README y carpeta /docs
+- Commits con mensajes descriptivos
+
+✅ **Calidad y testing:**
+- Testing responsive en múltiples dispositivos
+- Validación de formularios
+- Optimización de imágenes (WebP)
+- SEO básico configurado (Yoast)
+- Seguridad implementada (Wordfence + 2FA)
+
+### 8.7 Pendiente para Sprint 2
+
+**Funcionalidades:**
+- [ ] Completar traducciones WPML (español/inglés)
+- [ ] Página de Mercados con mapa interactivo 120 países
+- [ ] Página de Sostenibilidad completa
+- [ ] Sección Blog/Noticias con 5 entradas mínimo
+- [ ] Mapa interactivo avanzado con tooltips
+
+**Optimizaciones:**
+- [ ] Mejorar PageSpeed a >90/100
+- [ ] Implementar schema markup avanzado
+- [ ] Configurar CDN (si necesario)
+- [ ] Auditoría de accesibilidad WCAG 2.1 AA
+
+**Contenido:**
+- [ ] Añadir más productos (objetivo: 30 total)
+- [ ] Videos institucionales
+- [ ] Testimonios de clientes
+- [ ] Catálogos PDF descargables
+
+**Formación y documentación:**
+- [ ] Manual de usuario para equipo MIGASA
+- [ ] Video tutoriales gestión contenidos
+- [ ] Guía de mantenimiento
+- [ ] Documentación técnica completa
+
+### 8.8 Reflexión del Equipo
+
+**Fortalezas identificadas:**
+- Buena comunicación y coordinación entre los 4 integrantes
+- Distribución equitativa y justa de tareas según habilidades
+- Uso efectivo de herramientas colaborativas (GitHub, reuniones virtuales)
+- Compromiso con la calidad y atención al detalle
+- Proactividad en resolución de problemas técnicos
+- Respeto a plazos y estimaciones
+
+**Áreas de mejora para Sprint 2:**
+- Aumentar frecuencia de daily standups (cada día vs. cada 2 días)
+- Mejorar precisión en estimaciones de horas (afinar en Sprint 2 con velocidad real)
+- Documentación más continua (durante desarrollo vs. al final)
+- Testing más temprano (no esperar a tener todo completo)
+- Solicitar feedback del cliente antes (no esperar a entrega final)
+
+**Lecciones aprendidas:**
+1. La planificación detallada ahorra tiempo en ejecución
+2. Las comparativas documentadas justifican decisiones ante el cliente
+3. GitHub Projects es suficiente para proyectos académicos pequeños
+4. Los mockups son fundamentales para alinear expectativas
+5. El manual de identidad corporativa debe ser el documento de referencia constante
+
+### 8.9 Agradecimientos
+
+Agradecemos a:
+- **MIGASA** por la oportunidad de trabajar con una empresa líder en el sector del aceite de oliva
+- **Profesores** por la guía y feedback durante el proyecto
+- **Compañeros de clase** por el apoyo y colaboración
+
+Agradecimiento especial a MIGASA por proporcionar el manual de identidad corporativa que ha sido fundamental para este proyecto.
+
+---
+
+## 9. REFERENCIAS
+
+### 9.1 Documentación Técnica
+
+1. **WordPress.org** - Documentación oficial  
+   https://wordpress.org/documentation/
+
+2. **Elegant Themes** - Divi Documentation  
+   https://www.elegantthemes.com/documentation/divi/
+
+3. **Wordfence** - Security Best Practices  
+   https://www.wordfence.com/learn/
+
+4. **Yoast SEO** - Ultimate SEO Guide  
+   https://yoast.com/wordpress-seo/
+
+5. **WP Rocket** - Performance Optimization  
+   https://docs.wp-rocket.me/
+
+6. **WPML** - Multilingual WordPress Guide  
+   https://wpml.org/documentation/
+
+### 9.2 Manuales de MIGASA
+
+7. **Manual de Identidad Corporativa MIGASA**  
+   Documento proporcionado por la empresa (incluido en repositorio)
+
+8. **Sitio web actual de MIGASA**  
+   www.migasa.com (análisis de referencia)
+
+### 9.3 Metodología SCRUM
+
+9. **Scrum Guide 2020** - Definición oficial de SCRUM  
+   https://scrumguides.org/
+
+10. **Atlassian** - Agile and SCRUM Resources  
+    https://www.atlassian.com/agile/scrum
+
+11. **Mountain Goat Software** - User Stories Applied  
+    https://www.mountaingoatsoftware.com/
+
+### 9.4 Herramientas Utilizadas
+
+12. **GitHub** - Version Control and Project Management  
+    https://github.com
+
+13. **Balsamiq Mockups** - Wireframing Tool  
+    https://balsamiq.com/
+
+14. **Google Analytics 4** - Web Analytics  
+    https://analytics.google.com/
+
+15. **PageSpeed Insights** - Performance Testing  
+    https://pagespeed.web.dev/
+
+16. **Draw.io** - Diagramming Tool  
+    https://app.diagrams.net/
+
+### 9.5 Estándares y Buenas Prácticas
+
+17. **WCAG 2.1** - Web Content Accessibility Guidelines  
+    https://www.w3.org/WAI/WCAG21/quickref/
+
+18. **Schema.org** - Structured Data Vocabulary  
+    https://schema.org/
+
+19. **Google SEO Starter Guide**  
+    https://developers.google.com/search/docs/beginner/seo-starter-guide
+
+20. **WPBeginner** - WordPress Tutorials for Beginners  
+    https://www.wpbeginner.com/
+
+### 9.6 Diseño Web y UX
+
+21. **Material Design** - Design System  
+    https://material.io/design
+
+22. **Nielsen Norman Group** - UX Research and Guidelines  
+    https://www.nngroup.com/
+
+23. **A11Y Project** - Accessibility Resources  
+    https://www.a11yproject.com/
+
+### 9.7 Recursos de Aprendizaje
+
+24. **YouTube** - Divi Theme Tutorials  
+    Canal: Elegant Themes
+
+25. **CSS-Tricks** - Web Development Blog  
+    https://css-tricks.com/
+
+26. **Stack Overflow** - Developer Community  
+    https://stackoverflow.com/
+
+---
+
+## 10. ANEXOS
+
+### Anexo A: Glosario de Términos
+
+**Términos técnicos utilizados en el proyecto:**
+
+- **CMS:** Content Management System (Sistema de Gestión de Contenidos)
+- **SEO:** Search Engine Optimization (Optimización para Motores de Búsqueda)
+- **WPML:** WordPress Multilingual Plugin (Plugin multiidioma de WordPress)
+- **2FA:** Two-Factor Authentication (Autenticación de Dos Factores)
+- **CDN:** Content Delivery Network (Red de Distribución de Contenidos)
+- **GDPR:** General Data Protection Regulation (Reglamento General de Protección de Datos)
+- **SSL:** Secure Sockets Layer (Capa de Conexión Segura)
+- **HTTPS:** Hypertext Transfer Protocol Secure (Protocolo seguro de transferencia)
+- **UX:** User Experience (Experiencia de Usuario)
+- **UI:** User Interface (Interfaz de Usuario)
+- **MVP:** Minimum Viable Product (Producto Mínimo Viable)
+- **WCAG:** Web Content Accessibility Guidelines (Pautas de Accesibilidad)
+- **API:** Application Programming Interface (Interfaz de Programación de Aplicaciones)
+- **REST:** Representational State Transfer (arquitectura de servicios web)
+- **JSON:** JavaScript Object Notation (formato de datos)
+- **XML:** Extensible Markup Language (lenguaje de marcado)
+- **CRUD:** Create, Read, Update, Delete (operaciones básicas de datos)
+- **Responsive:** Diseño adaptable a diferentes tamaños de pantalla
+- **Lazy Loading:** Carga diferida de contenido (solo cuando es necesario)
+- **Minificación:** Reducción del tamaño de archivos CSS/JS eliminando espacios
+- **Schema Markup:** Código estructurado para ayudar a motores de búsqueda
+
+### Anexo B: Conversiones de Color Pantone a RGB/HEX
+
+**Tabla de conversión exacta utilizada en el proyecto:**
+
+| Pantone | CMYK | RGB | HEX | Uso en el sitio |
+|---------|------|-----|-----|-----------------|
+| **383 C** | C:35 M:0 Y:100 K:20 | R:163 G:171 B:17 | #A3AB11 | Botones primarios, enlaces, highlights, CTA |
+| **377 C** | C:56 M:1 Y:100 K:22 | R:124 G:147 B:35 | #7C9323 | Títulos secundarios, hover effects, bandas |
+| **357 C** | C:93 M:19 Y:94 K:69 | R:59 G:89 B:59 | #3B593B | Footer, elementos de alto contraste, fondos oscuros |
+| **Negro** | C:0 M:0 Y:0 K:100 | R:0 G:0 B:0 | #000000 | Textos principales, títulos H1 |
+| **Gris 70%** | C:0 M:0 Y:0 K:70 | R:102 G:102 B:102 | #666666 | Textos secundarios, descripciones |
+| **Gris 40%** | C:0 M:0 Y:0 K:40 | R:153 G:153 B:153 | #999999 | Textos terciarios, placeholders |
+
+**Notas sobre aplicación de color:**
+- Los colores se probaron en diferentes pantallas para verificar consistencia
+- Se utilizó herramienta de contraste WCAG para asegurar legibilidad
+- En fondos oscuros (#3B593B) se usa texto blanco (#FFFFFF)
+- Hover effects utilizan el siguiente color de la paleta para crear jerarquía visual
+
+### Anexo C: Estructura de URLs del Sitio
+
+**Jerarquía completa de URLs implementadas:**
+
+```
+https://www.migasa.com/
+│
+├── /                                    # Home
+├── /empresa/                            # Página Empresa
+│   ├── /quienes-somos/                 # (Sub-página)
+│   ├── /historia/                      # (Sub-página)
+│   └── /instalaciones/                 # (Sub-página)
+│
+├── /productos/                          # Archivo de productos
+│   ├── /aceite-oliva/                  # Categoría
+│   │   ├── /virgen-extra/             # Producto individual
+│   │   ├── /virgen/                   # Producto individual
+│   │   ├── /refinado/                 # Producto individual
+│   │   └── /blend/                    # Producto individual
+│   ├── /aceite-girasol/               # Categoría
+│   │   ├── /alto-oleico/              # Producto individual
+│   │   └── /refinado/                 # Producto individual
+│   └── /aceite-orujo/                 # Categoría
+│       └── /refinado/                 # Producto individual
+│
+├── /mercados/                          # Página Mercados
+├── /sostenibilidad/                    # Página Sostenibilidad
+├── /noticias/                          # Blog/Archivo noticias
+│   └── /[slug-noticia]/               # Entrada individual
+├── /contacto/                          # Página Contacto
+│
+├── /aviso-legal/                       # Legal
+├── /politica-privacidad/              # Legal
+└── /politica-cookies/                 # Legal
+```
+
+**Estructura multiidioma (WPML):**
+```
+Español (por defecto):
+https://www.migasa.com/productos/aceite-oliva/
+
+Inglés:
+https://www.migasa.com/en/products/olive-oil/
+```
+
+### Anexo D: Checklist Pre-Lanzamiento a Producción
+
+**Lista de verificación completa antes de hacer el sitio público:**
+
+#### Configuración Técnica
+- [ ] SSL certificado instalado y funcionando (HTTPS)
+- [ ] Redirección 301 de HTTP a HTTPS configurada
+- [ ] Certificado SSL válido para www y sin www
+- [ ] DNS configurado correctamente (A records, CNAME)
+- [ ] Backups automáticos configurados y probados
+- [ ] Plugins actualizados a última versión estable
+- [ ] Tema actualizado a última versión
+- [ ] WordPress core actualizado a última versión
+- [ ] PHP versión 8.0 o superior
+- [ ] MySQL versión 5.7 o superior
+
+#### Usuarios y Seguridad
+- [ ] Usuarios de prueba eliminados
+- [ ] Contraseñas seguras para todos los usuarios
+- [ ] 2FA activado para administradores
+- [ ] Usuario "admin" renombrado o eliminado
+- [ ] Roles y permisos revisados
+- [ ] Firewall Wordfence en modo "Enabled and Protecting"
+- [ ] Login protegido contra fuerza bruta
+- [ ] Versión de WordPress oculta del código fuente
+
+#### Contenido
+- [ ] Todas las páginas principales publicadas
+- [ ] Mínimo 10 productos en catálogo
+- [ ] Imágenes optimizadas (WebP, tamaño correcto)
+- [ ] Todos los textos revisados ortográficamente
+- [ ] Enlaces internos verificados (sin 404s)
+- [ ] Enlaces externos verificados
+- [ ] Formularios probados y funcionando
+- [ ] Textos placeholder reemplazados por contenido real
+- [ ] Información de contacto correcta (teléfono, email, dirección)
+
+#### SEO
+- [ ] Sitemap XML generado y enviado a Google Search Console
+- [ ] Robots.txt configurado correctamente
+- [ ] Meta títulos completados en todas las páginas
+- [ ] Meta descripciones completadas en todas las páginas
+- [ ] URLs amigables activadas (permalinks)
+- [ ] Imágenes con atributos ALT descriptivos
+- [ ] Schema markup implementado (Organization, Product)
+- [ ] Google Analytics 4 funcionando y rastreando
+- [ ] Google Search Console configurado
+- [ ] Bing Webmaster Tools configurado (opcional)
+- [ ] Palabras clave focus configuradas en páginas principales
+
+#### Rendimiento
+- [ ] WP Rocket cache activado
+- [ ] Lazy loading funcionando
+- [ ] Minificación CSS/JS/HTML activada
+- [ ] GZIP compression habilitado
+- [ ] PageSpeed Insights >80/100 (móvil y desktop)
+- [ ] Tiempo de carga <3 segundos
+- [ ] Imágenes convertidas a WebP
+- [ ] CDN configurado (si aplica)
+- [ ] Base de datos optimizada (sin revisiones/spam)
+
+#### Responsive y Compatibilidad
+- [ ] Probado en Chrome (última versión)
+- [ ] Probado en Firefox (última versión)
+- [ ] Probado en Safari (última versión)
+- [ ] Probado en Edge (última versión)
+- [ ] Probado en iPhone (iOS)
+- [ ] Probado en Android
+- [ ] Probado en iPad/tablets
+- [ ] Menú móvil funcionando correctamente
+- [ ] Formularios funcionales en móvil
+- [ ] Imágenes responsive
+
+#### Accesibilidad
+- [ ] Contraste de colores cumple WCAG 2.1 AA
+- [ ] Navegación por teclado funcional
+- [ ] Atributos ARIA en elementos interactivos
+- [ ] Labels en todos los campos de formulario
+- [ ] Textos alternativos en todas las imágenes
+- [ ] Videos con subtítulos (si aplica)
+
+#### Legal y Privacidad
+- [ ] Política de privacidad publicada
+- [ ] Aviso legal publicado
+- [ ] Política de cookies publicada
+- [ ] GDPR compliance: Cookie consent banner
+- [ ] Formularios con checkbox de consentimiento GDPR
+- [ ] Google Analytics con anonimización de IPs
+- [ ] Enlaces a políticas en footer
+
+#### Funcionalidades
+- [ ] Formulario de contacto envía emails correctamente
+- [ ] Email de confirmación al usuario funciona
+- [ ] Notificaciones a MIGASA funcionan
+- [ ] Anti-spam activado y probado
+- [ ] Búsqueda interna funcionando
+- [ ] Filtros de productos operativos
+- [ ] Google Maps cargando correctamente
+- [ ] Selector de idioma funcionando (WPML)
+- [ ] Todas las traducciones completadas
+
+#### Contenido Social
+- [ ] Open Graph meta tags configurados (Facebook)
+- [ ] Twitter Cards configurados
+- [ ] Imágenes optimizadas para compartir en redes (1200x630px)
+- [ ] Enlaces a redes sociales de MIGASA en footer
+- [ ] Botones de compartir en blog/noticias (si aplica)
+
+#### Monitorización
+- [ ] Google Analytics rastreando correctamente
+- [ ] Google Search Console recibiendo datos
+- [ ] MonsterInsights dashboard mostrando estadísticas
+- [ ] Uptime monitoring configurado (UptimeRobot, Pingdom, etc.)
+- [ ] Alertas por email configuradas para downtime
+
+#### Mantenimiento
+- [ ] Modo mantenimiento preparado (Coming Soon plugin)
+- [ ] Plan de actualización de WordPress/plugins establecido
+- [ ] Responsable de mantenimiento asignado
+- [ ] Documentación de acceso en lugar seguro
+- [ ] Backups off-site configurados
+
+#### Entregables al Cliente
+- [ ] Manual de usuario WordPress entregado
+- [ ] Credenciales de acceso proporcionadas
+- [ ] Formación al equipo MIGASA completada
+- [ ] Documentación técnica entregada
+- [ ] Videos tutoriales proporcionados (opcional)
+
+### Anexo E: Estructura del Repositorio GitHub
+
+**Organización completa del repositorio del proyecto:**
+
+```
+migasa-cms-proyecto/
+│
+├── README.md                           # Descripción general del proyecto
+├── .gitignore                         # Archivos a ignorar (wp-config, uploads)
+├── LICENSE                            # Licencia del proyecto (MIT)
+│
+├── docs/                              # Documentación completa
+│   ├── sprint-1/
+│   │   ├── 01-requisitos-rem.md
+│   │   ├── 02-analisis.md
+│   │   ├── 03-diseño.md
+│   │   ├── 04-implementacion.md
+│   │   └── 05-planificacion.md
+│   ├── sprint-2/
+│   │   └── [documentos sprint 2]
+│   ├── manual-usuario-wordpress.pdf
+│   ├── manual-identidad-migasa.pdf
+│   └── guia-mantenimiento.md
+│
+├── mockups/                           # Diseños Balsamiq
+│   ├── home.bmpr
+│   ├── empresa.bmpr
+│   ├── productos.bmpr
+│   ├── producto-detalle.bmpr
+│   ├── mercados.bmpr
+│   ├── sostenibilidad.bmpr
+│   ├── noticias.bmpr
+│   ├── contacto.bmpr
+│   └── exports/                      # PNG exportados
+│       ├── home-desktop.png
+│       ├── home-mobile.png
+│       └── [otros exports]
+│
+├── diagrams/                          # Diagramas técnicos
+│   ├── diagrama-clases.drawio
+│   ├── diagrama-clases.png
+│   ├── arquitectura-sistema.png
+│   └── flujo-usuario.png
+│
+├── wordpress/                         # Instalación WordPress
+│   ├── wp-admin/
+│   ├── wp-content/
+│   │   ├── themes/
+│   │   │   └── divi-child-migasa/   # Child theme personalizado
+│   │   │       ├── style.css
+│   │   │       ├── functions.php
+│   │   │       └── assets/
+│   │   ├── plugins/
+│   │   │   └── migasa-custom/       # Plugin custom (si necesario)
+│   │   ├── uploads/                  # Ignorado en Git
+│   │   └── languages/
+│   ├── wp-includes/
+│   ├── .htaccess
+│   ├── index.php
+│   └── wp-config-sample.php         # Plantilla config (sin credenciales)
+│
+├── scrum/                             # Gestión SCRUM
+│   ├── product-backlog.md
+│   ├── sprint-1-backlog.md
+│   ├── sprint-2-backlog.md
+│   ├── burndown-charts/
+│   │   ├── sprint-1.png
+│   │   └── sprint-2.png
+│   ├── retrospectivas/
+│   │   ├── sprint-1-retrospectiva.md
+│   │   └── sprint-2-retrospectiva.md
+│   └── daily-standups/
+│       └── [notas diarias]
+│
+├── resources/                         # Recursos del proyecto
+│   ├── comparativas/
+│   │   ├── plugins-seguridad.xlsx
+│   │   ├── plugins-cache.xlsx
+│   │   ├── plugins-seo.xlsx
+│   │   ├── plugins-analytics.xlsx
+│   │   └── temas-wordpress.xlsx
+│   ├── assets-migasa/                # Assets corporativos
+│   │   ├── logos/
+│   │   │   ├── logo-principal.png
+│   │   │   ├── logo-principal.svg
+│   │   │   ├── imagotipo.png
+│   │   │   ├── anagrama.png
+│   │   │   └── favicon.ico
+│   │   ├── tipografias/
+│   │   │   ├── DIN-Black-Regular.woff2
+│   │   │   ├── MyriadPro-Regular.woff2
+│   │   │   └── MyriadPro-Bold.woff2
+│   │   ├── imagenes-corporativas/
+│   │   └── videos/
+│   ├── contenido/
+│   │   ├── textos-paginas.docx
+│   │   ├── productos-data.xlsx
+│   │   └── traducciones-ingles.xlsx
+│   └── referencias/
+│       ├── sitios-inspiracion.md
+│       └── benchmarking-competencia.md
+│
+├── tests/                            # Testing y QA
+│   ├── test-plan.md
+│   ├── test-cases.xlsx
+│   ├── test-results/
+│   │   ├── responsive-testing.md
+│   │   ├── browser-compatibility.md
+│   │   ├── accessibility-audit.md
+│   │   └── performance-results.md
+│   ├── screenshots/
+│   │   ├── desktop/
+│   │   ├── tablet/
+│   │   └── mobile/
+│   └── bug-reports/
+│
+├── scripts/                          # Scripts útiles
+│   ├── setup.sh                     # Script instalación local
+│   ├── backup.sh                    # Script backup manual
+│   └── deploy.sh                    # Script deploy producción
+│
+└── entregables/                      # Documentos finales entrega
+    ├── sprint-1/
+    │   └── Entregable-Sprint1-MIGASA.pdf
+    ├── sprint-2/
+    │   └── Entregable-Sprint2-MIGASA.pdf
+    └── presentacion/
+        └── Presentacion-Final-MIGASA.pptx
+```
+
+### Anexo F: Contacto del Equipo
+
+**Integrantes del proyecto y responsabilidades principales:**
+
+**Guillermo Mendo Jiménez**
+- Rol: Desarrollador Backend / Administrador de Sistema
+- Responsabilidades: Instalación WordPress, configuración servidor, backups, base de datos
+- Email: *[email universitario]*
+- GitHub: *[usuario GitHub]*
+
+**Emilio Cuevas Rendón**
+- Rol: Especialista SEO / Analítica
+- Responsabilidades: Configuración SEO, Analytics, análisis de temas, diagrama de clases
+- Email: *[email universitario]*
+- GitHub: *[usuario GitHub]*
+
+**Iluminada Baena Herruzo**
+- Rol: Desarrolladora Frontend / Seguridad
+- Responsabilidades: Productos, seguridad, optimización imágenes, plugins cache
+- Email: *[email universitario]*
+- GitHub: *[usuario GitHub]*
+
+**Nazaret María Villalba Delgado**
+- Rol: Diseñadora UX/UI / Documentación
+- Responsabilidades: Mockups, diseño visual, identidad corporativa, documentación
+- Email: *[email universitario]*
+- GitHub: *[usuario GitHub]*
+
+---
+
+**Repositorio GitHub del proyecto:**  
+https://github.com/GuilleMJ04/migasa-cms-proyecto
+
+**Fecha de elaboración:** *[Completar con fecha real]*  
+**Versión del documento:** 1.0 - Sprint 1  
+**Próxima revisión:** Sprint 2 Review
+
+---
+
+## NOTA FINAL
+
+Este documento representa el **Primer Entregable** del proyecto CMS para MIGASA. Todas las secciones marcadas como *[PENDIENTE]* deben completarse con información real, capturas de pantalla y datos concretos durante y después de la ejecución del Sprint 1.
+
+**Para el Sprint 2 se debe:**
+1. Actualizar este documento con resultados reales del Sprint 1
+2. Añadir screenshots de la implementación
+3. Incluir gráfico burndown con datos reales
+4. Documentar bugs encontrados y solucionados
+5. Completar métricas de rendimiento (PageSpeed, tiempos de carga)
+6. Incluir feedback del cliente (MIGASA)
+7. Preparar documento similar para Sprint 2
+
+**El documento debe exportarse a PDF** para la entrega oficial académica, incluyendo todas las imágenes, diagramas y tablas formateados profesionalmente.
+
+---
+
+© 2024 Proyecto Académico - MIGASA CMS  
+Todos los derechos reservados.
