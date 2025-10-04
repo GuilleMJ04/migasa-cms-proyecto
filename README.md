@@ -1218,7 +1218,7 @@ El proyecto abarca:
 - Tema Divi personalizado con identidad MIGASA
 - 8 plugins esenciales instalados y configurados
 - Páginas principales creadas (Home, Empresa, Productos, Contacto)
-- Catálogo de productos con mínimo 10 productos
+- Catálogo de productos con mínimo 10 productos por página
 - Formulario de contacto funcional con validación GDPR
 
 ✅ **Repositorio GitHub:**
@@ -1238,29 +1238,18 @@ El proyecto abarca:
 ### 8.7 Pendiente para Sprint 2
 
 **Funcionalidades:**
-- [ ] Completar traducciones WPML (español/inglés)
-- [ ] Página de Mercados con mapa interactivo 120 países
+- [ ] Completar traducciones WPML 
 - [ ] Página de Sostenibilidad completa
-- [ ] Sección Blog/Noticias con 5 entradas mínimo
-- [ ] Mapa interactivo avanzado con tooltips
 
 **Optimizaciones:**
 - [ ] Mejorar PageSpeed a >90/100
 - [ ] Implementar schema markup avanzado
-- [ ] Configurar CDN (si necesario)
-- [ ] Auditoría de accesibilidad WCAG 2.1 AA
 
 **Contenido:**
-- [ ] Añadir más productos (objetivo: 30 total)
+- [ ] Añadir más productos (objetivo: 100 total)
 - [ ] Videos institucionales
 - [ ] Testimonios de clientes
 - [ ] Catálogos PDF descargables
-
-**Formación y documentación:**
-- [ ] Manual de usuario para equipo MIGASA
-- [ ] Video tutoriales gestión contenidos
-- [ ] Guía de mantenimiento
-- [ ] Documentación técnica completa
 
 ### 8.8 Reflexión del Equipo
 
