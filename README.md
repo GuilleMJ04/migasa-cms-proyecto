@@ -60,311 +60,170 @@
 
 ---
 
-## 1. INTRODUCCIÓN
+# 1. INTRODUCCIÓN
 
-### 1.1 Propósito del Proyecto
+## 1.1. Propósito del Proyecto
+El propósito del proyecto es **transformar la plataforma web actual de MIGASA**, que actualmente es puramente informativa, en una **herramienta funcional de comercio electrónico**, capaz de ofrecer venta directa de productos envasados y una experiencia personalizada según el tipo de usuario (clientes, VIP, empleados).
 
-Desarrollar un sitio web corporativo mejorado para MIGASA utilizando WordPress como CMS, con el objetivo de modernizar su presencia digital, mejorar la experiencia de usuario y optimizar la comunicación de sus productos y servicios en el sector del aceite de oliva.
+## 1.2. Alcance
+El proyecto contempla el **diseño, desarrollo e implementación** de un portal web corporativo con funcionalidades de **e-commerce**, **gestión de usuarios** y **sistemas de contenido dinámico (CMS)**.  
+Se excluye del alcance la venta de productos a granel, limitándose únicamente a la línea de productos **embotellados y empaquetados**.
 
-### 1.2 Alcance
+El sistema incluirá:
+- Catálogo interactivo de productos.
+- Carrito de compra y procesamiento de pedidos.
+- Integración de métodos de pago seguros.
+- Sistema multiidioma (5 idiomas).
+- Portal exclusivo para clientes VIP y empleados.
+- Panel de administración con gestión de contenidos y analíticas básicas.
 
-El proyecto abarca:
-- Rediseño completo del sitio web corporativo respetando la identidad visual de MIGASA
-- Implementación de WordPress con estructura modular y escalable
-- Optimización para dispositivos móviles y tablets
-- Mejora del SEO y velocidad de carga
-- Integración de herramientas de analytics y seguridad
-- Creación de secciones para productos, empresa, historia, sostenibilidad y contacto
-
-### 1.3 Empresa Seleccionada
-
-**Nombre de la empresa:** MIGASA (Grupo Migasa)
-
-**Sector:** Fabricación y refinado de aceites de oliva y otros aceites vegetales
-
-**Sitio web actual:** www.migasa.com
-
-**Situación actual:** MIGASA es una empresa familiar española líder mundial en la venta de aceite de oliva con más de 90 años de historia, facturación superior a 1.000 millones de euros anuales y presencia en más de 120 países. Cuenta con sitio web corporativo que necesita ser modernizado para identificar oportunidades de mejora.
+## 1.3. Empresa Seleccionada
+**MIGASA** es una empresa líder en el sector agroalimentario español, especializada en la **producción, envasado y comercialización de aceites vegetales**.  
+Cuenta con marcas reconocidas como **La Masía**, **Ybarra** y otras filiales, con presencia en más de **120 países**.  
+Su estrategia actual busca potenciar el canal digital mediante una plataforma que combine **información corporativa, sostenibilidad y comercio electrónico**.
 
 ---
 
-## 2. ANÁLISIS DE LA EMPRESA
+# 2. ANÁLISIS DE LA EMPRESA
 
-### 2.1 Descripción de la Empresa
+## 2.1. Descripción de la Empresa
+MIGASA es una empresa familiar con amplia trayectoria en el sector oleícola.  
+Su principal línea de negocio es la producción de **aceite de oliva, girasol y orujo**, tanto para consumo nacional como internacional.  
+Actualmente, su web cumple una función informativa, sin ofrecer un canal de ventas online ni interacción directa con los usuarios.
 
-**MIGASA (Grupo Migasa)** es una empresa familiar española fundada hace más de 90 años, que se ha convertido en líder mundial en la fabricación y comercialización de aceite de oliva. 
+## 2.2. Problemática Identificada
+- La web actual es **puramente informativa**, sin funcionalidades de venta ni gestión dinámica del contenido.  
+- No existen **canales digitales directos** para la comercialización de productos.  
+- Falta de **segmentación de usuarios** (clientes particulares, mayoristas y empleados).  
+- La **gestión del contenido** depende de personal técnico, dificultando las actualizaciones frecuentes.  
+- Ausencia de **analíticas** que permitan medir la interacción de los usuarios con el sitio.
 
-**Datos principales:**
-- **Facturación:** Más de 1.000 millones de euros anuales
-- **Presencia internacional:** Más de 120 países en los cinco continentes
-- **Empleados:** Aproximadamente 145 empleados (datos 2024)
-- **Sede central:** Dos Hermanas (Sevilla), Andalucía
-- **Centros de producción:** 
-  - Dos Hermanas: Refinerías de aceites de oliva y semillas
-  - La Luisiana (Sevilla): Planta de refinación de aceite de orujo y girasol
-
-**Características diferenciales:**
-- Empresa familiar en tercera generación
-- Control exhaustivo de toda la cadena de valor
-- Presencia en todas las etapas del proceso de elaboración
-- Fuerte vinculación con el sector olivarero andaluz
-- Capacidad para trabajar con todo tipo de envases y volúmenes
-
-### 2.2 Problemática Identificada
-
-**Análisis del sitio web actual (www.migasa.com):**
-
-1. **Experiencia de usuario limitada:**
-   - Navegación poco intuitiva
-   - Falta de jerarquía visual clara
-   - Información no estructurada adecuadamente
-
-2. **Diseño desactualizado:**
-   - No refleja completamente la identidad corporativa moderna de MIGASA
-   - Falta de elementos visuales atractivos
-   - Escasa interactividad
-
-3. **Problemas de rendimiento:**
-   - Tiempos de carga elevados
-   - Falta de optimización de imágenes
-   - No implementa cache eficientemente
-
-4. **Carencias funcionales:**
-   - Sección de productos poco detallada
-   - Falta de información sobre sostenibilidad y RSC
-   - No hay sistema de gestión de contenidos ágil
-   - Ausencia de blog o área de noticias
-
-5. **SEO y visibilidad:**
-   - Posicionamiento mejorable en buscadores
-   - Meta descripciones y títulos no optimizados
-   - Falta de estrategia de contenidos
-
-### 2.3 Oportunidades de Mejora
-
-1. **Modernización visual:** Aplicar correctamente el manual de identidad corporativa con los colores Pantone corporativos (383 C, 377 C, 357 C)
-
-2. **Experiencia móvil:** Diseño 100% responsive adaptado a todos los dispositivos
-
-3. **Contenido estructurado:** Organizar información por áreas temáticas claras (Productos, Clientes Objetivos, Mercados, Competidores, Cargo Empresarial, etc.)
-
-4. **Storytelling:** Destacar la historia familiar de más de 90 años y presencia en 120 países
-
-5. **Sostenibilidad:** Crear sección específica sobre prácticas sostenibles y responsabilidad ambiental
-
-6. **Área de administración:** Sistema de gestión de contenidos intuitivo con WordPress
+## 2.3. Oportunidades de Mejora
+- Implementar un **canal de ventas online** (B2C y B2B).  
+- Crear **portales diferenciados** según el tipo de usuario.  
+- Incorporar **formularios inteligentes** y un sistema de ayuda (FAQ).  
+- Aplicar **analítica web** para la toma de decisiones estratégicas.  
+- Desarrollar una **arquitectura modular (CMS)** que permita al personal no técnico administrar el contenido.  
+- Integrar **principios de diseño responsive** y accesibilidad.  
 
 ---
 
-## 3. REQUISITOS CON REM
+# 3. REQUISITOS CON REM
 
-*Requisitos elicitados mediante metodología REM (Requirements Engineering Methodology)*
+## 3.1. Objetivos (Goals)
 
-### 3.1 Objetivos (Goals)
+### Objetivo Principal
+Transformar la plataforma web actual en una herramienta funcional de ventas con capacidades de comercio electrónico.
 
-#### G01: Modernización de la presencia web
-**Descripción:** Mejorar la experiencia de usuario y la funcionalidad del sitio web corporativo  
-**Prioridad:** Alta
-
-#### G02: Optimización para dispositivos móviles
-**Descripción:** Garantizar una experiencia óptima en smartphones y tablets  
-**Prioridad:** Alta
-
-#### G03: Mejora del posicionamiento SEO
-**Descripción:** Aumentar la visibilidad en motores de búsqueda  
-**Prioridad:** Media
-
-#### G04: Integración de herramientas de analytics
-**Descripción:** Implementar seguimiento y análisis del comportamiento de usuarios  
-**Prioridad:** Media
-
-### 3.2 Requisitos de Información
-
-#### IR01: Información de la empresa
-**Descripción:** El sistema debe mostrar información corporativa de MIGASA (historia, misión, visión, valores)  
-**Fuente:** Reunión con empresa / Manual corporativo  
-**Prioridad:** Alta
-
-#### IR02: Catálogo de productos
-**Descripción:** Información detallada de productos de aceite de oliva y aceites vegetales  
-**Contenido:** Tipos de aceite, presentaciones, características, certificaciones  
-**Prioridad:** Alta
-
-#### IR03: Mercados y presencia internacional
-**Descripción:** Información sobre los 120 países donde opera MIGASA  
-**Contenido:** Mercados principales, distribución geográfica  
-**Prioridad:** Media
-
-#### IR04: Clientes objetivo
-**Descripción:** Información sobre los diferentes perfiles de clientes (Horeca, retail, industrial)  
-**Prioridad:** Media
-
-#### IR05: Sostenibilidad y RSC
-**Descripción:** Información sobre prácticas sostenibles, certificaciones ambientales  
-**Prioridad:** Media
-
-#### IR06: Contacto y ubicaciones
-**Descripción:** Datos de contacto, ubicación de oficinas y fábricas (Dos Hermanas, La Luisiana)  
-**Prioridad:** Alta
-
-### 3.3 Requisitos de Interfaz de Usuario
-
-#### UR01: Identidad visual corporativa
-**Descripción:** El sitio web debe respetar el manual de identidad corporativa de MIGASA  
-**Especificaciones:**
-- Colores corporativos: Pantone 383 C, 377 C, 357 C (tonos verdes)
-- Tipografía: DIN Black para títulos corporativos, Myriad Pro para contenidos
-- Logo con área de seguridad de 5mm y tamaño mínimo: 100px digital
-- Versiones del logo: completo, imagotipo, anagrama
-
-**Justificación:** Mantener coherencia con la imagen de marca establecida  
-**Prioridad:** Alta
-
-#### UR02: Diseño responsive
-**Descripción:** Interfaz adaptable a todos los dispositivos (desktop, tablet, móvil)  
-**Especificaciones:** Breakpoints estándar, menú hamburguesa en móvil  
-**Prioridad:** Alta
-
-#### UR03: Navegación intuitiva
-**Descripción:** Menú principal claro con estructura jerárquica  
-**Elementos:** Inicio, Empresa, Productos, Mercados, Sostenibilidad, Contacto  
-**Prioridad:** Alta
-
-#### UR04: Paleta de colores web
-**Descripción:** Implementar correctamente los colores corporativos  
-**RGB:** 
-- Verde claro: R:163 G:171 B:17 (Pantone 383 C) - #A3AB11
-- Verde medio: R:124 G:147 B:35 (Pantone 377 C) - #7C9323
-- Verde oscuro: R:59 G:89 B:59 (Pantone 357 C) - #3B593B
-
-**Prioridad:** Alta
-
-#### UR05: Galería de imágenes de productos
-**Descripción:** Visualización atractiva de productos con zoom y lightbox  
-**Prioridad:** Media
-
-### 3.4 Requisitos Funcionales
-
-#### FR01: Gestión de contenidos
-**Descripción:** Sistema CMS WordPress para gestión de contenido por el administrador  
-**Entrada:** Credenciales de acceso, contenido a publicar  
-**Salida:** Contenido publicado en el sitio  
-**Prioridad:** Alta
-
-#### FR02: Catálogo de productos navegable
-**Descripción:** Sistema de visualización de productos por categorías (aceite oliva, girasol, orujo)  
-**Entrada:** Selección de categoría/producto  
-**Salida:** Ficha detallada del producto con imágenes y especificaciones  
-**Prioridad:** Alta
-
-#### FR03: Formulario de contacto
-**Descripción:** Formulario funcional para consultas de clientes  
-**Entrada:** Nombre, email, mensaje, tipo de consulta  
-**Salida:** Email al departamento correspondiente, confirmación al usuario  
-**Prioridad:** Alta
-
-#### FR04: Búsqueda interna
-**Descripción:** Motor de búsqueda para localizar información en el sitio  
-**Entrada:** Términos de búsqueda  
-**Salida:** Resultados relevantes ordenados por relevancia  
-**Prioridad:** Media
-
-#### FR05: Mapa interactivo
-**Descripción:** Visualización de presencia internacional en 120 países  
-**Entrada:** Selección de región/país  
-**Salida:** Información de mercado y distribución  
-**Prioridad:** Baja
-
-#### FR06: Área de noticias/blog
-**Descripción:** Sección para publicar noticias corporativas y del sector  
-**Entrada:** Contenido de noticia desde panel admin  
-**Salida:** Publicación en blog con fecha y categoría  
-**Prioridad:** Media
-
-#### FR07: Multiidioma
-**Descripción:** Sitio disponible en español e inglés mínimo (presencia en 120 países)  
-**Entrada:** Selección de idioma  
-**Salida:** Contenido traducido  
-**Prioridad:** Media
-
-#### FR08: Integración Google Maps
-**Descripción:** Ubicación de oficinas y fábricas (Dos Hermanas, La Luisiana)  
-**Entrada:** Click en ubicación  
-**Salida:** Mapa interactivo con dirección exacta  
-**Prioridad:** Baja
-
-### 3.5 Requisitos No Funcionales
-
-#### NFR01: Rendimiento
-**Descripción:** El sitio web debe cargar en menos de 3 segundos  
-**Medida:** Tiempo de carga < 3s  
-**Métrica:** PageSpeed Insights > 80/100  
-**Prioridad:** Alta
-
-#### NFR02: Seguridad
-**Descripción:** Implementar medidas de seguridad robustas  
-**Especificaciones:**
-- Certificado SSL (HTTPS)
-- Firewall de aplicación web
-- Autenticación de dos factores para administradores
-- Backups automáticos semanales
-- Protección contra ataques de fuerza bruta
-
-**Prioridad:** Alta
-
-#### NFR03: Usabilidad
-**Descripción:** Interfaz intuitiva y fácil de usar  
-**Especificaciones:**
-- Navegación clara (máximo 3 clics para cualquier contenido)
-- Textos legibles (contraste adecuado)
-- Formularios con validación clara
-- Mensajes de error comprensibles
-
-**Prioridad:** Media
-
-#### NFR04: Compatibilidad
-**Descripción:** Funcionamiento correcto en diferentes navegadores y dispositivos  
-**Especificaciones:**
-- Chrome, Firefox, Safari, Edge (últimas 2 versiones)
-- iOS y Android
-- Resoluciones desde 320px hasta 2560px
-
-**Prioridad:** Alta
-
-#### NFR05: Accesibilidad
-**Descripción:** Cumplimiento de estándares WCAG 2.1 nivel AA  
-**Especificaciones:**
-- Navegación por teclado
-- Atributos ARIA
-- Contraste de colores adecuado
-- Textos alternativos en imágenes
-
-**Prioridad:** Media
-
-### 3.6 Reglas de Negocio
-
-#### BR01: Identidad corporativa obligatoria
-**Descripción:** Todo elemento visual debe cumplir con el manual de identidad corporativa de MIGASA (colores Pantone, tipografías, uso del logo)
-
-#### BR02: Jerarquía de información
-**Descripción:** Los productos deben organizarse según la estructura: Aceite de Oliva > Aceite de Girasol > Aceite de Orujo
-
-#### BR03: Información de contacto visible
-**Descripción:** Los datos de contacto (Ctra. Madrid-Cádiz Km 556, teléfono 954 720 550) deben ser accesibles desde cualquier página
-
-#### BR04: Certificaciones y sellos
-**Descripción:** Todas las certificaciones de calidad y sostenibilidad deben ser visibles y verificables
-
-#### BR05: Actualizaciones de contenido
-**Descripción:** El contenido debe poder ser actualizado por el equipo de MIGASA sin conocimientos técnicos avanzados
-
-#### BR06: Respaldo de la marca familiar
-**Descripción:** Se debe destacar la historia familiar de más de 90 años y tercera generación
-
-#### BR07: Accesibilidad
-**Descripción:** El sitio debe cumplir con estándares WCAG 2.1 nivel AA mínimo
+### Objetivos Específicos
+- Ampliar el catálogo de productos de la compañía.  
+- Establecer un canal de ventas directo **online**.  
+- Crear áreas diferenciadas para distintos tipos de usuarios (clientes VIP y empleados).  
+- Mejorar la interacción con los clientes mediante formularios y sistemas de ayuda (FAQ).  
+- Implementar **analíticas (CMS)** para monitorizar el uso del sitio.  
+- Facilitar la gestión de **pedidos grandes y programados** (calendario).  
+- Mantener una **experiencia óptima en smartphones y tablets**.  
 
 ---
+
+## 3.2. Requisitos de Información
+
+| Tipo de Información | Descripción |
+|----------------------|-------------|
+| Catálogo de productos | Información completa de productos embotellados/empaquetados |
+| Información corporativa | Logo, colores corporativos, guía de estilo (PDF disponible) |
+| Datos de productos | Descripciones, precios, imágenes, disponibilidad, pureza del aceite |
+| Información de clientes | Perfiles diferenciados (particulares, empresas, VIP) |
+| Información de empleados | Datos de acceso y gestión de descuentos |
+| Contenido multiidioma | Español, inglés, francés, portugués y chino |
+| Marcas del grupo | La Masía, Ybarra y otras marcas asociadas |
+| Estados de pedidos | Seguimiento de compras |
+| FAQ | Preguntas frecuentes y respuestas |
+| Contacto y ubicaciones | Datos de contacto, oficinas y fábricas |
+| Sostenibilidad y RSC | Prácticas sostenibles y certificaciones ambientales |
+| Mercados internacionales | Información sobre los 120 países donde opera MIGASA |
+
+---
+
+## 3.3. Requisitos de Interfaz de Usuario
+
+- **RUI01:** Interfaz intuitiva tipo bloques para gestión de contenidos.  
+- **RUI02:** Aplicación de guía de estilo corporativa (logo, colores, tamaños).  
+- **RUI03:** Navegación multiidioma con selector de idioma.  
+- **RUI04:** Visualización destacada del catálogo de productos.  
+- **RUI05:** Áreas privadas claramente diferenciadas (empleados, VIP).  
+- **RUI06:** Interfaz responsive para diferentes dispositivos.  
+- **RUI07:** Panel de control para el encargado de aplicaciones web.  
+- **RUI08:** Vistas diferenciadas según el tipo de usuario (cliente, VIP, empleado).  
+
+---
+
+## 3.4. Requisitos Funcionales
+
+### Alta Prioridad
+- **RF01:** Catálogo de productos con vista previa.  
+- **RF02:** Carrito de compra completo.  
+- **RF03:** Procesamiento de pedidos para particulares y empresas.  
+- **RF04:** Métodos de pago seguros (PayPal, Tarjeta, Google/Apple Pay).  
+- **RF05:** Sistema de autenticación para empleados y clientes VIP.  
+- **RF06:** Portal exclusivo para clientes VIP/mayoristas.  
+- **RF07:** Sistema de descuentos para empleados.  
+- **RF08:** Seguimiento del estado de pedidos (código autogenerado).  
+- **RF09:** Formulario de contacto funcional (nombre, email, tipo de consulta).  
+- **RF10:** Gestión de contenidos (CMS) modular y accesible.  
+
+### Media Prioridad
+- **RF11:** Programación de pedidos grandes (Calendario).  
+- **RF12:** Sección de preguntas frecuentes (FAQ).  
+- **RF13:** Soporte multiidioma.  
+- **RF14:** Gestión de contratos para ventas a gran escala.  
+
+---
+
+## 3.5. Requisitos No Funcionales
+
+### Rendimiento
+- **RNF01:** Tiempo de carga rápido para el catálogo.  
+- **RNF02:** Capacidad para manejar pedidos de gran volumen.  
+
+### Seguridad
+- **RNF03:** Transacciones seguras con SSL.  
+- **RNF04:** Autenticación segura para empleados y clientes VIP.  
+- **RNF05:** Protección de datos personales y comerciales.  
+
+### Usabilidad
+- **RNF06:** Fácil uso por personal no técnico.  
+- **RNF07:** Cumplimiento de estándares de accesibilidad.  
+
+### Mantenibilidad
+- **RNF08:** Sistema actualizable por una sola persona.  
+- **RNF09:** Documentación clara (uso de Git).  
+
+### Disponibilidad
+- **RNF10:** Alta disponibilidad.  
+- **RNF11:** Sistema de backup y recuperación.  
+
+### Compatibilidad
+- **RNF12:** Funcionamiento correcto en Chrome, Firefox, Safari, Edge, iOS y Android.  
+
+---
+
+## 3.6. Reglas de Negocio
+
+- **RN01:** Solo se incluirán productos envasados (no granel).  
+- **RN02:** Las ventas a gran escala requieren contrato previo.  
+- **RN03:** Los empleados tienen acceso a descuentos especiales mediante portal interno.  
+- **RN04:** Los clientes VIP tienen condiciones comerciales diferenciadas.  
+- **RN05:** La gestión del sitio debe realizarse por una sola persona (encargado interno).  
+- **RN06:** Soporte obligatorio para 5 idiomas.  
+- **RN07:** Pedidos grandes pueden programarse con entregas parciales (Calendario).  
+- **RN08:** Cumplimiento del manual de identidad corporativa (colores, tipografía, logo).  
+- **RN09:** Jerarquía de productos: `Aceite de Oliva > Aceite de Girasol > Aceite de Orujo`.  
+- **RN10:** Certificaciones y sellos visibles y verificables.  
+- **RN11:** Contenido actualizable sin conocimientos técnicos avanzados.  
+
+---
+
 
 ## 4. ANÁLISIS DEL SISTEMA
 
