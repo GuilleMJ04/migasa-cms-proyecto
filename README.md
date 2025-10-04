@@ -663,23 +663,6 @@ El proyecto abarca:
 - **Resolución de conflictos:** Herramientas visuales para merge conflicts
 
 
-tipo(ámbito): descripción breve
-
-- feat: Nueva funcionalidad
-- fix: Corrección de bug
-- docs: Cambios en documentación
-- style: Cambios de formato (sin afectar código)
-- refactor: Refactorización de código
-- test: Añadir o modificar tests
-- chore: Tareas de mantenimiento
-
-Ejemplos:
-feat(productos): añadir filtro por tipo de aceite
-fix(formulario): corregir validación email
-docs(readme): actualizar instrucciones instalación
-style(home): ajustar colores corporativos Pantone
-
-
 ### 6.3 Product Backlog
 
 **Total puntos Product Backlog:** 80 puntos  
