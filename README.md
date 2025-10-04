@@ -1174,26 +1174,6 @@ El proyecto abarca:
 - Screenshots y mockups facilitan comunicación con cliente
 - Manual de usuario será clave para autonomía del cliente
 
-### 8.4 Métricas de Éxito del Proyecto
-
-**Técnicas (objetivo vs. alcanzado):**
-- PageSpeed Insights: Objetivo >80/100 → Alcanzado: *[Incluir score real]*
-- Tiempo de carga: Objetivo <3s → Alcanzado: *[Incluir tiempo real]*
-- Uptime: Objetivo >99.5% → *[Medir en producción]*
-- SEO Score (Yoast): Objetivo 100% páginas verdes → Alcanzado: *[X páginas]*
-
-**Funcionales:**
-- Requisitos implementados: *[X de Y]* (%)
-- Bugs críticos: 0 en producción
-- Páginas responsive: 100%
-- Formularios funcionales: 100%
-
-**Negocio:**
-- Fidelidad a identidad corporativa: 100%
-- Páginas principales completadas: *[X de 6]*
-- Productos en catálogo: *[X productos]*
-- Cliente satisfecho: *[Pendiente encuesta post-entrega]*
-
 ### 8.5 Riesgos Identificados y Gestión
 
 | Riesgo | Probabilidad | Impacto | Estado | Mitigación Aplicada |
