@@ -670,28 +670,19 @@ El proyecto abarca:
 
 | ID | Historia de Usuario | Descripción Detallada | Criterios de Aceptación | Prioridad | Puntos | Sprint |
 |----|--------------------|-----------------------|------------------------|-----------|--------|---------|
-| **PBI-01** | Como visitante, quiero navegar fácilmente por el sitio | Implementar menú responsive con estructura jerárquica clara y breadcrumbs | • Menú visible en todas las páginas<br>• Hamburguesa en móvil funcional<br>• Breadcrumbs en todas las páginas internas<br>• Navegación intuitiva (máximo 3 clics) | Alta | 8 | Sprint 1 |
+| **PBI-01** | Como visitante, quiero navegar fácilmente por el sitio | Implementar menú responsive con estructura jerárquica clara y breadcrumbs | • Menú visible en todas las páginas<br>• Breadcrumbs en todas las páginas internas<br>• Navegación intuitiva (máximo 3 clics) | Alta | 8 | Sprint 1 |
 | **PBI-02** | Como administrador, quiero gestionar contenido fácilmente | Configurar WordPress con roles, permisos y Divi Builder | • Dashboard WordPress intuitivo<br>• Roles definidos (admin/editor)<br>• Divi Builder configurado y funcional<br>• Documentación de uso entregada | Alta | 5 | Sprint 1 |
-| **PBI-03** | Como visitante, quiero ver productos de aceite | Catálogo de productos con filtros por tipo y ficha detallada | • Mínimo 10 productos publicados<br>• Filtro por tipo de aceite funcional<br>• Ficha detallada con specs técnicas<br>• Imágenes de alta calidad | Alta | 13 | Sprint 1 |
+| **PBI-03** | Como visitante, quiero ver productos de aceite | Catálogo de productos con filtros por tipo y ficha detallada | • Mínimo 10 productos publicados<br>• Filtro por tipo de aceite funcional<br>• Ficha detallada con especificaciones técnicas<br>• Imágenes de alta calidad | Alta | 13 | Sprint 1 |
 | **PBI-04** | Como visitante, quiero contactar con MIGASA | Formulario funcional con validación y notificaciones email | • Campos obligatorios validados<br>• Email confirmación a usuario<br>• Notificación a MIGASA funcional<br>• Anti-spam activo (Akismet)<br>• GDPR checkbox obligatorio | Alta | 3 | Sprint 1 |
 | **PBI-05** | Como visitante, quiero un sitio rápido | Optimizar rendimiento con cache, compresión y lazy loading | • PageSpeed Insights >80/100<br>• Tiempo de carga <3 segundos<br>• Lazy loading activado<br>• Imágenes optimizadas (WebP) | Media | 5 | Sprint 1 |
-| **PBI-06** | Como administrador, quiero analizar el tráfico | Integrar Google Analytics 4 y configurar Yoast SEO | • GA4 conectado y rastreando<br>• Dashboard MonsterInsights funcional<br>• Yoast SEO configurado (sitemap, meta)<br>• Search Console vinculado | Media | 3 | Sprint 2 |
-| **PBI-07** | Como visitante móvil, quiero acceso completo | Diseño 100% responsive y optimizado para táctil | • Funcional en iOS y Android<br>• Menú táctil optimizado<br>• Formularios mobile-friendly<br>• Imágenes adaptativas<br>• Testing en dispositivos reales | Alta | 8 | Sprint 2 |
-| **PBI-08** | Como visitante internacional, quiero el sitio en inglés | Implementar multiidioma español/inglés con WPML | • Todo el contenido traducido<br>• Selector de idioma visible<br>• URLs por idioma (/es/, /en/)<br>• Menús traducidos<br>• SEO multiidioma optimizado | Media | 8 | Sprint 2 |
-| **PBI-09** | Como visitante, quiero conocer la historia de MIGASA | Página "Empresa" con timeline interactiva y valores | • Timeline con hitos históricos<br>• Sección 90 años de historia<br>• Fotos de familia/instalaciones<br>• Video institucional embebido<br>• Misión, visión y valores | Media | 5 | Sprint 2 |
-| **PBI-10** | Como visitante, quiero ver la presencia internacional | Mapa interactivo con los 120 países donde opera MIGASA | • Mapa mundial con markers<br>• Info tooltip por país/región<br>• Datos de presencia por continente<br>• Responsive en móvil | Baja | 8 | Sprint 2 |
-| **PBI-11** | Como administrador, quiero seguridad robusta | Configurar firewall, 2FA, SSL y backups automáticos | • Wordfence activo y escaneando<br>• 2FA obligatorio para admin<br>• Backups semanales automáticos<br>• SSL certificado configurado<br>• Login protegido contra fuerza bruta | Alta | 5 | Sprint 1 |
-| **PBI-12** | Como visitante, quiero leer noticias del sector | Blog/área de noticias actualizable con categorías | • Mínimo 5 entradas publicadas<br>• Categorías definidas<br>• RSS feed generado<br>• Botones compartir en redes<br>• Comentarios (opcional) | Baja | 5 | Sprint 2 |
+| **PBI-06** | Como visitante móvil, quiero acceso completo | Diseño 100% responsive y optimizado para táctil | • Funcional en iOS y Android<br>• Menú táctil optimizado<br>• Formularios mobile-friendly<br>• Imágenes adaptativas<br>• Testing en dispositivos reales | Alta | 8 | Sprint 2 |
+| **PBI-07** | Como visitante internacional, quiero el sitio en cinco idiomas | Implementar multiidioma con WPML | • Todo el contenido traducido<br>• Selector de idioma visible<br>• URLs por idioma <br>• Menús traducidos<br>• SEO multiidioma optimizado | Media | 8 | Sprint 2 |
+| **PBI-08** | Como visitante, quiero conocer la historia de MIGASA | Página "Empresa" con timeline interactiva y valores | • Timeline con hitos históricos<br>• Sección 90 años de historia<br>• Fotos de familia/instalaciones<br>• Video institucional embebido<br>• Misión, visión y valores | Media | 5 | Sprint 2 |
+| **PBI-09** | Como administrador, quiero seguridad robusta | Configurar firewall, 2FA, SSL y backups automáticos | • Wordfence activo y escaneando<br>• 2FA obligatorio para admin<br>• Backups semanales automáticos<br>• SSL certificado configurado<br>• Login protegido contra fuerza bruta | Alta | 5 | Sprint 1 |
 
 **Priorización:**
 - **Alta prioridad (Sprint 1):** Funcionalidades core (navegación, productos, contacto, seguridad)
 - **Media prioridad (Sprint 2):** Optimizaciones y contenido adicional (analytics, multiidioma, historia)
-- **Baja prioridad:** Nice-to-have (mapa interactivo, blog)
-
-# PROYECTO CMS - WORDPRESS MIGASA
-## Secciones 6.4 en adelante
-
----
 
 # PROYECTO CMS - WORDPRESS MIGASA
 ## Secciones 6.4 en adelante
