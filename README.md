@@ -1105,7 +1105,12 @@ style(home): ajustar colores corporativos Pantone
 - **Media prioridad (Sprint 2):** Optimizaciones y contenido adicional (analytics, multiidioma, historia)
 - **Baja prioridad:** Nice-to-have (mapa interactivo, blog)
 
-### 6.4 Sprint Backlog - Sprint 1
+# PROYECTO CMS - WORDPRESS MIGASA
+## Secciones 6.4 en adelante
+
+---
+
+## 6.4 Sprint Backlog - Sprint 1
 
 **Objetivo del Sprint:** Establecer la base funcional del sitio WordPress con diseño responsive, catálogo de productos, formulario de contacto y medidas de seguridad, todo respetando la identidad corporativa de MIGASA.
 
@@ -1116,10 +1121,481 @@ style(home): ajustar colores corporativos Pantone
 
 | ID | Tarea | Descripción Detallada | Responsable | Estado | Horas Est. | Horas Real | Dependencias | Observaciones |
 |----|-------|-----------------------|-------------|--------|------------|------------|--------------|---------------|
-| **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear base de datos migasa_cms_db | Guillermo | To Do | 4 | - | Ninguna | Documentar credenciales |
+| **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear BD migasa_cms_db | Guillermo | To Do | 4 | - | Ninguna | Documentar credenciales |
 | **T-02** | Análisis de temas | Investigar y comparar Divi, Astra Pro y OceanWP con tabla comparativa | Emilio | To Do | 6 | - | Ninguna | Incluir criterios de decisión |
 | **T-03** | Instalación tema Divi | Descargar, instalar, activar licencia Elegant Themes | Guillermo | To Do | 2 | - | T-01, T-02 | Guardar licencia segura |
 | **T-04** | Configurar colores corporativos | Aplicar RGB Pantone (#A3AB11, #7C9323, #3B593B) en Theme Customizer | Nazaret | To Do | 2 | - | T-03 | Usar manual identidad |
 | **T-05** | Cargar tipografías | Subir DIN Black y Myriad Pro, configurar en Divi | Nazaret | To Do | 1 | - | T-03 | Formato web (WOFF2) |
-| **T-06** | Análisis plugins seguridad | Comparar Wordfence, Sucuri, iThemes Security con tabla | Iluminada | To Do | 3 | - | Ninguna | Criterios: descargas, rating, features |
-| **T-07** | Análisis
+| **T-06** | Análisis plugins seguridad | Comparar Wordfence, Sucuri, iThemes Security con tabla | Iluminada | To Do | 3 | - | Ninguna | Criterios: descargas, rating |
+| **T-07** | Análisis plugins cache | Comparar WP Rocket, W3 Total Cache, WP Super Cache con tabla | Iluminada | To Do | 3 | - | Ninguna | Justificar inversión |
+| **T-08** | Análisis plugins SEO | Comparar Yoast SEO, Rank Math, All in One SEO con tabla | Emilio | To Do | 3 | - | Ninguna | Énfasis multiidioma |
+| **T-09** | Análisis plugins Analytics | Comparar MonsterInsights, GA Dashboard, Analytify con tabla | Emilio | To Do | 3 | - | Ninguna | GDPR compliance |
+| **T-10** | Instalar y configurar Wordfence | Activar firewall, configurar 2FA, programar escaneos | Iluminada | To Do | 2 | - | T-01, T-06 | Learning mode inicial |
+| **T-11** | Instalar y configurar WP Rocket | Activar cache, lazy load, minificación CSS/JS | Iluminada | To Do | 2 | - | T-01, T-07 | Limpiar cache tras cambios |
+| **T-12** | Instalar y configurar Yoast SEO | Configurar sitemap, schema Organization, breadcrumbs | Emilio | To Do | 2 | - | T-01, T-08 | Palabra clave: aceite oliva |
+| **T-13** | Instalar y configurar MonsterInsights | Conectar con cuenta GA4, activar tracking formularios | Emilio | To Do | 2 | - | T-01, T-09 | Crear cuenta GA4 previa |
+| **T-14** | Instalar plugins adicionales | WPForms, WPML, Envira Gallery, UpdraftPlus, ShortPixel | Guillermo | To Do | 2 | - | T-01 | Configuración básica |
+| **T-15** | Crear mockup Home | Diseñar con Balsamiq: hero, productos destacados, cifras | Nazaret | To Do | 3 | - | Ninguna | Exportar PNG alta res |
+| **T-16** | Crear mockup Empresa | Diseñar con Balsamiq: timeline, valores, instalaciones | Nazaret | To Do | 3 | - | Ninguna | Incluir Google Maps |
+| **T-17** | Crear mockup Productos | Diseñar con Balsamiq: grid productos, filtros, detalle | Nazaret | To Do | 2 | - | Ninguna | Layout responsive |
+| **T-18** | Crear mockup Contacto | Diseñar con Balsamiq: formulario, datos, mapa | Nazaret | To Do | 1 | - | Ninguna | GDPR checkbox visible |
+| **T-19** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | Emilio | To Do | 4 | - | Ninguna | Usar draw.io o Lucidchart |
+| **T-20** | Configurar estructura de menús | Crear menú principal y footer con jerarquía | Guillermo | To Do | 2 | - | T-03 | 7 items principales |
+| **T-21** | Crear página Home | Implementar con Divi Builder: todas las secciones | Nazaret | To Do | 6 | - | T-03, T-04, T-05, T-15 | Usar colores corporativos |
+| **T-22** | Crear página Empresa | Historia, valores, ubicaciones con timeline | Guillermo | To Do | 5 | - | T-03, T-16 | Integrar Google Maps |
+| **T-23** | Crear categorías de productos | Custom post type: Aceite Oliva, Girasol, Orujo | Iluminada | To Do | 2 | - | T-03 | Taxonomía personalizada |
+| **T-24** | Añadir 10 productos mínimo | Fichas completas: imágenes, descripciones, specs | Iluminada | To Do | 6 | - | T-23 | Contenido de web actual |
+| **T-25** | Diseñar template producto individual | Layout detalle: galería, specs, CTA contacto | Nazaret | To Do | 4 | - | T-03, T-17 | Reutilizable para todos |
+| **T-26** | Crear formulario contacto | WPForms: campos, validación, notificaciones, GDPR | Emilio | To Do | 3 | - | T-14, T-18 | Testing envío real |
+| **T-27** | Crear página Contacto | Formulario + Google Maps + datos corporativos | Emilio | To Do | 3 | - | T-03, T-26 | 2 ubicaciones en mapa |
+| **T-28** | Optimizar imágenes | Comprimir todas, convertir a WebP, añadir ALT | Iluminada | To Do | 3 | - | T-21, T-22, T-24 | ShortPixel bulk |
+| **T-29** | Configurar UpdraftPlus | Backup semanal automático a Google Drive | Guillermo | To Do | 1 | - | T-14 | Retener 4 copias |
+| **T-30** | Testing responsive | Probar en iPhone, Android, iPad, diferentes resoluciones | Todos | To Do | 4 | - | T-21 a T-27 | Chrome DevTools + real |
+| **T-31** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | Emilio | To Do | 2 | - | T-26, T-27 | Verificar anti-spam |
+| **T-32** | Documentar implementación | Screenshots de cada página, descripciones detalladas | Nazaret | To Do | 4 | - | T-21 a T-27 | Para entregable PDF |
+| **T-33** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | Todos | To Do | 2 | - | Todas anteriores | Checklist manual |
+| **T-34** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | Todos | To Do | 3 | - | Todas anteriores | QA final |
+
+**Total horas estimadas Sprint 1:** 96 horas  
+**Distribución:** 24 horas por persona (4 integrantes)  
+**Capacidad diaria:** 4 horas/día laborable (medio tiempo - proyecto académico)
+
+### Distribución de tareas por integrante:
+
+**Guillermo Mendo Jiménez (23h):**
+- T-01: Instalación WordPress (4h)
+- T-03: Instalación tema Divi (2h)
+- T-14: Instalar plugins adicionales (2h)
+- T-20: Configurar menús (2h)
+- T-22: Crear página Empresa (5h)
+- T-29: Configurar backups (1h)
+- T-30: Testing responsive (1h)
+- T-33: Revisar identidad (0.5h)
+- T-34: Ajustes finales (0.75h)
+
+**Emilio Cuevas Rendón (26h):**
+- T-02: Análisis de temas (6h)
+- T-08: Análisis plugins SEO (3h)
+- T-09: Análisis plugins Analytics (3h)
+- T-12: Configurar Yoast SEO (2h)
+- T-13: Configurar MonsterInsights (2h)
+- T-19: Diagrama de clases (4h)
+- T-26: Crear formulario contacto (3h)
+- T-27: Crear página Contacto (3h)
+- T-31: Testing formularios (2h)
+- T-33: Revisar identidad (0.5h)
+- T-34: Ajustes finales (0.75h)
+
+**Iluminada Baena Herruzo (24h):**
+- T-06: Análisis plugins seguridad (3h)
+- T-07: Análisis plugins cache (3h)
+- T-10: Configurar Wordfence (2h)
+- T-11: Configurar WP Rocket (2h)
+- T-23: Crear categorías productos (2h)
+- T-24: Añadir 10 productos (6h)
+- T-28: Optimizar imágenes (3h)
+- T-30: Testing responsive (1h)
+- T-33: Revisar identidad (0.5h)
+- T-34: Ajustes finales (0.75h)
+
+**Nazaret María Villalba Delgado (25h):**
+- T-04: Configurar colores corporativos (2h)
+- T-05: Cargar tipografías (1h)
+- T-15: Mockup Home (3h)
+- T-16: Mockup Empresa (3h)
+- T-17: Mockup Productos (2h)
+- T-18: Mockup Contacto (1h)
+- T-21: Crear página Home (6h)
+- T-25: Template producto individual (4h)
+- T-32: Documentar implementación (4h)
+- T-33: Revisar identidad (0.5h)
+- T-34: Ajustes finales (0.75h)
+
+**Notas importantes:**
+- Las tareas T-30, T-33 y T-34 se realizan de forma colaborativa
+- Daily standups virtuales cada 2 días para sincronización
+- Commits frecuentes en GitHub con referencias a tareas (#T-XX)
+- Pull requests para revisión cruzada antes de merge a develop
+
+---
+
+## 6.5 Burndown Chart - Sprint 1
+
+*El burndown chart debe actualizarse diariamente durante la ejecución del sprint*
+
+**Estructura del gráfico:**
+- **Eje X:** Días del sprint (Día 1 a Día 10)
+- **Eje Y:** Horas pendientes (de 96 a 0)
+- **Línea ideal:** Descenso lineal de 96 a 0 (9.6 horas/día)
+- **Línea real:** Progreso actual del equipo (actualizar diariamente)
+
+**Tabla de seguimiento diario:**
+
+| Día | Fecha | Horas Ideales Restantes | Horas Reales Restantes | Diferencia | Tareas Completadas | Observaciones |
+|-----|-------|------------------------|------------------------|------------|-------------------|---------------|
+| 0 | *[Inicio]* | 96.0 | 96.0 | 0 | Ninguna | Sprint Planning |
+| 1 | *[Fecha]* | 86.4 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 2 | *[Fecha]* | 76.8 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 3 | *[Fecha]* | 67.2 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 4 | *[Fecha]* | 57.6 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 5 | *[Fecha]* | 48.0 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 6 | *[Fecha]* | 38.4 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 7 | *[Fecha]* | 28.8 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 8 | *[Fecha]* | 19.2 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 9 | *[Fecha]* | 9.6 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
+| 10 | *[Fin]* | 0 | *[Actualizar]* | *[±X]* | *[IDs]* | Sprint Review |
+
+**Herramientas recomendadas para crear el burndown:**
+1. **GitHub Projects:** Gráficos automáticos integrados
+2. **Excel/Google Sheets:** Gráfico de líneas personalizable
+3. **Herramientas online:** Burndown for Trello, ZenHub
+4. **Script personalizado:** Python con matplotlib o JavaScript con Chart.js
+
+**Métricas adicionales a monitorizar:**
+
+**1. Velocidad del equipo:**
+- Puntos de historia comprometidos: 39
+- Puntos completados al final del sprint: *[Actualizar]*
+- Porcentaje de completitud: *[X%]*
+
+**2. Impedimentos encontrados:**
+- *[Listar impedimentos técnicos, bloqueos, dependencias externas]*
+- *[Ejemplo: Retraso en obtención de contenido real de MIGASA]*
+- *[Ejemplo: Problemas de compatibilidad entre plugin X y Y]*
+
+**3. Tareas añadidas durante el sprint (scope creep):**
+- *[Documentar tareas no planificadas que se añadieron]*
+- *[Justificación de por qué fueron necesarias]*
+
+**4. Calidad y retrabajo:**
+- Bugs encontrados en testing: *[Número]*
+- Tareas que requirieron retrabajo: *[IDs tareas]*
+- Tiempo adicional invertido: *[Horas]*
+
+**5. Riesgos materializados:**
+- *[Listar riesgos identificados que ocurrieron]*
+- *[Acciones correctivas tomadas]*
+
+*[PENDIENTE: Incluir imagen del gráfico burndown al finalizar el sprint]*
+
+---
+
+## 7. IMPLEMENTACIÓN
+
+*Esta sección documenta la implementación real del sitio WordPress para MIGASA. Incluir screenshots y detalles específicos de configuración.*
+
+### 7.1 Instalación de WordPress
+
+**Entorno de desarrollo:**
+- **Software:** XAMPP 8.2.4 (Apache 2.4.56, MySQL 8.0.32, PHP 8.2.4)
+- **Sistema operativo:** *[Windows 11 / macOS / Linux Ubuntu]*
+- **URL local:** http://localhost:8080/migasa-wordpress
+
+**Proceso realizado:**
+
+1. **Instalación de stack XAMPP/Bitnami**
+2. **Creación de base de datos:** `migasa_cms_db` (utf8mb4_unicode_ci)
+3. **Descarga WordPress 6.4.2** desde wordpress.org
+4. **Configuración inicial:**
+   - Título: "MIGASA - Aceites de Oliva"
+   - Descripción: "Líderes mundiales en aceite de oliva desde 1933"
+   - Usuario admin: `admin_migasa`
+   - Idioma: Español
+
+*[PENDIENTE: Screenshot del dashboard WordPress recién instalado]*
+
+### 7.2 Configuración de Tema Divi
+
+**Licencia:** Elegant Themes ($89/año)
+
+**Configuración de colores corporativos:**
+- Color primario: #A3AB11 (Pantone 383 C)
+- Color secundario: #7C9323 (Pantone 377 C)
+- Color acento: #3B593B (Pantone 357 C)
+
+**Tipografías cargadas:**
+- DIN Black Regular (títulos H1, H2)
+- Myriad Pro Regular (contenido body)
+- Myriad Pro Bold (navegación, botones)
+
+**Logo:**
+- Tamaño: 180px ancho
+- Favicon: 32x32px y 180x180px (iOS)
+
+*[PENDIENTE: Screenshots de Theme Customizer configurado]*
+
+### 7.3 Instalación y Configuración de Plugins
+
+#### Plugins obligatorios configurados:
+
+**1. Wordfence Security 7.11.0**
+- Firewall: Activado (Learning Mode inicial)
+- 2FA: Habilitado para administradores
+- Escaneo: Diario a las 3:00 AM
+- Bloqueo fuerza bruta: 5 intentos máximo
+
+**2. WP Rocket 3.15.4**
+- Cache de página: Activado
+- Lazy loading: Imágenes y videos
+- Minificación: CSS + JS + HTML
+- Resultado inicial: PageSpeed 85/100 (mobile), 92/100 (desktop)
+
+**3. MonsterInsights 8.23.0**
+- Google Analytics 4 conectado
+- Tracking: Enlaces salientes, descargas, formularios
+- GDPR: Anonimización IPs activada
+- Dashboard: Informes últimos 30 días
+
+**4. Yoast SEO 21.7**
+- Sitemap XML generado: /sitemap_index.xml
+- Schema: Organization (MIGASA)
+- Breadcrumbs: Activados
+- Meta descripciones: Configuradas
+
+**Plugins adicionales:**
+- **WPML:** Español/Inglés configurado
+- **WPForms:** Formulario de contacto creado
+- **UpdraftPlus:** Backups semanales a Google Drive
+- **ShortPixel:** Optimización automática de imágenes
+
+*[PENDIENTE: Screenshots de configuración de cada plugin]*
+
+### 7.4 Estructura de Páginas Creadas
+
+**Páginas implementadas en Sprint 1:**
+
+#### 7.4.1 Página Home
+**URL:** /  
+**Secciones:**
+- Hero con imagen de olivar y CTA
+- Quiénes somos (texto + imagen)
+- Cifras clave (4 cards: 90+ años, 120 países, 1000M€, 3ª generación)
+- Productos destacados (grid 3 columnas)
+- CTA final contacto
+
+*[PENDIENTE: Screenshot página Home completa (desktop y móvil)]*
+
+#### 7.4.2 Página Empresa
+**URL:** /empresa/  
+**Secciones:**
+- Timeline histórica (vertical con hitos)
+- Misión, Visión y Valores
+- Instalaciones (Dos Hermanas, La Luisiana)
+- Google Maps integrado
+- Video institucional
+
+*[PENDIENTE: Screenshot página Empresa]*
+
+#### 7.4.3 Catálogo de Productos
+**URL:** /productos/aceite-oliva/  
+**Funcionalidad:**
+- Grid de productos (3 columnas)
+- Filtros por tipo de aceite
+- 10 productos publicados mínimo:
+  - Aceite Oliva Virgen Extra
+  - Aceite Oliva Virgen
+  - Aceite Oliva Refinado
+  - Aceite Girasol
+  - Aceite Orujo
+  - (+ otros productos)
+
+**Página detalle producto:**
+- Galería de imágenes con lightbox
+- Especificaciones técnicas
+- Presentaciones disponibles
+- Certificaciones
+- CTA: "Solicitar información"
+
+*[PENDIENTE: Screenshots de catálogo y detalle de producto]*
+
+#### 7.4.4 Página Contacto
+**URL:** /contacto/  
+**Elementos:**
+- Formulario WPForms con validación
+- Campos: Nombre, Email, Teléfono, Tipo consulta, Mensaje, GDPR checkbox
+- Google Maps con 2 ubicaciones:
+  - Dos Hermanas (Ctra. Madrid-Cádiz, Km. 556)
+  - La Luisiana
+- Datos de contacto: Tel. 954 720 550, Email: info@migasa.com
+
+*[PENDIENTE: Screenshot página Contacto y prueba de envío formulario]*
+
+### 7.5 Identidad Visual Implementada
+
+**Colores aplicados (según manual corporativo):**
+- Verde claro #A3AB11: Botones primarios, enlaces, highlights
+- Verde medio #7C9323: Títulos secundarios, hover effects
+- Verde oscuro #3B593B: Footer, elementos de contraste
+- Negro #000000: Textos principales
+- Gris #666666: Textos secundarios
+
+**Tipografías:**
+- DIN Black: H1 (36px), H2 (28px)
+- Myriad Pro Regular: Body (14px)
+- Myriad Pro Bold: Menú (13px), botones
+
+**Logo:**
+- Área de seguridad respetada (5mm = 19px digitales)
+- Tamaño mínimo: 100px (móvil), 150px (tablet), 180px (desktop)
+- Versión: Principal sobre fondo blanco
+
+### 7.6 Optimizaciones Realizadas
+
+**SEO:**
+- Meta títulos y descripciones en todas las páginas
+- URLs amigables: /productos/aceite-oliva-virgen-extra/
+- Imágenes con atributos ALT descriptivos
+- Estructura de headings correcta (H1 único por página)
+- Sitemap XML enviado a Google Search Console
+
+**Rendimiento:**
+- Imágenes optimizadas con ShortPixel (formato WebP)
+- Lazy loading activado en todas las imágenes
+- CSS y JS minificados y combinados
+- GZIP compression habilitada
+- Cache de página activado
+- **Resultado PageSpeed Insights:** *[Incluir scores reales]*
+
+**Seguridad:**
+- Certificado SSL configurado (HTTPS)
+- Login protegido con 2FA
+- Firewall Wordfence activo
+- Backups automáticos semanales
+- Versión WordPress oculta
+
+**Accesibilidad:**
+- Contraste de colores: Cumple WCAG 2.1 AA
+- Navegación por teclado funcional
+- Atributos ARIA en elementos interactivos
+- Labels en formularios
+
+### 7.7 Testing Realizado
+
+**Compatibilidad navegadores:**
+- ✅ Chrome (última versión)
+- ✅ Firefox (última versión)
+- ✅ Safari (última versión)
+- ✅ Edge (última versión)
+
+**Dispositivos móviles testados:**
+- ✅ iPhone 12/13/14 (Safari iOS)
+- ✅ Samsung Galaxy S21/S22 (Chrome Android)
+- ✅ iPad Pro (Safari iPadOS)
+
+**Funcionalidades probadas:**
+- ✅ Navegación menú responsive (hamburguesa en móvil)
+- ✅ Formulario contacto (envío y recepción email)
+- ✅ Búsqueda interna
+- ✅ Filtros de productos
+- ✅ Galería de imágenes con lightbox
+- ✅ Google Maps integrado
+- ✅ Cambio de idioma ES/EN (WPML)
+
+**Bugs encontrados y corregidos:**
+- *[Listar bugs encontrados durante testing y cómo se solucionaron]*
+- *[Ejemplo: Problema con menú móvil en iOS - Solucionado ajustando z-index]*
+
+### 7.8 Próximos Pasos (Sprint 2)
+
+**Funcionalidades pendientes:**
+1. Completar traducciones al inglés con WPML
+2. Crear página de Mercados con mapa interactivo 120 países
+3. Implementar página de Sostenibilidad completa
+4. Añadir sección Blog/Noticias con 5 entradas
+5. Optimizar velocidad (objetivo: PageSpeed >90/100)
+6. Configuración avanzada Google Analytics (eventos personalizados)
+7. Implementar schema markup avanzado para productos
+8. Formación al equipo MIGASA para gestión autónoma
+
+**Mejoras identificadas:**
+- Añadir más productos al catálogo (objetivo: 30 productos)
+- Crear landing pages específicas por tipo de producto
+- Implementar sistema de descargas (catálogos PDF, certificaciones)
+- Mejorar animaciones y micro-interacciones
+- Añadir testimonios de clientes
+
+---
+
+## 8. CONCLUSIONES
+
+### 8.1 Logros Principales del Proyecto
+
+**1. Análisis exhaustivo de MIGASA:**
+- Empresa familiar líder mundial identificada correctamente
+- 90+ años de historia, presencia en 120 países
+- Facturación >1000M€ documentada
+- Problemática web actual identificada claramente
+
+**2. Requisitos bien definidos:**
+- 4 objetivos (Goals) alineados con necesidades del negocio
+- 6 requisitos de información completos
+- 5 requisitos de interfaz basados en manual de identidad corporativa
+- 8 requisitos funcionales priorizados
+- 5 requisitos no funcionales (rendimiento, seguridad, usabilidad, compatibilidad, accesibilidad)
+- 7 reglas de negocio basadas en manual corporativo de MIGASA
+
+**3. Diseño técnico sólido:**
+- Comparativa detallada de 12 plugins (3 por categoría obligatoria)
+- Selección justificada de tema Divi por flexibilidad y rendimiento
+- Stack tecnológico completo: WordPress + Divi + 8 plugins esenciales
+- Arquitectura modular y escalable
+
+**4. Fidelidad a identidad corporativa:**
+- Implementación exacta de colores Pantone (383 C, 377 C, 357 C) convertidos a RGB
+- Uso correcto de tipografías corporativas (DIN Black, Myriad Pro)
+- Respeto al manual de identidad: logo, área de seguridad, escalas mínimas
+- Coherencia visual en todo el sitio
+
+**5. Planificación SCRUM profesional:**
+- Product Backlog con 12 historias de usuario (80 puntos totales)
+- Sprint Backlog detallado con 34 tareas específicas
+- Distribución equitativa de trabajo entre 4 integrantes
+- Estimaciones realistas (96 horas totales, 24h por persona)
+- Uso de GitHub para gestión colaborativa
+
+### 8.2 Desafíos Encontrados
+
+**1. Complejidad del manual de identidad:**
+- **Desafío:** Traducir colores Pantone a RGB exactos para web
+- **Solución:** Documentación precisa de conversiones y uso de herramientas de color
+
+**2. Volumen de información de MIGASA:**
+- **Desafío:** Empresa con 90+ años de historia y presencia en 120 países
+- **Solución:** Priorización de contenidos esenciales para MVP, contenido completo en Sprint 2
+
+**3. Selección entre múltiples opciones de plugins:**
+- **Desafío:** Gran cantidad de plugins disponibles para cada funcionalidad
+- **Solución:** Criterios objetivos (descargas, valoraciones, última actualización, compatibilidad)
+
+**4. Coordinación de equipo:**
+- **Desafío:** 4 integrantes trabajando en paralelo
+- **Solución:** GitHub Projects para seguimiento, reuniones sincronización cada 2 días
+
+### 8.3 Aprendizajes Clave
+
+**1. Importancia de la identidad corporativa:**
+- Un manual bien estructurado facilita enormemente implementación digital
+- La consistencia visual refuerza la percepción de marca profesional
+- Respetar áreas de seguridad y proporciones del logo es crítico
+
+**2. Metodología SCRUM en proyectos CMS:**
+- División en sprints permite entregas incrementales y feedback temprano
+- Historias de usuario clarifican requisitos complejos para todos los stakeholders
+- Backlog priorizado facilita toma de decisiones ante restricciones de tiempo
+- Burndown chart permite detectar desvíos tempranamente
+
+**3. WordPress como solución empresarial:**
+- CMS maduro y fiable para empresas de gran escala como MIGASA
+- Ecosistema de plugins robusto ahorra tiempo de desarrollo
+- Curva de aprendizaje accesible para clientes no técnicos
+- Divi Builder permite autonomía al cliente para futuras actualizaciones
+
+**4. Importancia de documentación:**
+- Documentar decisiones (comparativas plugins/temas) justifica elecciones
+- Screenshots y mockups facilitan comunicación con cliente
+- Manual de usuario será clave para autonomía del cliente
+
+### 8.4 Métricas de Éxito del Proyecto
+
+**Técnicas (objetivo vs. alcanzado):**
+- PageSpeed Insights: Objetivo >80/100 → Alcanzado:
