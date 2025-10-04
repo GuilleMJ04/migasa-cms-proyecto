@@ -625,12 +625,30 @@ El proyecto abarca:
 
 **Comparativa con alternativas:**
 
-| Herramienta | Ventajas | Desventajas | Decisión |
-|-------------|----------|-------------|----------|
-| **GitHub Projects** | Integrado con Git, gratuito, todo en uno | Funciones SCRUM básicas | ✅ Seleccionado |
-| **Trello** | Interfaz visual intuitiva, fácil de usar | Separado del código, limitado gratuito | ❌ Descartado |
-| **Jira** | SCRUM robusto, reporting avanzado | Costoso, complejo para proyecto pequeño | ❌ Descartado |
-| **Asana** | Gestión tareas potente, vistas múltiples | No integrado con Git, pago para equipos | ❌ Descartado |
+|## Comparativa de Software Colaborativo
+
+| Característica | GitHub Projects | Microsoft Teams | Trello | Decisión |
+|----------------|----------------|-----------------|--------|----------|
+| **Integración con Git** | ✅ Nativa | ❌ Requiere plugins/apps | ❌ Separado del código | **Ventaja GitHub** |
+| **Control de versiones** | ✅ Git incluido | ❌ No incluido | ❌ No incluido | **Ventaja GitHub** |
+| **Gestión de tareas** | ✅ Issues + Projects | ✅ Planner/Tasks | ✅ Tableros Kanban | Empate |
+| **Precio** | ✅ Gratuito (público) | ⚠️ Gratuito básico, limitado | ⚠️ Limitado gratuito | **Ventaja GitHub** |
+| **Funciones SCRUM** | ✅ Básicas pero suficientes | ⚠️ Básicas (requiere Planner) | ⚠️ Básicas (requiere Power-Ups) | Empate |
+| **Comunicación en tiempo real** | ⚠️ Comentarios asíncronos | ✅ Chat, videollamadas | ⚠️ Comentarios asíncronos | **Ventaja Teams** |
+| **Almacenamiento archivos** | ✅ Repositorio Git | ✅ OneDrive/SharePoint | ⚠️ Attachments básicos | Empate |
+| **Historial de cambios** | ✅ Completo con Git | ⚠️ Limitado a archivos | ❌ No disponible | **Ventaja GitHub** |
+| **Colaboración código** | ✅ Pull Requests, code review | ❌ No especializado | ❌ No disponible | **Ventaja GitHub** |
+| **Automatización** | ✅ GitHub Actions | ✅ Power Automate | ⚠️ Butler (limitado) | Empate |
+| **Portfolio profesional** | ✅ Visible públicamente | ❌ Interno organización | ⚠️ Menos relevante | **Ventaja GitHub** |
+| **Curva de aprendizaje** | ⚠️ Media (requiere Git) | ✅ Baja (interfaz conocida) | ✅ Baja (muy intuitivo) | **Ventaja Teams** |
+| **Documentación técnica** | ✅ Markdown, Wiki | ✅ OneNote, Docs | ⚠️ Descripciones básicas | Empate |
+| **Integraciones** | ✅ Amplio ecosistema | ✅ Microsoft 365 | ✅ Muchas apps | Empate |
+| **Reporting SCRUM** | ⚠️ Básico | ⚠️ Básico | ⚠️ Limitado gratuito | Empate |
+| **Uso en industria** | ✅ Estándar desarrollo web | ✅ Estándar empresas | ⚠️ Gestión proyectos | **Ventaja GitHub** |
+
+**Software seleccionado:** GitHub Projects
+
+**Justificación:** Integración nativa con Git, control de versiones incluido, gratuito, ideal para proyectos de desarrollo web, y valioso para portfolio profesional.
 
 ### 6.2 Control de Versiones
 
