@@ -600,7 +600,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ### Distribución de tareas por integrante:
 
-**Guillermo Mendo Jiménez (23h):**
+**------ (23h):**
 - T-01: Instalación WordPress (4h)
 - T-03: Instalación tema Divi (2h)
 - T-14: Instalar plugins adicionales (2h)
@@ -611,7 +611,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - T-33: Revisar identidad (0.5h)
 - T-34: Ajustes finales (0.75h)
 
-**Emilio Cuevas Rendón (26h):**
+**------ (26h):**
 - T-02: Análisis de temas (6h)
 - T-08: Análisis plugins SEO (3h)
 - T-09: Análisis plugins Analytics (3h)
@@ -624,7 +624,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - T-33: Revisar identidad (0.5h)
 - T-34: Ajustes finales (0.75h)
 
-**Iluminada Baena Herruzo (24h):**
+**------ (24h):**
 - T-06: Análisis plugins seguridad (3h)
 - T-07: Análisis plugins cache (3h)
 - T-10: Configurar Wordfence (2h)
@@ -636,7 +636,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - T-33: Revisar identidad (0.5h)
 - T-34: Ajustes finales (0.75h)
 
-**Nazaret María Villalba Delgado (25h):**
+**------ (25h):**
 - T-04: Configurar colores corporativos (2h)
 - T-05: Cargar tipografías (1h)
 - T-15: Mockup Home (3h)
