@@ -553,8 +553,8 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 **Objetivo del Sprint:** Establecer la base funcional del sitio WordPress con diseño responsive, catálogo de productos, formulario de contacto y medidas de seguridad, todo respetando la identidad corporativa de MIGASA.
 
 **Duración:** 2 semanas (10 días laborables)  
-**Fecha inicio:** *[PENDIENTE: Completar con fecha real]*  
-**Fecha fin:** *[PENDIENTE: Completar con fecha real]*  
+**Fecha inicio:** *29/09/2025*  
+**Fecha fin:** *12/10/2025*  
 **Puntos comprometidos:** 39 puntos
 
 | ID | Tarea | Descripción Detallada | Responsable | Estado | Horas Est. | Horas Real | Dependencias | Observaciones |
