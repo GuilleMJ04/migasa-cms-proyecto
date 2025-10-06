@@ -207,8 +207,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 3.6. Reglas de Negocio
 
-- **RN01:** Solo se incluirán productos envasados (no granel).  
-- **RN02:** Las ventas a gran escala requieren contrato previo.  
+- **RN01:** Solo se incluirán productos envasados (no granel).    
 - **RN03:** Los empleados tienen acceso a descuentos especiales mediante portal interno.  
 - **RN04:** Los clientes VIP tienen condiciones comerciales diferenciadas.  
 - **RN05:** La gestión del sitio debe realizarse por una sola persona (encargado interno).  
