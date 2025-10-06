@@ -63,7 +63,7 @@
 # 1. INTRODUCCIÓN
 
 ## 1.1. Propósito del Proyecto
-El propósito del proyecto es **transformar la plataforma web actual de MIGASA**, que actualmente es puramente informativa, en una **herramienta funcional de comercio electrónico**, capaz de ofrecer venta directa de productos envasados y una experiencia personalizada según el tipo de usuario (clientes, VIP, empleados).
+El propósito del proyecto es **transformar la plataforma web actual de MIGASA**, que actualmente es puramente informativa, en una **herramienta funcional de comercio electrónico**, capaz de ofrecer venta directa de productos envasados y una experiencia personalizada según el tipo de usuario (clientes, empleados).
 
 ## 1.2. Alcance
 El proyecto contempla el **diseño, desarrollo e implementación** de un portal web corporativo con funcionalidades de **e-commerce**, **gestión de usuarios** y **sistemas de contenido dinámico (CMS)**.  
