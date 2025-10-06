@@ -74,7 +74,7 @@ El sistema incluirá:
 - Carrito de compra y procesamiento de pedidos.
 - Integración de métodos de pago seguros.
 - Sistema multiidioma (5 idiomas).
-- Código de descuento exclusivo para empleados.
+- Descuentos exclusivos para empleados.
 - Panel de administración con gestión de contenidos y analíticas básicas.
 
 ## 1.3. Empresa Seleccionada
