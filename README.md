@@ -160,18 +160,16 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **RF02:** Carrito de compra completo.  
 - **RF03:** Procesamiento de pedidos para particulares y empresas.  
 - **RF04:** Métodos de pago seguros (PayPal, Tarjeta, Google/Apple Pay).  
-- **RF05:** Sistema de autenticación para empleados y clientes VIP.  
-- **RF06:** Portal exclusivo para clientes VIP/mayoristas.  
-- **RF07:** Sistema de descuentos para empleados.  
-- **RF08:** Seguimiento del estado de pedidos (código autogenerado).  
-- **RF09:** Formulario de contacto funcional (nombre, email, tipo de consulta).  
-- **RF10:** Gestión de contenidos (CMS) modular y accesible.  
+- **RF05:** Sistema de autenticación para empleados.  
+- **RF06:** Sistema de descuentos para empleados.  
+- **RF07:** Seguimiento del estado de pedidos (código autogenerado).  
+- **RF08:** Formulario de contacto funcional (nombre, email, tipo de consulta).  
+- **RF09:** Gestión de contenidos (CMS) modular y accesible.  
 
 ### Media Prioridad
-- **RF11:** Programación de pedidos grandes (Calendario).  
+- **RF11:** Programación de eventos (Calendario).  
 - **RF12:** Sección de preguntas frecuentes (FAQ).  
 - **RF13:** Soporte multiidioma.  
-- **RF14:** Gestión de contratos para ventas a gran escala.  
 
 ---
 
