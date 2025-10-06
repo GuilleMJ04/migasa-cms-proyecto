@@ -93,7 +93,7 @@ Actualmente, su web cumple una función informativa, sin ofrecer un canal de ven
 
 ## 2.2. Problemática Identificada
 - La web actual es **puramente informativa**, sin funcionalidades de venta ni gestión dinámica del contenido.  
-- No existen **canales digitales directos** para la comercialización de productos.  
+                     - No existen **canales digitales directos** para la comercialización de productos.  
 - Falta de **segmentación de usuarios** (clientes particulares, mayoristas y empleados).  
 - La **gestión del contenido** depende de personal técnico, dificultando las actualizaciones frecuentes.  
 - Ausencia de **analíticas** que permitan medir la interacción de los usuarios con el sitio.
