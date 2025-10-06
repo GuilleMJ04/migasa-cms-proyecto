@@ -144,14 +144,12 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 3.3. Requisitos de Interfaz de Usuario
 
-- **RUI01:** Interfaz intuitiva tipo bloques para gestión de contenidos.  
+- **RUI01:** Interfaz intuitiva tipo bloques para gestión de contenidos (página fácil de usar con enlaces visibles y botones vistosos).  
 - **RUI02:** Aplicación de guía de estilo corporativa (logo, colores, tamaños).  
-- **RUI03:** Navegación multiidioma con selector de idioma.  
-- **RUI04:** Visualización destacada del catálogo de productos.  
-- **RUI05:** Áreas privadas claramente diferenciadas (empleados, VIP).  
-- **RUI06:** Interfaz responsive para diferentes dispositivos.  
-- **RUI07:** Panel de control para el encargado de aplicaciones web.  
-- **RUI08:** Vistas diferenciadas según el tipo de usuario (cliente, VIP, empleado).  
+- **RUI03:** Navegación multiidioma con selector de idioma (en la parte de arriba de la página, deben aparecer botones con los que traducir la página).  
+- **RUI04:** Visualización destacada del catálogo de productos (En la página principal aparecerán una selección destacada de productos).  
+- **RUI05:** Interfaz responsive para diferentes dispositivos (La web debe adaptarse a todo tipo de dispositivos).  
+- **RUI06:** Panel de control para el encargado de aplicaciones web.    
 
 ---
 
@@ -208,15 +206,15 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ## 3.6. Reglas de Negocio
 
 - **RN01:** Solo se incluirán productos envasados (no granel).    
-- **RN03:** Los empleados tienen acceso a descuentos especiales mediante portal interno.  
-- **RN04:** Los clientes VIP tienen condiciones comerciales diferenciadas.  
-- **RN05:** La gestión del sitio debe realizarse por una sola persona (encargado interno).  
-- **RN06:** Soporte obligatorio para 5 idiomas.  
-- **RN07:** Pedidos grandes pueden programarse con entregas parciales (Calendario).  
-- **RN08:** Cumplimiento del manual de identidad corporativa (colores, tipografía, logo).  
-- **RN09:** Jerarquía de productos: `Aceite de Oliva > Aceite de Girasol > Aceite de Orujo`.  
-- **RN10:** Certificaciones y sellos visibles y verificables.  
-- **RN11:** Contenido actualizable sin conocimientos técnicos avanzados.  
+- **RN02:** Los empleados tienen acceso a descuentos especiales.  
+- **RN03:** Los empleados tienen condiciones comerciales diferenciadas.  
+- **RN04:** La gestión del sitio debe realizarse por una sola persona (encargado interno).  
+- **RN05:** Soporte obligatorio para 5 idiomas.  
+- **RN06:** Pedidos grandes pueden programarse con entregas parciales (Calendario).  
+- **RN07:** Cumplimiento del manual de identidad corporativa (colores, tipografía, logo).  
+- **RN08:** Jerarquía de productos: `Aceite de Oliva > Aceite de Girasol > Aceite de Orujo`.  
+- **RN09:** Certificaciones y sellos visibles y verificables.  
+- **RN10:** Contenido actualizable sin conocimientos técnicos avanzados.  
 
 ---
 
