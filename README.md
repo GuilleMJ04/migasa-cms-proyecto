@@ -555,44 +555,43 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 **Duración:** 2 semanas (10 días laborables)  
 **Fecha inicio:** *29/09/2025*  
 **Fecha fin:** *12/10/2025*  
-**Puntos comprometidos:** 39 puntos
 
 | ID | Tarea | Descripción Detallada | Responsable | Estado | Horas Est. | Horas Real | Dependencias | Observaciones |
 |----|-------|-----------------------|-------------|--------|------------|------------|--------------|---------------|
-| **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear BD migasa_cms_db | ------ | To Do | 4 | - | Ninguna | Documentar credenciales |
-| **T-02** | Análisis de temas | Investigar y comparar Divi, Astra Pro y OceanWP con tabla comparativa | ------ | To Do | 6 | - | Ninguna | Incluir criterios de decisión |
-| **T-03** | Instalación tema Divi | Descargar, instalar, activar licencia Elegant Themes | ------ | To Do | 2 | - | T-01, T-02 | Guardar licencia segura |
+| **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear BD migasa_cms_db | ------ | To Do |  | - | Ninguna | Documentar credenciales |
+| **T-02** | Análisis de temas | Investigar y comparar Divi, Astra Pro y OceanWP con tabla comparativa | ------ | To Do |  | - | Ninguna | Incluir criterios de decisión |
+| **T-03** | Instalación tema Divi | Descargar, instalar, activar licencia Elegant Themes | ------ | To Do |  | - | T-01, T-02 | Guardar licencia segura |
 | **T-04** | Configurar colores corporativos | Aplicar RGB Pantone (#A3AB11, #7C9323, #3B593B) en Theme Customizer | ------ | To Do | 2 | - | T-03 | Usar manual identidad |
-| **T-05** | Cargar tipografías | Subir DIN Black y Myriad Pro, configurar en Divi | ------ | To Do | 1 | - | T-03 | Formato web (WOFF2) |
-| **T-06** | Análisis plugins seguridad | Comparar Wordfence, Sucuri, iThemes Security con tabla | ------ | To Do | 3 | - | Ninguna | Criterios: descargas, rating |
-| **T-07** | Análisis plugins cache | Comparar WP Rocket, W3 Total Cache, WP Super Cache con tabla | ------ | To Do | 3 | - | Ninguna | Justificar inversión |
-| **T-08** | Análisis plugins SEO | Comparar Yoast SEO, Rank Math, All in One SEO con tabla | ------ | To Do | 3 | - | Ninguna | Énfasis multiidioma |
-| **T-09** | Análisis plugins Analytics | Comparar MonsterInsights, GA Dashboard, Analytify con tabla | ------ | To Do | 3 | - | Ninguna | GDPR compliance |
-| **T-10** | Instalar y configurar Wordfence | Activar firewall, configurar 2FA, programar escaneos | ------ | To Do | 2 | - | T-01, T-06 | Learning mode inicial |
-| **T-11** | Instalar y configurar WP Rocket | Activar cache, lazy load, minificación CSS/JS | ------ | To Do | 2 | - | T-01, T-07 | Limpiar cache tras cambios |
-| **T-12** | Instalar y configurar Yoast SEO | Configurar sitemap, schema Organization, breadcrumbs | ------ | To Do | 2 | - | T-01, T-08 | Palabra clave: aceite oliva |
-| **T-13** | Instalar y configurar MonsterInsights | Conectar con cuenta GA4, activar tracking formularios | ------ | To Do | 2 | - | T-01, T-09 | Crear cuenta GA4 previa |
-| **T-14** | Instalar plugins adicionales | WPForms, WPML, Envira Gallery, UpdraftPlus, ShortPixel | ------ | To Do | 2 | - | T-01 | Configuración básica |
-| **T-15** | Crear mockup Home | Diseñar con Balsamiq: hero, productos destacados, cifras | ------ | To Do | 3 | - | Ninguna | Exportar PNG alta res |
-| **T-16** | Crear mockup Empresa | Diseñar con Balsamiq: timeline, valores, instalaciones | ------ | To Do | 3 | - | Ninguna | Incluir Google Maps |
-| **T-17** | Crear mockup Productos | Diseñar con Balsamiq: grid productos, filtros, detalle | ------ | To Do | 2 | - | Ninguna | Layout responsive |
-| **T-18** | Crear mockup Contacto | Diseñar con Balsamiq: formulario, datos, mapa | ------ | To Do | 1 | - | Ninguna | GDPR checkbox visible |
-| **T-19** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | ------ | To Do | 4 | - | Ninguna | Usar draw.io o Lucidchart |
-| **T-20** | Configurar estructura de menús | Crear menú principal y footer con jerarquía | ------ | To Do | 2 | - | T-03 | 7 items principales |
-| **T-21** | Crear página Home | Implementar con Divi Builder: todas las secciones | ------ | To Do | 6 | - | T-03, T-04, T-05, T-15 | Usar colores corporativos |
-| **T-22** | Crear página Empresa | Historia, valores, ubicaciones con timeline | ------ | To Do | 5 | - | T-03, T-16 | Integrar Google Maps |
-| **T-23** | Crear categorías de productos | Custom post type: Aceite Oliva, Girasol, Orujo | ------ | To Do | 2 | - | T-03 | Taxonomía personalizada |
-| **T-24** | Añadir 10 productos mínimo | Fichas completas: imágenes, descripciones, specs | ------ | To Do | 6 | - | T-23 | Contenido de web actual |
-| **T-25** | Diseñar template producto individual | Layout detalle: galería, specs, CTA contacto | ------ | To Do | 4 | - | T-03, T-17 | Reutilizable para todos |
-| **T-26** | Crear formulario contacto | WPForms: campos, validación, notificaciones, GDPR | ------ | To Do | 3 | - | T-14, T-18 | Testing envío real |
-| **T-27** | Crear página Contacto | Formulario + Google Maps + datos corporativos | ------ | To Do | 3 | - | T-03, T-26 | 2 ubicaciones en mapa |
-| **T-28** | Optimizar imágenes | Comprimir todas, convertir a WebP, añadir ALT | ------ | To Do | 3 | - | T-21, T-22, T-24 | ShortPixel bulk |
-| **T-29** | Configurar UpdraftPlus | Backup semanal automático a Google Drive | ------ | To Do | 1 | - | T-14 | Retener 4 copias |
-| **T-30** | Testing responsive | Probar en iPhone, Android, iPad, diferentes resoluciones | ------ | To Do | 4 | - | T-21 a T-27 | Chrome DevTools + real |
-| **T-31** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | ------ | To Do | 2 | - | T-26, T-27 | Verificar anti-spam |
-| **T-32** | Documentar implementación | Screenshots de cada página, descripciones detalladas | ------ | To Do | 4 | - | T-21 a T-27 | Para entregable PDF |
-| **T-33** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do | 2 | - | Todas anteriores | Checklist manual |
-| **T-34** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do | 3 | - | Todas anteriores | QA final |
+| **T-05** | Cargar tipografías | Subir DIN Black y Myriad Pro, configurar en Divi | ------ | To Do |  | - | T-03 | Formato web (WOFF2) |
+| **T-06** | Análisis plugins seguridad | Comparar Wordfence, Sucuri, iThemes Security con tabla | ------ | To Do |  | - | Ninguna | Criterios: descargas, rating |
+| **T-07** | Análisis plugins cache | Comparar WP Rocket, W3 Total Cache, WP Super Cache con tabla | ------ | To Do |  | - | Ninguna | Justificar inversión |
+| **T-08** | Análisis plugins SEO | Comparar Yoast SEO, Rank Math, All in One SEO con tabla | ------ | To Do |  | - | Ninguna | Énfasis multiidioma |
+| **T-09** | Análisis plugins Analytics | Comparar MonsterInsights, GA Dashboard, Analytify con tabla | ------ | To Do |  | - | Ninguna | GDPR compliance |
+| **T-10** | Instalar y configurar Wordfence | Activar firewall, configurar 2FA, programar escaneos | ------ | To Do |  | - | T-01, T-06 | Learning mode inicial |
+| **T-11** | Instalar y configurar WP Rocket | Activar cache, lazy load, minificación CSS/JS | ------ | To Do |  | - | T-01, T-07 | Limpiar cache tras cambios |
+| **T-12** | Instalar y configurar Yoast SEO | Configurar sitemap, schema Organization, breadcrumbs | ------ | To Do |  | - | T-01, T-08 | Palabra clave: aceite oliva |
+| **T-13** | Instalar y configurar MonsterInsights | Conectar con cuenta GA4, activar tracking formularios | ------ | To Do |  | - | T-01, T-09 | Crear cuenta GA4 previa |
+| **T-14** | Instalar plugins adicionales | WPForms, WPML, Envira Gallery, UpdraftPlus, ShortPixel | ------ | To Do |  | - | T-01 | Configuración básica |
+| **T-15** | Crear mockup Home | Diseñar con Balsamiq: hero, productos destacados, cifras | ------ | To Do |  | - | Ninguna | Exportar PNG alta res |
+| **T-16** | Crear mockup Empresa | Diseñar con Balsamiq: timeline, valores, instalaciones | ------ | To Do |  | - | Ninguna | Incluir Google Maps |
+| **T-17** | Crear mockup Productos | Diseñar con Balsamiq: grid productos, filtros, detalle | ------ | To Do |  | - | Ninguna | Layout responsive |
+| **T-18** | Crear mockup Contacto | Diseñar con Balsamiq: formulario, datos, mapa | ------ | To Do |  | - | Ninguna | GDPR checkbox visible |
+| **T-19** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | ------ | To Do |  | - | Ninguna | Usar draw.io o Lucidchart |
+| **T-20** | Configurar estructura de menús | Crear menú principal y footer con jerarquía | ------ | To Do |  | - | T-03 | 7 items principales |
+| **T-21** | Crear página Home | Implementar con Divi Builder: todas las secciones | ------ | To Do |  | - | T-03, T-04, T-05, T-15 | Usar colores corporativos |
+| **T-22** | Crear página Empresa | Historia, valores, ubicaciones con timeline | ------ | To Do |  | - | T-03, T-16 | Integrar Google Maps |
+| **T-23** | Crear categorías de productos | Custom post type: Aceite Oliva, Girasol, Orujo | ------ | To Do |  | - | T-03 | Taxonomía personalizada |
+| **T-24** | Añadir 10 productos mínimo | Fichas completas: imágenes, descripciones, specs | ------ | To Do |  | - | T-23 | Contenido de web actual |
+| **T-25** | Diseñar template producto individual | Layout detalle: galería, specs, CTA contacto | ------ | To Do |  | - | T-03, T-17 | Reutilizable para todos |
+| **T-26** | Crear formulario contacto | WPForms: campos, validación, notificaciones, GDPR | ------ | To Do |  | - | T-14, T-18 | Testing envío real |
+| **T-27** | Crear página Contacto | Formulario + Google Maps + datos corporativos | ------ | To Do |  | - | T-03, T-26 | 2 ubicaciones en mapa |
+| **T-28** | Optimizar imágenes | Comprimir todas, convertir a WebP, añadir ALT | ------ | To Do |  | - | T-21, T-22, T-24 | ShortPixel bulk |
+| **T-29** | Configurar UpdraftPlus | Backup semanal automático a Google Drive | ------ | To Do |  | - | T-14 | Retener 4 copias |
+| **T-30** | Testing responsive | Probar en iPhone, Android, iPad, diferentes resoluciones | ------ | To Do |  | - | T-21 a T-27 | Chrome DevTools + real |
+| **T-31** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | ------ | To Do |  | - | T-26, T-27 | Verificar anti-spam |
+| **T-32** | Documentar implementación | Screenshots de cada página, descripciones detalladas | ------ | To Do |  | - | T-21 a T-27 | Para entregable PDF |
+| **T-33** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do |  | - | Todas anteriores | Checklist manual |
+| **T-34** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do |  | - | Todas anteriores | QA final |
 
 **Total horas estimadas Sprint 1:** 96 horas  
 **Distribución:** 24 horas por persona (4 integrantes)  
