@@ -99,10 +99,9 @@ Actualmente, su web cumple una función informativa, sin ofrecer un canal de ven
                      - Ausencia de **analíticas** que permitan medir la interacción de los usuarios con el sitio.
 
 ## 2.3. Oportunidades de Mejora
-- Implementar un **canal de ventas online** (B2C y B2B).  
-- Crear **portales diferenciados** según el tipo de usuario.  
+- Implementar un **canal de ventas online**.  
 - Incorporar **formularios inteligentes** y un sistema de ayuda (FAQ).  
-- Aplicar **analítica web** para la toma de decisiones estratégicas.  
+                     - Aplicar **analítica web** para la toma de decisiones estratégicas.  
 - Desarrollar una **arquitectura modular (CMS)** que permita al personal no técnico administrar el contenido.  
 - Integrar **principios de diseño responsive** y accesibilidad.  
 
@@ -118,10 +117,9 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ### Objetivos Específicos
 - Ampliar el catálogo de productos de la compañía.  
 - Establecer un canal de ventas directo **online**.  
-- Crear áreas diferenciadas para distintos tipos de usuarios (clientes VIP y empleados).  
 - Mejorar la interacción con los clientes mediante formularios y sistemas de ayuda (FAQ).  
 - Implementar **analíticas (CMS)** para monitorizar el uso del sitio.  
-- Facilitar la gestión de **pedidos grandes y programados** (calendario).  
+- Facilitar la gestión de **eventos** (calendario).  
 - Mantener una **experiencia óptima en smartphones y tablets**.  
 
 ---
@@ -130,15 +128,14 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 | Tipo de Información | Descripción |
 |----------------------|-------------|
-| Catálogo de productos | Información completa de productos embotellados/empaquetados |
+| Catálogo de productos | nombre, precios, imágenes, disponibilidad|
 | Información corporativa | Logo, colores corporativos, guía de estilo (PDF disponible) |
-| Datos de productos | Descripciones, precios, imágenes, disponibilidad, pureza del aceite |
-| Información de clientes | Perfiles diferenciados (particulares, empresas, VIP) |
-| Información de empleados | Datos de acceso y gestión de descuentos |
+| Datos de productos | Información completa de productos embotellados/empaquetados como el nombre, unidades, precio, tipo de producto, capacidad del embotellado y descripción|
+| Información de empleados | Datos de acceso como nombre, apellidos, número de empleado y contraseña|
 | Contenido multiidioma | Español, inglés, francés, portugués y chino |
-| Marcas del grupo | La Masía, Ybarra y otras marcas asociadas |
-| Estados de pedidos | Seguimiento de compras |
-| FAQ | Preguntas frecuentes y respuestas |
+| Marcas del grupo |Ybarra y La Masía|
+| Estados de pedidos | Código de seguimiento generado para visualizar en nuetras empresa de transporte asociada|
+| FAQ | Preguntas y respuestas frecuentes|
 | Contacto y ubicaciones | Datos de contacto, oficinas y fábricas |
 | Sostenibilidad y RSC | Prácticas sostenibles y certificaciones ambientales |
 | Mercados internacionales | Información sobre los 120 países donde opera MIGASA |
