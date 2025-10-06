@@ -671,7 +671,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 | Día | Fecha | Horas Ideales Restantes | Horas Reales Restantes | Diferencia | Tareas Completadas | Observaciones |
 |-----|-------|------------------------|------------------------|------------|-------------------|---------------|
-| 0 | *[Inicio]* | 96.0 | 96.0 | 0 | Ninguna | Sprint Planning |
+| 0 | *29/09/2025* | 96.0 | 96.0 | 0 | Ninguna | Sprint Planning |
 | 1 | *[Fecha]* | 86.4 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
 | 2 | *[Fecha]* | 76.8 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
 | 3 | *[Fecha]* | 67.2 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
@@ -681,7 +681,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | 7 | *[Fecha]* | 28.8 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
 | 8 | *[Fecha]* | 19.2 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
 | 9 | *[Fecha]* | 9.6 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
-| 10 | *[Fin]* | 0 | *[Actualizar]* | *[±X]* | *[IDs]* | Sprint Review |
+| 10 | *12/10/25* | 0 | *0* | *[±X]* | *[IDs]* | Sprint Review |
 
 **Herramientas recomendadas para crear el burndown:**
 1. **GitHub Projects:** Gráficos automáticos integrados
