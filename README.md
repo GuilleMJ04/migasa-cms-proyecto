@@ -96,12 +96,10 @@ Actualmente, su web cumple una función informativa, sin ofrecer un canal de ven
 - No existen **canales digitales directos** para la comercialización de productos.  
 - Falta de **segmentación de usuarios** (clientes particulares y empleados).  
 - La **gestión del contenido** depende de personal técnico, dificultando las actualizaciones frecuentes.  
-                     - Ausencia de **analíticas** que permitan medir la interacción de los usuarios con el sitio.
 
 ## 2.3. Oportunidades de Mejora
 - Implementar un **canal de ventas online**.  
 - Incorporar **formularios inteligentes** y un sistema de ayuda (FAQ).  
-                     - Aplicar **analítica web** para la toma de decisiones estratégicas.  
 - Desarrollar una **arquitectura modular (CMS)** que permita al personal no técnico administrar el contenido.  
 - Integrar **principios de diseño responsive** y accesibilidad.  
 
