@@ -126,13 +126,13 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 | Tipo de Información | Descripción |
 |----------------------|-------------|
-| Catálogo de productos | Nombre, precio, imágen, disponibilidad|
+| Catálogo de productos | Información de los productos en el catálogo principal como el nombre, el precio, las imágenes y la disponibilidad.|
 | Información corporativa | Logo, colores corporativos, guía de estilo (PDF disponible) |
-| Datos de productos | Información completa de productos embotellados/empaquetados como el nombre, unidades, precio, tipo de producto, capacidad del embotellado y descripción|
+| Datos de productos | Información completa de productos embotellados/empaquetados del apartado de detalles del producto (al pinchar en cada uno de los productoss) como el nombre, las unidades, el precio, el tipo de producto, la capacidad del embotellado y la descripción. |
 | Información de empleados | Datos de acceso como nombre, apellidos, número de empleado y contraseña|
 | Contenido multiidioma | Español, inglés, francés, portugués y chino |
-| Marcas del grupo |Ybarra y La Masía|
-| Estados de pedidos | Código de seguimiento generado para visualizar en nuetras empresa de transporte asociada|
+| Marcas del grupo |"Ybarra" la cual está más enfocada a las salsas con Mayonesa como producto estrella y "La Masía" para los distintos tipos de aceites.|
+| Estados de pedidos | Código de seguimiento generado para visualizar en nuetras empresa de transporte asociada| ------------------------------------------------------
 | FAQ | Preguntas y respuestas frecuentes|
 | Contacto y ubicaciones | Datos de contacto, oficinas y fábricas |
 | Sostenibilidad y RSC | Prácticas sostenibles y certificaciones ambientales |
