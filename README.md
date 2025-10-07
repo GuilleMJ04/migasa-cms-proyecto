@@ -124,7 +124,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 3.2. Requisitos de Información
 
-| Tipo de Información | Descripción |
+| Tipo de Requisito de Información | Descripción |
 |----------------------|-------------|
 | Catálogo de productos | El catálogo es básicamente el escaparate donde va todo lo que vendemos. Cada producto tiene que aparecer con su nombre, fotos decentes desde varios ángulos, el precio actualizado, y si está disponible o no en ese momento. La idea es que la gente pueda filtrar por marca (Ybarra o La Masía), por tipo de producto, tamaño del bote, precio... vamos, lo típico que harías en cualquier tienda online pero aplicado a nuestro catálogo corporativo.|
 | Ficha detallada de producto | Cuando alguien pincha en un producto concreto, aquí va toda la información al detalle. Desde la descripción comercial ("la mayonesa de toda la vida") hasta los datos más técnicos que necesita un profesional: ingredientes completos, alérgenos bien visibles... También incluye el tipo de envase, capacidad exacta, certificaciones que tenga (ecológico, sin gluten...). Básicamente, todo lo que alguien puede querer saber sobre ese producto antes de comprarlo o distribuirlo. |
@@ -141,7 +141,8 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 3.3. Requisitos de Interfaz de Usuario
 
-- **RUI01:** Interfaz intuitiva tipo bloques para gestión de contenidos (página fácil de usar con enlaces visibles y botones vistosos).  
+| Tipo de Requisito de Interfaz de Usuario | Descripción |
+| **RUI01:** | La web debe contar con una interfaz sencilla e intuitiva, organizada por bloques, que facilite la gestión del contenido. Los botones y enlaces deben ser visibles y atractivos, de forma que cualquier usuario pueda moverse por la página sin dificultad. |
 - **RUI02:** Aplicación de guía de estilo corporativa (logo, colores, tamaños).  
 - **RUI03:** Navegación multiidioma con selector de idioma (en la parte de arriba de la página, deben aparecer botones con los que traducir la página).  
 - **RUI04:** Visualización destacada del catálogo de productos (En la página principal aparecerán una selección destacada de productos).  
