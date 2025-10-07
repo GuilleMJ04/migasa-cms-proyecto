@@ -10,7 +10,7 @@
 - Iluminada Baena Herruzo
 - Nazaret María Villalba Delgado
 
-**Fecha de elaboración:** *12/10/2025*  
+**Fecha de elaboración:** *29/09/2025*  
 **Versión:** 1.0 - Sprint 1  
 **Repositorio GitHub:** https://github.com/GuilleMJ04/migasa-cms-proyecto
 
