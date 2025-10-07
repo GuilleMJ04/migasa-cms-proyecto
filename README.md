@@ -1574,7 +1574,7 @@ migasa-cms-proyecto/
 - Rol: Especialista SEO / Analítica
 - Responsabilidades: Configuración SEO, Analytics, análisis de temas, diagrama de clases
 - Email: *emicueren@alum.us.es*
-- GitHub: *[usuario GitHub]*
+- GitHub: *Cuevas2004*
 
 **Iluminada Baena Herruzo**
 - Rol: Desarrolladora Frontend / Seguridad
