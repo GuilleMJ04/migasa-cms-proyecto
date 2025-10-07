@@ -142,6 +142,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ## 3.3. Requisitos de Interfaz de Usuario
 
 | Tipo de Requisito de Interfaz de Usuario | Descripción |
+|----------------------|-------------|
 | **RUI01:** | La web debe contar con una interfaz sencilla e intuitiva, organizada por bloques, que facilite la gestión del contenido. Los botones y enlaces deben ser visibles y atractivos, de forma que cualquier usuario pueda moverse por la página sin dificultad. |
 - **RUI02:** Aplicación de guía de estilo corporativa (logo, colores, tamaños).  
 - **RUI03:** Navegación multiidioma con selector de idioma (en la parte de arriba de la página, deben aparecer botones con los que traducir la página).  
