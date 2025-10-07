@@ -126,7 +126,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 | Tipo de Información | Descripción |
 |----------------------|-------------|
-| Catálogo de productos | Información de los productos en el catálogo principal como el nombre, el precio, las imágenes y la disponibilidad.|
+| Catálogo de productos | El catálogo es básicamente el escaparate donde va todo lo que vendemos. Cada producto tiene que aparecer con su nombre, fotos decentes desde varios ángulos, el precio actualizado (tanto para el que lo compra en el súper como para restaurantes), y si está disponible o no en ese momento. La idea es que la gente pueda filtrar por marca (Ybarra o La Masía), por tipo de producto, tamaño del bote, precio... vamos, lo típico que harías en cualquier tienda online pero aplicado a nuestro catálogo corporativo.|
 | Información corporativa | Logo, colores corporativos, guía de estilo (PDF disponible) |
 | Datos de productos | Información completa de productos embotellados/empaquetados del apartado de detalles del producto (al pinchar en cada uno de los productoss) como el nombre, las unidades, el precio, el tipo de producto, la capacidad del embotellado y la descripción. |
 | Información de empleados | Datos de acceso como nombre, apellidos, número de empleado y contraseña|
