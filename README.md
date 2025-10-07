@@ -135,7 +135,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | FAQ con chatbot| Un chatbot que realmente sirva para algo, disponible 24/7 en todos los idiomas. Tiene que entender preguntas en lenguaje normal ("¿tenéis mayonesa sin gluten?" y no obligarte a buscar en menús raros). Responde dudas sobre cómo usar el portal, info de productos, dónde comprar... La idea es que aprenda de cada conversación para ir mejorando. |
 | Contacto y ubicaciones | Todos los datos para encontrarnos: teléfono principal, emails generales. Luego las ubicaciones físicas: oficinas centrales con dirección completa, mapa de Google Maps y cómo llegar. También enlaces a todas las redes sociales. |
 | Sostenibilidad y RSC | Todo lo relacionado con medio ambiente y responsabilidad social. Cómo gestionamos los envases y el reciclaje, si usamos energías renovables, de dónde vienen las materias primas... También el compromiso social: qué proyectos sociales apoyamos, colaboraciones con ONGs, bancos de alimentos. |
-| Mercados internacionales | Un mapa interactivo donde se ven los 120 países donde estamos, organizado por regiones (Europa, América, Asia, África, Oceanía). |
+| Mercados internacionales | Un mapa donde se ven los 120 países donde estamos, organizado por regiones (Europa, América, Asia, África, Oceanía). |
 
 ---
 
