@@ -126,7 +126,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 | Tipo de Información | Descripción |
 |----------------------|-------------|
-| Catálogo de productos | nombre, precios, imágenes, disponibilidad|
+| Catálogo de productos | Nombre, precio, imágen, disponibilidad|
 | Información corporativa | Logo, colores corporativos, guía de estilo (PDF disponible) |
 | Datos de productos | Información completa de productos embotellados/empaquetados como el nombre, unidades, precio, tipo de producto, capacidad del embotellado y descripción|
 | Información de empleados | Datos de acceso como nombre, apellidos, número de empleado y contraseña|
