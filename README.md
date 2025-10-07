@@ -144,11 +144,11 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | Tipo de Requisito de Interfaz de Usuario | Descripción |
 |----------------------|-------------|
 | **RUI01:** | La web debe contar con una interfaz sencilla e intuitiva, organizada por bloques, que facilite la gestión del contenido. Los botones y enlaces deben ser visibles y atractivos, de forma que cualquier usuario pueda moverse por la página sin dificultad. |
-- **RUI02:** Aplicación de guía de estilo corporativa (logo, colores, tamaños).  
-- **RUI03:** Navegación multiidioma con selector de idioma (en la parte de arriba de la página, deben aparecer botones con los que traducir la página).  
-- **RUI04:** Visualización destacada del catálogo de productos (En la página principal aparecerán una selección destacada de productos).  
-- **RUI05:** Interfaz responsive para diferentes dispositivos (La web debe adaptarse a todo tipo de dispositivos).  
-- **RUI06:** Panel de control para el encargado de aplicaciones web.    
+| **RUI02:** | Se debe mantener una coherencia visual aplicando la guía de estilo corporativa: incluir el logotipo oficial, los colores representativos y respetar los tamaños y tipografías definidos por la empresa. |
+| **RUI03:** | La página debe ofrecer la posibilidad de cambiar el idioma desde la parte superior, mediante botones o un menú de selección, permitiendo que el usuario consulte el contenido en su idioma preferido. |
+| **RUI04:** | En la página principal debe mostrarse de forma destacada una selección del catálogo de productos, resaltando aquellos más relevantes o representativos para captar la atención del visitante. |  
+| **RUI05:** | La interfaz debe ser completamente adaptable, de modo que el contenido se visualice correctamente en todo tipo de dispositivos: ordenadores, tabletas y teléfonos móviles. |  
+| **RUI06:** | Debe existir un panel de control destinado al encargado de las aplicaciones web, desde el cual pueda gestionar contenidos, usuarios o configuraciones de manera centralizada y sencilla. |  
 
 ---
 
