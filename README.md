@@ -132,8 +132,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | Información de empleados | Datos de acceso como nombre, apellidos, número de empleado y contraseña|
 | Contenido multiidioma | Español, inglés, francés, portugués y chino |
 | Marcas del grupo |"Ybarra" la cual está más enfocada a las salsas con Mayonesa como producto estrella y "La Masía" para los distintos tipos de aceites.|
-| Estados de pedidos | Código de seguimiento generado para visualizar en nuetras empresa de transporte asociada| ------------------------------------------------------
-| FAQ | Preguntas y respuestas frecuentes|
+| FAQ | Preguntas y respuestas frecuentes implementadas a partir de un chat bot con el que el usuario pueda interactuar para resolver las dudas sobre el uso de nuestra página web.|
 | Contacto y ubicaciones | Datos de contacto, oficinas y fábricas |
 | Sostenibilidad y RSC | Prácticas sostenibles y certificaciones ambientales |
 | Mercados internacionales | Información sobre los 120 países donde opera MIGASA |
