@@ -1573,7 +1573,7 @@ migasa-cms-proyecto/
 **Emilio Cuevas Rendón**
 - Rol: Especialista SEO / Analítica
 - Responsabilidades: Configuración SEO, Analytics, análisis de temas, diagrama de clases
-- Email: *[email universitario]*
+- Email: *emicueren@alum.us.es*
 - GitHub: *[usuario GitHub]*
 
 **Iluminada Baena Herruzo**
