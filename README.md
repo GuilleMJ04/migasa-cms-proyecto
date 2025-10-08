@@ -165,6 +165,8 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **RF07: Formulario de contacto funcional** | El sistema deberá disponer de un formulario de contacto accesible desde la página principal, que permita al usuario enviar consultas al departamento correspondiente. Se deberán incluir los campos obligatorios: nombre, correo electrónico, tipo de consulta y mensaje. El sistema validará los datos introducidos y confirmará la recepción del mensaje mediante notificación en pantalla o correo electrónico. |
 
 ### Media Prioridad
+| Tipo de Requisito Funcional | Descripción |
+|----------------------|-------------|
 | **RF08: Programación de eventos (Calendario)** | El sistema deberá incluir un módulo que permita programar, visualizar y gestionar eventos corporativos o promocionales (por ejemplo, campañas de descuento o lanzamientos de productos). El calendario deberá poder mostrar eventos próximos en la página principal. |
 | **RF09: Sección de preguntas (FAQ)** | Se deberá habilitar una sección de preguntas frecuentes que contenga información relevante para los usuarios (como envíos, devoluciones, pagos o productos). El contenido deberá poder presentarse en formato de lista desplegable para facilitar su lectura. |
 | **RF10: Soporte multiidioma** | El sitio deberá ofrecer soporte completo para varios idiomas, incluyendo al menos español, inglés, francés, portugués y chino. El cambio de idioma deberá ser inmediato, afectando a todos los textos visibles, menús, botones y mensajes del sistema. |
