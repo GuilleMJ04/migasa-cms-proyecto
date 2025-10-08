@@ -120,7 +120,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 3.2. Requisitos de Información
 
-| Tipo de Requisito de Información | Descripción |
+| Código / Requisito de Información | Descripción |
 |----------------------|-------------|
 | **RI01: Catálogo de productos** | El sistema deberá disponer de un catálogo digital completo que actúe como escaparate principal de la oferta comercial. Cada producto deberá mostrar su nombre, descripción breve, imágenes de calidad desde distintos ángulos, precio actualizado, disponibilidad de stock y filtros avanzados por marca (Ybarra o La Masía), tipo de producto, capacidad del envase y rango de precios. Este módulo constituirá la base de la funcionalidad de venta online. |
 | **RI02: Ficha detallada de producto** | Cada producto deberá contar con una página individual que incluya información comercial y técnica detallada. Se especificarán ingredientes, alérgenos, certificaciones (sin gluten, sin lactosa, sin derivados lácteos, vegetariano, vegano y ecológico), tipo de envase, capacidad exacta, origen del producto y recomendaciones de uso. Este contenido deberá presentarse de forma estructurada, accesible y conforme a la normativa vigente sobre información alimentaria. |
@@ -138,7 +138,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 3.3. Requisitos de Interfaz de Usuario
 
-| Tipo de Requisito de Interfaz de Usuario | Descripción |
+| Código / Requisito de Interfaz de Usuario | Descripción |
 |----------------------|-------------|
 | **RUI01: Interfaz intuitiva y modular**| La plataforma deberá disponer de una interfaz sencilla, clara e intuitiva, estructurada mediante bloques o secciones modulares que faciliten la gestión del contenido por parte de personal no técnico. Los elementos interactivos deberán ser visualmente identificables y accesibles, garantizando una navegación fluida para cualquier tipo de usuario. |
 | **RUI02: Aplicación de la identidad visual corporativa** | El diseño de la interfaz deberá mantener una coherencia visual en todas las secciones del portal, siguiendo la guía de estilo corporativo de la empresa. Deberán aplicarse correctamente el logotipo oficial, los colores representativos, las tipografías y los tamaños definidos en la guía de marketing proporcionada en formato PDF. |
@@ -154,7 +154,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ## 3.4. Requisitos Funcionales
 
 ### Prioridad Alta
-| Tipo de Requisito Funcional | Descripción |
+| Código / Requisito Funcional | Descripción |
 |----------------------|-------------|
 |**RF01: Catálogo de productos con vista previa** | El sistema deberá ofrecer un catálogo completo de productos organizado por categorías, donde cada producto cuente con una vista previa compuesta por nombre, imagen, precio y disponibilidad. El usuario podrá aplicar filtros de búsqueda (por tipo, marca, precio o certificación) y acceder a la página individual del producto para consultar su información detallada (ingredientes, alérgenos, certificaciones, envase y capacidad). |  
 | **RF02: Carrito de compra completo** | El sistema deberá permitir a los usuarios añadir productos al carrito de compra, modificar cantidades, eliminar artículos y visualizar el total de la compra en tiempo real. Además, deberá calcular automáticamente los impuestos y gastos de envío. El usuario podrá guardar el carrito o continuar al proceso de pago. |
@@ -165,7 +165,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **RF07: Formulario de contacto funcional** | El sistema deberá disponer de un formulario de contacto accesible desde la página principal, que permita al usuario enviar consultas al departamento correspondiente. Se deberán incluir los campos obligatorios: nombre, correo electrónico, tipo de consulta y mensaje. El sistema validará los datos introducidos y confirmará la recepción del mensaje mediante notificación en pantalla o correo electrónico. |
 
 ### Prioridad Media
-| Tipo de Requisito Funcional | Descripción |
+| Código / Requisito Funcional | Descripción |
 |----------------------|-------------|
 | **RF08: Programación de eventos (Calendario)** | El sistema deberá incluir un módulo que permita programar, visualizar y gestionar eventos corporativos o promocionales (por ejemplo, campañas de descuento o lanzamientos de productos). El calendario deberá poder mostrar eventos próximos en la página principal. |
 | **RF09: Sección de preguntas (FAQ)** | Se deberá habilitar una sección de preguntas frecuentes que contenga información relevante para los usuarios (como envíos, devoluciones, pagos o productos). El contenido deberá poder presentarse en formato de lista desplegable para facilitar su lectura. |
@@ -176,28 +176,47 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ## 3.5. Requisitos No Funcionales
 
 ### Rendimiento
-- **RNF01:** Tiempo de carga rápido para el catálogo.  
-- **RNF02:** Capacidad para manejar pedidos de gran volumen.  
+| Código / Requisito No Funcional | Descripción |
+|----------------------|-------------|
+| **RNF01: Tiempo de carga rápido para el catálogo** | El sistema deberá garantizar que el catálogo de productos se cargue completamente en un tiempo inferior a 3 segundos en condiciones de conexión estándar (10 Mbps), optimizando imágenes, consultas a base de datos y uso de caché. |
+| **RNF02: Capacidad para gestionar pedidos de gran volumen** | La aplicación deberá poder procesar simultáneamente un gran número de peticiones de usuarios y pedidos, asegurando un rendimiento estable. |
 
 ### Seguridad
-- **RNF03:** Transacciones seguras con SSL.  
-- **RNF04:** Autenticación segura para empleados y clientes VIP.  
-- **RNF05:** Protección de datos personales y comerciales.  
+| Código / Requisito No Funcional | Descripción |
+|----------------------|-------------|
+| **RNF03: Transacciones seguras con SSL/TLS** | Todas las comunicaciones entre cliente y servidor deberán realizarse mediante conexión cifrada utilizando el protocolo HTTPS (SSL/TLS 1.2 o superior) para garantizar la integridad y confidencialidad de los datos. |
+| **RNF04: Autenticación segura para empleados y clientes VIP** | El sistema deberá implementar un mecanismo de autenticación seguro, además de incorporar políticas de contraseñas seguras (mínimo 8 caracteres, combinación de letras, números y símbolos). |
+| **RNF05: Protección de datos personales y comerciales** | El sistema deberá cumplir con la normativa vigente de protección de datos (RGPD), incluyendo la gestión de consentimientos, anonimización de información sensible y control de acceso a los datos por rol y privilegio. |
 
 ### Usabilidad
-- **RNF06:** Fácil uso por personal no técnico.  
-- **RNF07:** Cumplimiento de estándares de accesibilidad.  
+| Código / Requisito No Funcional | Descripción |
+|----------------------|-------------|
+- **RNF06: Cumplimiento de estándares de accesibilidad** | El portal deberá cumplir con los estándares de accesibilidad web WCAG 2.1 nivel AA, garantizando que los contenidos sean legibles, navegables mediante teclado, y compatibles con lectores de pantalla. |
 
 ### Mantenibilidad
-- **RNF08:** Sistema actualizable por una sola persona.  
-- **RNF09:** Documentación clara (uso de Git).  
+| Código / Requisito No Funcional | Descripción |
+|----------------------|-------------|
+| **RNF07: Sistema actualizable por una sola persona** | La arquitectura del sistema deberá permitir actualizaciones, despliegues y mantenimiento por una única persona con perfil técnico, mediante un proceso documentado y automatizado.|
+| **RNF08: Documentación clara y control de versiones (Git)** | Toda la documentación técnica deberán mantenerse en un sistema de control de versiones Git, con convenciones de commit estandarizadas y guías de despliegue actualizadas. |
 
 ### Disponibilidad
-- **RNF10:** Alta disponibilidad.  
-- **RNF11:** Sistema de backup y recuperación.  
+| Código / Requisito No Funcional | Descripción |
+|----------------------|-------------|
+| **RNF09: Alta disponibilidad del sistema** | El sistema deberá garantizar una disponibilidad mínima del 99,5% anual, evitando interrupciones en los servicios esenciales como el catálogo, el carrito o las pasarelas de pago. |
+| **RNF10: Sistema de copia de seguridad y recuperación** | Se deberán realizar copias de seguridad automáticas diarias de la base de datos y semanales del contenido multimedia, con posibilidad de restauración completa ante fallos o pérdida de datos. |
 
 ### Compatibilidad
-- **RNF12:** Funcionamiento correcto en Chrome, Firefox, Safari, Edge, iOS y Android.  
+| Código / Requisito No Funcional | Descripción |
+|----------------------|-------------|
+| **RNF11: Funcionamiento correcto en navegadores y dispositivos** | La aplicación deberá ser completamente compatible con los navegadores Google Chrome, Mozilla Firefox, Microsoft Edge, Safari y con los sistemas operativos móviles iOS y Android, asegurando una correcta visualización en distintas resoluciones. |
+
+### Accesibilidad y Cumplimiento Normativo
+| Código / Requisito No Funcional | Descripción |
+|----------------------|-------------|
+| **RNF12: Traducción profesional multiidioma** | Todos los contenidos deberán estar traducidos de manera profesional y supervisada, evitando el uso de traducciones automáticas sin revisión. Cada idioma (español, inglés, francés, portugués y chino) deberá presentar el mismo nivel de precisión terminológica y comercial. |
+| **RNF13: Cumplimiento legal y normativo del sector alimentario** | La información de productos deberá ajustarse a la legislación europea sobre etiquetado alimentario, garantizando la correcta presentación de ingredientes, alérgenos y certificaciones. |
+| **RNF14: Optimización SEO y rendimiento web** | El sitio deberá estar optimizado para motores de búsqueda (SEO), incluyendo metadatos estructurados, URLs amigables, imágenes comprimidas y etiquetas alt descriptivas, a fin de mejorar su posicionamiento y rendimiento general. |
+| **RNF15: Escalabilidad del sistema** | La arquitectura del sistema deberá permitir una ampliación futura de funcionalidades (nuevos idiomas, módulos, integración con CRM) sin necesidad de rediseñar la base del sistema. |
 
 ---
 
