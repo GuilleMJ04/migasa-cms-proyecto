@@ -520,7 +520,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 |## Comparativa de Software Colaborativo
 
 | Característica | GitHub Projects | Microsoft Teams | Decisión |
-|----------------|----------------|-----------------|--------|----------|
+|----------------|----------------|-----------------|----------|
 | **Integración con Git** | ✅ Nativa | ❌ Requiere plugins/apps | **Ventaja GitHub** |
 | **Control de versiones** | ✅ Git incluido | ❌ No incluido | **Ventaja GitHub** |
 | **Gestión de tareas** | ✅ Problemas(Issues) + Proyectos | ✅ Planificador/Tareas integrado | Empate |
