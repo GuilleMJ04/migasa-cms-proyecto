@@ -191,7 +191,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ### Usabilidad
 | Código / Requisito No Funcional | Descripción |
 |----------------------|-------------|
-- **RNF06: Cumplimiento de estándares de accesibilidad** | El portal deberá cumplir con los estándares de accesibilidad web WCAG 2.1 nivel AA, garantizando que los contenidos sean legibles, navegables mediante teclado, y compatibles con lectores de pantalla. |
+|**RNF06: Cumplimiento de estándares de accesibilidad** | El portal deberá cumplir con los estándares de accesibilidad web WCAG 2.1 nivel AA, garantizando que los contenidos sean legibles, navegables mediante teclado, y compatibles con lectores de pantalla. |
 
 ### Mantenibilidad
 | Código / Requisito No Funcional | Descripción |
