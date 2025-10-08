@@ -517,7 +517,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 **Comparativa con alternativas:**
 
-|## Comparativa de Software Colaborativo
+## Comparativa de Software Colaborativo
 
 | Característica | GitHub Projects | Microsoft Teams | Decisión |
 |----------------|----------------|-----------------|----------|
