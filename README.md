@@ -131,8 +131,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **RI07: FAQ y chatbot Asistencial**| Se desarrollará un sistema de atención automatizada con chatbot multilingüe, disponible 24/7. Este asistente virtual deberá ser capaz de interpretar preguntas formuladas en lenguaje natural y ofrecer respuestas precisas sobre productos, pedidos, funcionamiento del portal y puntos de venta. Además, deberá integrarse con una base de conocimiento (FAQ) que se actualice periódicamente, y podrá mejorar sus respuestas mediante aprendizaje progresivo. |
 | **RI08: Contacto y ubicaciones** | El sitio incluirá un apartado de contacto con información corporativa actualizada: teléfonos, direcciones de correo electrónico, formulario de contacto estructurado y mapa de las sedes principales. |
 | **RI09: Sostenibilidad y RSC** | Se habilitará un espacio informativo donde se detalle el compromiso de la empresa con la sostenibilidad y la responsabilidad social. Se incluirá información sobre gestión de envases y reciclaje, uso de energías renovables, trazabilidad de materias primas, así como proyectos sociales y colaboraciones con ONGs o bancos de alimentos. |
-| **RI10: Mercados internacionales** | Se desarrollará un módulo visual que muestre la presencia internacional del grupo, destacando los más de 120 países en los que opera. La información se organizará por regiones (Europa, América, Asia, África y Oceanía) e incluirá datos de contacto o distribución en cada área geográfica. |
-| **RI11: Sistemas de Pedidos** | La plataforma deberá almacenar información sobre los pedidos realizados por los clientes, incluyendo número de pedido, fecha de realización, historial y detalles de entrega.|
+| **RI10: Sistemas de Pedidos** | La plataforma deberá almacenar información sobre los pedidos realizados por los clientes, incluyendo número de pedido, fecha de realización, historial y detalles de entrega.|
 
 ---
 
