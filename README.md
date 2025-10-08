@@ -66,7 +66,7 @@
 El propósito del proyecto es **transformar la plataforma web actual de MIGASA**, que actualmente es puramente informativa, en una **herramienta funcional de comercio electrónico**, capaz de ofrecer venta directa de productos envasados.
 
 ## 1.2. Alcance
-El proyecto contempla el **diseño, desarrollo e implementación** de un portal web corporativo con funcionalidades de **e-commerce**, **gestión de usuarios** y **sistemas de contenido dinámico (CMS)**.  
+El proyecto contempla el **diseño, desarrollo e implementación** de un portal web corporativo con funcionalidades de **e-commerce** y **gestión de usuarios**.  
 Se excluye del alcance la venta de productos a granel, limitándose únicamente a la línea de productos **embotellados y empaquetados**.
 
 El sistema incluirá:
@@ -75,7 +75,6 @@ El sistema incluirá:
 - Integración de métodos de pago seguros.
 - Sistema multiidioma (5 idiomas).
 - Descuentos exclusivos para empleados.
-- Panel de administración con gestión de contenidos y analíticas básicas.
 
 ## 1.3. Empresa Seleccionada
 **MIGASA** es una empresa líder en el sector agroalimentario español, especializada en la **producción, envasado y comercialización de aceites vegetales**.  
@@ -95,12 +94,10 @@ Actualmente, su web cumple una función informativa, sin ofrecer un canal de ven
 - La web actual es **puramente informativa**, sin funcionalidades de venta ni gestión dinámica del contenido.  
 - No existen **canales digitales directos** para la comercialización de productos.  
 - Falta de **segmentación de usuarios** (clientes particulares y empleados).  
-- La **gestión del contenido** depende de personal técnico, dificultando las actualizaciones frecuentes.  
 
 ## 2.3. Oportunidades de Mejora
 - Implementar un **canal de ventas online**.  
 - Incorporar **formularios inteligentes** y un sistema de ayuda (FAQ).  
-- Desarrollar una **arquitectura modular (CMS)** que permita al personal no técnico administrar el contenido.  
 - Integrar **principios de diseño responsive** y accesibilidad.  
 
 ---
@@ -116,7 +113,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Ampliar el catálogo de productos de la compañía.  
 - Establecer un canal de ventas directo **online**.  
 - Mejorar la interacción con los clientes mediante formularios y sistemas de ayuda (FAQ).  
-- Implementar **analíticas (CMS)** para monitorizar el uso del sitio.  
 - Facilitar la gestión de **eventos** (calendario).  
 - Mantener una **experiencia óptima en smartphones y tablets**.  
 
@@ -137,7 +133,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | Sostenibilidad y RSC | Se habilitará un espacio informativo donde se detalle el compromiso de la empresa con la sostenibilidad y la responsabilidad social. Se incluirá información sobre gestión de envases y reciclaje, uso de energías renovables, trazabilidad de materias primas, así como proyectos sociales y colaboraciones con ONGs o bancos de alimentos. |
 | Mercados internacionales | Se desarrollará un módulo visual que muestre la presencia internacional del grupo, destacando los más de 120 países en los que opera. La información se organizará por regiones (Europa, América, Asia, África y Oceanía) e incluirá datos de contacto o distribución en cada área geográfica. |
 | Sistemas de Pedidos | La plataforma deberá almacenar información sobre los pedidos realizados por los clientes, incluyendo número de pedido, fecha de realización, historial y detalles de entrega.|
-| Gestión de Contenidos (CMS) | Se almacenará información estructurada que permita a los responsables internos del área web actualizar contenidos (productos, imágenes, textos, precios) de forma autónoma, a través de un sistema de gestión de contenidos con interfaz intuitiva tipo “bloques”. |
 
 ---
 
