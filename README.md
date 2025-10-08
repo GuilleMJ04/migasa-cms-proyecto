@@ -269,7 +269,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *Diagrama UML que representa la estructura del sitio WordPress para MIGASA*
 
-
 ---
 
 ## 5. DISEÑO
