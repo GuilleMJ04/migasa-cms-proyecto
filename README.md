@@ -244,6 +244,26 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 #### Mockup de la Página Principal
 ![ImagenPaginaPrincipal](https://github.com/user-attachments/assets/fad29aa7-63dc-4f6b-a918-fb4b32476a4e)
 
+#### Mockup de la Tienda
+![ImagenTienda](https://github.com/user-attachments/assets/63515b42-4728-4029-a928-405c9195d91f)
+
+#### Mockup de la Información de cada Producto
+![ImagenInfoProductos](https://github.com/user-attachments/assets/eb0013d6-ad05-4f2c-ba55-505ad07ca0ac)
+
+#### Mockup del Conócenos
+![ImagenDelConócenos](https://github.com/user-attachments/assets/18acfbbd-83e8-4c3c-aad1-5725cf932827)
+
+#### Mockup del Carrito de compra
+![ImagenCarrito](https://github.com/user-attachments/assets/fde831be-da5f-4dd0-a517-e9b2cb308ece)
+
+#### Mockup del Register
+![ImagenRegistro](https://github.com/user-attachments/assets/7677c916-b1b1-430a-9b9b-b7cfdd3729a2)
+
+#### Mockup del Login
+![ImagenLogin](https://github.com/user-attachments/assets/5d091c17-d412-4f70-8ce7-7fbab79f668b)
+
+#### Mockup del FAQ
+![ImagenFAQ](https://github.com/user-attachments/assets/4b559b9d-7f62-4bb7-a26a-6c1dba346f8b)
 
 ### 4.2 Diagrama de Clases
 
