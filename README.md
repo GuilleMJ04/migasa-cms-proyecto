@@ -221,17 +221,19 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ---
 
 ## 3.6. Reglas de Negocio
-
-- **RN01:** Solo se incluirán productos envasados (no granel).    
-- **RN02:** Los empleados tienen acceso a descuentos especiales.  
-- **RN03:** Los empleados tienen condiciones comerciales diferenciadas.  
-- **RN04:** La gestión del sitio debe realizarse por una sola persona (encargado interno).  
-- **RN05:** Soporte obligatorio para 5 idiomas.  
-- **RN06:** Pedidos grandes pueden programarse con entregas parciales (Calendario).  
-- **RN07:** Cumplimiento del manual de identidad corporativa (colores, tipografía, logo).  
-- **RN08:** Jerarquía de productos: `Aceite de Oliva > Aceite de Girasol > Aceite de Orujo`.  
-- **RN09:** Certificaciones y sellos visibles y verificables.  
-- **RN10:** Contenido actualizable sin conocimientos técnicos avanzados.  
+| Código / Regla de Negocio | Descripción |
+|----------------------|-------------|
+|**RN01: Inclusión exclusiva de productos envasados** | El catálogo del sitio web solo deberá incluir productos correspondientes a la línea de productos envasados, quedando expresamente excluidos los productos a granel o de venta en cisternas. Esta restricción se establece por razones estratégicas y de viabilidad técnica para la gestión de pedidos online.| 
+| **RN02: Acceso a descuentos exclusivos para empleados** | Los empleados de la empresa deberán disponer de acceso a descuentos preferenciales en los productos, visibles únicamente tras autenticarse en el sistema mediante sus credenciales corporativas. Los descuentos aplicables estarán definidos por el departamento de Administración o Tesorería. |
+| **RN03: Administración centralizada por un único responsable interno** | La gestión de contenidos, mantenimiento y administración general del sitio web será responsabilidad de una única persona designada internamente, el encargado de aplicaciones web. Por tanto, todas las herramientas administrativas deben permitir una operación autónoma, segura y simplificada. |
+| **RN04: Soporte lingüístico obligatorio en cinco idiomas** | El sitio web deberá ofrecer su contenido íntegramente traducido en los siguientes idiomas: español, inglés, francés, portugués y chino, garantizando uniformidad y calidad en la terminología empleada. |
+| **RN05: Cumplimiento de la guía de identidad corporativa** | Todo el diseño y contenido del sitio web deberá respetar íntegramente el Manual de Identidad Corporativa, incluyendo el uso del logotipo oficial, los colores institucionales, las proporciones, la tipografía y los márgenes definidos en la guía de estilo proporcionada por el departamento de marketing. |
+| **RN06: Jerarquía de productos** | El catálogo deberá organizarse en dos líneas principales de negocio: Aceites (La Masía) y Salsas (Ybarra). Aceites: Aceite de Oliva Virgen Extra, Oliva Suave e Intenso, Girasol, Orujo y Aguacate. Salsas: Mayonesas, Kétchup, Mostaza, Alioli, Salsas Especiales y Sin Gluten. Esta jerarquía deberá mantenerse de forma coherente en todo el sitio (catálogo, filtros, buscador y fichas de producto). |
+| **RN07: Certificación y sellos visibles y verificables** | Todos los productos que dispongan de certificaciones (ecológicas, sin gluten, etc.) deberán mostrar sus sellos oficiales de forma visible y verificable, con enlaces o referencias a las entidades certificadoras correspondientes.|
+| **RN08: Diferenciación entre líneas de negocio** | El sitio web deberá reflejar la existencia de las dos líneas de producto de la compañía —granel y envasado—, mostrando únicamente información comercial y visual de la segunda, y dejando constancia institucional de la primera para mantener coherencia corporativa. |
+| **RN09: Inclusión de información** | El portal corporativo deberá incorporar una sección dedicada a Sostenibilidad y Responsabilidad Social Corporativa (RSC), donde se detallen las políticas medioambientales, el uso de energías renovables, el origen de las materias primas y las colaboraciones con ONGs o bancos de alimentos. |
+| **RN10: Destacada representación de marcas del grupo** | Las marcas principales del grupo (Ybarra y La Masía) deberán estar claramente representadas en el sitio, cada una con su identidad diferenciada, descripción, catálogo propio y enlaces a sus productos correspondientes dentro del grupo empresarial. |
+| **RN11: Presentación institucional de la empresa y estructura organizativa** | El sitio deberá incluir una sección institucional con información sobre la historia de la empresa reforzando la transparencia y la imagen de marca ante clientes y socios. |
 
 ---
 
