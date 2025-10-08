@@ -153,7 +153,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 3.4. Requisitos Funcionales
 
-### Alta Prioridad
+### Prioridad Alta
 | Tipo de Requisito Funcional | Descripción |
 |----------------------|-------------|
 |**RF01: Catálogo de productos con vista previa** | El sistema deberá ofrecer un catálogo completo de productos organizado por categorías, donde cada producto cuente con una vista previa compuesta por nombre, imagen, precio y disponibilidad. El usuario podrá aplicar filtros de búsqueda (por tipo, marca, precio o certificación) y acceder a la página individual del producto para consultar su información detallada (ingredientes, alérgenos, certificaciones, envase y capacidad). |  
@@ -164,7 +164,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **RF06: Sistema de descuentos para empleados** | Los empleados autenticados deberán disponer de un módulo que les permita aplicar descuentos automáticos sobre determinados productos o categorías. El sistema deberá validar que el usuario está autorizado y registrar el uso del beneficio en la base de datos. |
 | **RF07: Formulario de contacto funcional** | El sistema deberá disponer de un formulario de contacto accesible desde la página principal, que permita al usuario enviar consultas al departamento correspondiente. Se deberán incluir los campos obligatorios: nombre, correo electrónico, tipo de consulta y mensaje. El sistema validará los datos introducidos y confirmará la recepción del mensaje mediante notificación en pantalla o correo electrónico. |
 
-### Media Prioridad
+### Prioridad Media
 | Tipo de Requisito Funcional | Descripción |
 |----------------------|-------------|
 | **RF08: Programación de eventos (Calendario)** | El sistema deberá incluir un módulo que permita programar, visualizar y gestionar eventos corporativos o promocionales (por ejemplo, campañas de descuento o lanzamientos de productos). El calendario deberá poder mostrar eventos próximos en la página principal. |
