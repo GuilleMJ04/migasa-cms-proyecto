@@ -241,8 +241,9 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ## 4. ANÁLISIS DEL SISTEMA
 
 ### 4.1 Mockups y Prototipos
+#### Mockup de la Página Principal
+![ImagenPaginaPrincipal](https://github.com/user-attachments/assets/fad29aa7-63dc-4f6b-a918-fb4b32476a4e)
 
-*(Preguntar al profesor)
 
 ### 4.2 Diagrama de Clases
 
