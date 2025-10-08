@@ -162,14 +162,12 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **RF04: Métodos de pago seguros** | El sistema deberá integrar pasarelas de pago seguras que permitan realizar transacciones mediante tarjeta de crédito/débito, PayPal y plataformas digitales como Google Pay o Apple Pay. Todos los procesos deberán cumplir con los protocolos de seguridad y cifrado establecidos. |
 | **RF05: Sistema de autenticación para empleados** | Se deberá implementar un sistema de autenticación mediante credenciales únicas (usuario y contraseña) que garantice el acceso restringido al área interna de la empresa. Tras iniciar sesión, el empleado podrá acceder a funcionalidades exclusivas según su rol y permisos. |
 | **RF06: Sistema de descuentos para empleados** | Los empleados autenticados deberán disponer de un módulo que les permita aplicar descuentos automáticos sobre determinados productos o categorías. El sistema deberá validar que el usuario está autorizado y registrar el uso del beneficio en la base de datos. |
-- **RF07:** Seguimiento del estado de pedidos (código autogenerado).  
-- **RF08:** Formulario de contacto funcional (nombre, email, tipo de consulta).  
-- **RF09:** Gestión de contenidos (CMS) modular y accesible.  
+| **RF07: Formulario de contacto funcional** | El sistema deberá disponer de un formulario de contacto accesible desde la página principal, que permita al usuario enviar consultas al departamento correspondiente. Se deberán incluir los campos obligatorios: nombre, correo electrónico, tipo de consulta y mensaje. El sistema validará los datos introducidos y confirmará la recepción del mensaje mediante notificación en pantalla o correo electrónico. |
 
 ### Media Prioridad
-- **RF11:** Programación de eventos (Calendario).  
-- **RF12:** Sección de preguntas frecuentes (FAQ).  
-- **RF13:** Soporte multiidioma.  
+| **RF08: Programación de eventos (Calendario)** | El sistema deberá incluir un módulo que permita programar, visualizar y gestionar eventos corporativos o promocionales (por ejemplo, campañas de descuento o lanzamientos de productos). El calendario deberá poder mostrar eventos próximos en la página principal. |
+| **RF09: Sección de preguntas (FAQ)** | Se deberá habilitar una sección de preguntas frecuentes que contenga información relevante para los usuarios (como envíos, devoluciones, pagos o productos). El contenido deberá poder presentarse en formato de lista desplegable para facilitar su lectura. |
+| **RF10: Soporte multiidioma** | El sitio deberá ofrecer soporte completo para varios idiomas, incluyendo al menos español, inglés, francés, portugués y chino. El cambio de idioma deberá ser inmediato, afectando a todos los textos visibles, menús, botones y mensajes del sistema. |
 
 ---
 
