@@ -154,12 +154,15 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 ## 3.4. Requisitos Funcionales
 
 ### Alta Prioridad
-- **RF01:** Catálogo de productos con vista previa.  
-- **RF02:** Carrito de compra completo.  
-- **RF03:** Procesamiento de pedidos para particulares y empresas.  
-- **RF04:** Métodos de pago seguros (PayPal, Tarjeta, Google/Apple Pay).  
-- **RF05:** Sistema de autenticación para empleados.  
-- **RF06:** Sistema de descuentos para empleados.  
+| Tipo de Requisito Funcional | Descripción |
+|----------------------|-------------|
+|**RF01: Catálogo de productos con vista previa** | El sistema deberá ofrecer un catálogo completo de productos organizado por categorías, donde cada producto cuente con una vista previa compuesta por
+nombre, imagen, precio y disponibilidad. El usuario podrá aplicar filtros de búsqueda (por tipo, marca, precio o certificación) y acceder a la página individual del producto para consultar su información detallada (ingredientes, alérgenos, certificaciones, envase y capacidad). |  
+| **RF02: Carrito de compra completo** | El sistema deberá permitir a los usuarios añadir productos al carrito de compra, modificar cantidades, eliminar artículos y visualizar el total de la compra en tiempo real. Además, deberá calcular automáticamente los impuestos y gastos de envío. El usuario podrá guardar el carrito o continuar al proceso de pago. |
+| **RF03: Procesamiento de pedidos** | La aplicación deberá gestionar pedidos tanto de clientes particulares como de empresas. En cada caso, se deberán registrar los datos de facturación y envío, el método de pago seleccionado y los detalles del pedido. El sistema generará un número de pedido único. |
+| **RF04: Métodos de pago seguros** | El sistema deberá integrar pasarelas de pago seguras que permitan realizar transacciones mediante tarjeta de crédito/débito, PayPal y plataformas digitales como Google Pay o Apple Pay. Todos los procesos deberán cumplir con los protocolos de seguridad y cifrado establecidos. |
+| **RF05: Sistema de autenticación para empleados** | Se deberá implementar un sistema de autenticación mediante credenciales únicas (usuario y contraseña) que garantice el acceso restringido al área interna de la empresa. Tras iniciar sesión, el empleado podrá acceder a funcionalidades exclusivas según su rol y permisos. |
+| **RF06: Sistema de descuentos para empleados** | Los empleados autenticados deberán disponer de un módulo que les permita aplicar descuentos automáticos sobre determinados productos o categorías. El sistema deberá validar que el usuario está autorizado y registrar el uso del beneficio en la base de datos. |
 - **RF07:** Seguimiento del estado de pedidos (código autogenerado).  
 - **RF08:** Formulario de contacto funcional (nombre, email, tipo de consulta).  
 - **RF09:** Gestión de contenidos (CMS) modular y accesible.  
