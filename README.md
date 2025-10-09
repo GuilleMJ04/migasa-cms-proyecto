@@ -271,9 +271,9 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ---
 
-## 5. DISEÑO (POR TOCAR)
+## 5. DISEÑO
 
-### 5.1 Análisis y Selección de Plugins
+### 5.1 Análisis y Selección de Plugins (POR TOCAR)
 
 #### 5.1.1 Plugins de Seguridad (OBLIGATORIO)
 
@@ -394,7 +394,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Características:** Compresión automática, conversión a WebP, lazy load, optimización bulk
 - **Justificación:** Catálogo con muchas imágenes de productos, mejora velocidad, mantiene calidad visual
 
-### 5.2 Análisis y Selección de Temas
+### 5.2 Análisis y Selección de Temas (POR TOCAR)
 
 | Tema | Precio | Valoración | Características Principales | Compatibilidad | Decisión |
 |------|--------|-----------|----------------------------|----------------|----------|
@@ -484,7 +484,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ---
 
-## 6. PLANIFICACIÓN SCRUM
+## 6. PLANIFICACIÓN SCRUM 
 
 ### 6.1 Software Colaborativo Seleccionado
 
@@ -548,14 +548,14 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 **Justificación:**
 - **Estándar de la industria:** Sistema de control de versiones más utilizado mundialmente
-- **Trabajo colaborativo eficiente:** Branching y merging facilitan desarrollo paralelo
+- **Trabajo colaborativo eficiente:** Branching y merging facilitan desarrollo paralelo.  El Branching es crear una copia independiente de tu código donde puedes trabajar sin afectar la rama principal. El Merging es el proceso de integrar los cambios de una rama a otra.
 - **Historial completo:** Registro detallado de todos los cambios (quién, qué, cuándo, por qué)
 - **Backup automático:** Código siempre respaldado en la nube
 - **Reversión sencilla:** Posibilidad de volver a versiones anteriores ante errores
-- **Resolución de conflictos:** Herramientas visuales para merge conflicts
+- **Resolución de conflictos:** Herramientas visuales para merge conflicts (conflictos de fusión) aparecen por ejemplo cuando dos personas editan la misma línea de un archivo o ambas ramas tienen cambios incompatibles en el mismo lugar.
 
 
-### 6.3 Product Backlog
+### 6.3 Product Backlog (POR TOCAR)
 
 **Total puntos Product Backlog:** 80 puntos  
 **Velocidad estimada:** 40 puntos por sprint (2 semanas cada uno)
@@ -581,7 +581,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ---
 
-## 6.4 Sprint Backlog - Sprint 1
+## 6.4 Sprint Backlog - Sprint 1 (POR TOCAR)
 
 **Objetivo del Sprint:** Establecer la base funcional del sitio WordPress con diseño responsive, catálogo de productos, formulario de contacto y medidas de seguridad, todo respetando la identidad corporativa de MIGASA.
 
@@ -689,7 +689,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ---
 
-## 6.5 Burndown Chart - Sprint 1
+## 6.5 Burndown Chart - Sprint 1 (POR TOCAR)
 
 *El burndown chart debe actualizarse diariamente durante la ejecución del sprint*
 
@@ -754,7 +754,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *Esta sección documenta la implementación real del sitio WordPress para MIGASA. Incluir screenshots y detalles específicos de configuración.*
 
-### 7.1 Instalación de WordPress
+### 7.1 Instalación de WordPress (POR TOCAR)
 
 **Entorno de desarrollo:**
 - **Software:** XAMPP 8.2.4 (Apache 2.4.56, MySQL 8.0.32, PHP 8.2.4)
@@ -774,7 +774,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot del dashboard WordPress recién instalado]*
 
-### 7.2 Configuración de Tema Divi
+### 7.2 Configuración de Tema Divi (POR TOCAR)
 
 **Licencia:** Elegant Themes ($89/año)
 
@@ -794,7 +794,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshots de Theme Customizer configurado]*
 
-### 7.3 Instalación y Configuración de Plugins
+### 7.3 Instalación y Configuración de Plugins (POR TOCAR)
 
 #### Plugins obligatorios configurados:
 
@@ -830,7 +830,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshots de configuración de cada plugin]*
 
-### 7.4 Estructura de Páginas Creadas
+### 7.4 Estructura de Páginas Creadas (POR TOCAR)
 
 **Páginas implementadas en Sprint 1:**
 
@@ -890,7 +890,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot página Contacto y prueba de envío formulario]*
 
-### 7.5 Identidad Visual Implementada
+### 7.5 Identidad Visual Implementada (POR TOCAR)
 
 **Colores aplicados (según manual corporativo):**
 - Verde claro #A3AB11: Botones primarios, enlaces, highlights
@@ -909,7 +909,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Tamaño mínimo: 100px (móvil), 150px (tablet), 180px (desktop)
 - Versión: Principal sobre fondo blanco
 
-### 7.6 Optimizaciones Realizadas
+### 7.6 Optimizaciones Realizadas (POR TOCAR)
 
 **SEO:**
 - Meta títulos y descripciones en todas las páginas
@@ -939,7 +939,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Atributos ARIA en elementos interactivos
 - Labels en formularios
 
-### 7.7 Testing Realizado
+### 7.7 Testing Realizado (POR TOCAR)
 
 **Compatibilidad navegadores:**
 - ✅ Chrome (última versión)
@@ -965,7 +965,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - *[Listar bugs encontrados durante testing y cómo se solucionaron]*
 - *[Ejemplo: Problema con menú móvil en iOS - Solucionado ajustando z-index]*
 
-### 7.8 Próximos Pasos (Sprint 2)
+### 7.8 Próximos Pasos (Sprint 2) (POR TOCAR)
 
 **Funcionalidades pendientes:**
 1. Completar traducciones al inglés con WPML
@@ -988,7 +988,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 8. CONCLUSIONES
 
-### 8.1 Logros Principales del Proyecto
+### 8.1 Logros Principales del Proyecto (POR TOCAR)
 
 **1. Análisis exhaustivo de MIGASA:**
 - Empresa familiar líder mundial identificada correctamente
@@ -1023,7 +1023,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Estimaciones realistas (96 horas totales, 24h por persona)
 - Uso de GitHub para gestión colaborativa
 
-### 8.2 Desafíos Encontrados
+### 8.2 Desafíos Encontrados (POR TOCAR)
 
 **1. Complejidad del manual de identidad:**
 - **Desafío:** Traducir colores Pantone a RGB exactos para web
@@ -1041,7 +1041,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Desafío:** 4 integrantes trabajando en paralelo
 - **Solución:** GitHub Projects para seguimiento, reuniones sincronización cada 2 días
 
-### 8.3 Aprendizajes Clave
+### 8.3 Aprendizajes Clave (POR TOCAR)
 
 **1. Importancia de la identidad corporativa:**
 - Un manual bien estructurado facilita enormemente implementación digital
@@ -1065,12 +1065,12 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Screenshots y mockups facilitan comunicación con cliente
 - Manual de usuario será clave para autonomía del cliente
 
-### 8.5 Riesgos Identificados y Gestión
+### 8.5 Riesgos Identificados y Gestión (POR TOCAR)
 
 | Riesgo | Probabilidad | Impacto | Estado | Mitigación Aplicada |
 |--------|--------------|---------|--------|---------------------|
 
-### 8.6 Entregables Completados - Sprint 1
+### 8.6 Entregables Completados - Sprint 1 (POR TOCAR)
 
 ✅ **Documentación completa:**
 - Requisitos REM (Goals, IR, UR, FR, NFR, BR)
@@ -1100,7 +1100,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - SEO básico configurado (Yoast)
 - Seguridad implementada (Wordfence + 2FA)
 
-### 8.7 Pendiente para Sprint 2
+### 8.7 Pendiente para Sprint 2 (POR TOCAR)
 
 **Funcionalidades:**
 - [ ] Completar traducciones WPML 
@@ -1116,7 +1116,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - [ ] Testimonios de clientes
 - [ ] Catálogos PDF descargables
 
-### 8.8 Reflexión del Equipo
+### 8.8 Reflexión del Equipo (POR TOCAR)
 
 **Fortalezas identificadas:**
 - Buena comunicación y coordinación entre los 4 integrantes
@@ -1140,7 +1140,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 4. Los mockups son fundamentales para alinear expectativas
 5. El manual de identidad corporativa debe ser el documento de referencia constante
 
-### 8.9 Agradecimientos
+### 8.9 Agradecimientos (POR TOCAR)
 
 Agradecemos a:
 - **MIGASA** por la oportunidad de trabajar con una empresa líder en el sector del aceite de oliva
@@ -1153,7 +1153,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 
 ## 9. REFERENCIAS
 
-### 9.1 Documentación Técnica
+### 9.1 Documentación Técnica (POR TOCAR)
 
 1. **WordPress.org** - Documentación oficial  
    https://wordpress.org/documentation/
@@ -1173,7 +1173,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 6. **WPML** - Multilingual WordPress Guide  
    https://wpml.org/documentation/
 
-### 9.2 Manuales de MIGASA
+### 9.2 Manuales de MIGASA (POR TOCAR)
 
 7. **Manual de Identidad Corporativa MIGASA**  
    Documento proporcionado por la empresa (incluido en repositorio)
@@ -1181,7 +1181,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 8. **Sitio web actual de MIGASA**  
    www.migasa.com (análisis de referencia)
 
-### 9.3 Metodología SCRUM
+### 9.3 Metodología SCRUM (POR TOCAR)
 
 9. **Scrum Guide 2020** - Definición oficial de SCRUM  
    https://scrumguides.org/
@@ -1192,7 +1192,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 11. **Mountain Goat Software** - User Stories Applied  
     https://www.mountaingoatsoftware.com/
 
-### 9.4 Herramientas Utilizadas
+### 9.4 Herramientas Utilizadas (POR TOCAR)
 
 12. **GitHub** - Version Control and Project Management  
     https://github.com
@@ -1213,7 +1213,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
     https://claude.com
     https://chatgpt.com
 
-### 9.5 Estándares y Buenas Prácticas
+### 9.5 Estándares y Buenas Prácticas (POR TOCAR)
 
 18. **WCAG 2.1** - Web Content Accessibility Guidelines  
     https://www.w3.org/WAI/WCAG21/quickref/
@@ -1227,7 +1227,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 21. **WPBeginner** - WordPress Tutorials for Beginners  
     https://www.wpbeginner.com/
 
-### 9.6 Diseño Web y UX
+### 9.6 Diseño Web y UX (POR TOCAR)
 
 22. **Material Design** - Design System  
     https://material.io/design
@@ -1238,7 +1238,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 24. **A11Y Project** - Accessibility Resources  
     https://www.a11yproject.com/
 
-### 9.7 Recursos de Aprendizaje
+### 9.7 Recursos de Aprendizaje (POR TOCAR)
 
 25. **YouTube** - Divi Theme Tutorials  
     Canal: Elegant Themes
@@ -1251,7 +1251,7 @@ Agradecimiento especial a MIGASA por proporcionar el manual de identidad corpora
 
 ---
 
-## 10. ANEXOS
+## 10. ANEXOS (POR TOCAR)
 
 ### Anexo A: Glosario de Términos
 
