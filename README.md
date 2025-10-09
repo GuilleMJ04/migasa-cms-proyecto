@@ -767,16 +767,16 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 2. **Creación de base de datos:** `migasa_cms_db` (utf8mb4_unicode_ci)
 3. **Descarga WordPress 6.4.2** desde wordpress.org
 4. **Configuración inicial:**
-   - Título: "MIGASA - Aceites de Oliva"
+   - Título: "MIGASA - Tienda online"
    - Descripción: "Líderes mundiales en aceite de oliva desde 1933"
    - Usuario admin: `admin_migasa`
    - Idioma: Español
 
 *[PENDIENTE: Screenshot del dashboard WordPress recién instalado]*
 
-### 7.2 Configuración de Tema Divi (POR TOCAR)
+### 7.2 Configuración de Tema Green Store 1.0.2 (POR TOCAR)
 
-**Licencia:** Elegant Themes ($89/año)
+**Licencia:** gradientthemes
 
 **Configuración de colores corporativos:**
 - Color primario: #A3AB11 (Pantone 383 C)
@@ -789,14 +789,14 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Myriad Pro Bold (navegación, botones)
 
 **Logo:**
-- Tamaño: 180px ancho
-- Favicon: 32x32px y 180x180px (iOS)
+- Tamaño: 512x512
+- Favicon: 32x32px y 180x180px (iOS)  --> No lo he usado
 
 *[PENDIENTE: Screenshots de Theme Customizer configurado]*
 
 ### 7.3 Instalación y Configuración de Plugins (POR TOCAR)
 
-#### Plugins obligatorios configurados:
+#### Plugins obligatorios configurados: (POR TOCAR)
 
 **1. Wordfence Security 7.11.0**
 - Firewall: Activado (Learning Mode inicial)
@@ -823,10 +823,16 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Meta descripciones: Configuradas
 
 **Plugins adicionales:**
-- **WPML:** Español/Inglés configurado
-- **WPForms:** Formulario de contacto creado
-- **UpdraftPlus:** Backups semanales a Google Drive
-- **ShortPixel:** Optimización automática de imágenes
+- **WPML:** Español/Inglés configurado                        (NO USADO)
+- **WPForms Lite:** Formulario de contacto creado
+- **UpdraftPlus:** Backups semanales a Google Drive           (NO USADO)
+- **ShortPixel:** Optimización automática de imágenes         (NO USADO)
+- **Carousel Slider Block:** Carrusel de imágenes
+- **WooCommerce:** Comercio electrónico
+- **WooCommerce Stripe Gateway:** Diferentes formas de pago online
+- **WooCommerce PayPal Payments:** Pago con Paypal
+- **Google for WooCommerce:** Búsquedas de la página en Google
+- **Jetpack:** Seguridad
 
 *[PENDIENTE: Screenshots de configuración de cada plugin]*
 
@@ -837,15 +843,15 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 #### 7.4.1 Página Home
 **URL:** /  
 **Secciones:**
-- Hero con imagen de olivar y CTA
-- Quiénes somos (texto + imagen)
-- Cifras clave (4 cards: 90+ años, 120 países, 1000M€, 3ª generación)
-- Productos destacados (grid 3 columnas)
-- CTA final contacto
+- Header con imagen de olivar y barra de páginas
+- Quiénes somos/Nuestra historia (texto + carrusel imágenes)
+- Cifras clave (4 bloques: 90+ años, 120 países, 1000M€, 3ª generación)
+- Productos destacados (bloque 5 columnas)
+- Pie de página con contacto y links páginas
 
 *[PENDIENTE: Screenshot página Home completa (desktop y móvil)]*
 
-#### 7.4.2 Página Empresa
+#### 7.4.2 Página Empresa  (POR CREAR)
 **URL:** /empresa/  
 **Secciones:**
 - Timeline histórica (vertical con hitos)
@@ -857,9 +863,9 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 *[PENDIENTE: Screenshot página Empresa]*
 
 #### 7.4.3 Catálogo de Productos
-**URL:** /productos/aceite-oliva/  
+**URL:** /tienda/  
 **Funcionalidad:**
-- Grid de productos (3 columnas)
+- Bloque de productos (4 columnas)
 - Filtros por tipo de aceite
 - 10 productos publicados mínimo:
   - Aceite Oliva Virgen Extra
@@ -870,15 +876,16 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
   - (+ otros productos)
 
 **Página detalle producto:**
-- Galería de imágenes con lightbox
+- Galería de imágenes
+- Precio con impuestos
 - Especificaciones técnicas
 - Presentaciones disponibles
 - Certificaciones
-- CTA: "Solicitar información"
+- Botón para añadir a carrito
 
 *[PENDIENTE: Screenshots de catálogo y detalle de producto]*
 
-#### 7.4.4 Página Contacto
+#### 7.4.4 Página Contacto   (POR CREAR)
 **URL:** /contacto/  
 **Elementos:**
 - Formulario WPForms con validación
@@ -890,6 +897,16 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot página Contacto y prueba de envío formulario]*
 
+#### 7.4.5 Carrito
+**URL:** /carrito/  
+**Elementos:**
+- Bloque con resumen del producto y su precio con impuestos
+- Productos relacionados
+- Bloque de compra con precio estimado sin gastos de envío
+- Pestaña para cupones
+
+*[PENDIENTE: Screenshot página Contacto y prueba de envío formulario]*
+
 ### 7.5 Identidad Visual Implementada (POR TOCAR)
 
 **Colores aplicados (según manual corporativo):**
@@ -897,7 +914,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Verde medio #7C9323: Títulos secundarios, hover effects
 - Verde oscuro #3B593B: Footer, elementos de contraste
 - Negro #000000: Textos principales
-- Gris #666666: Textos secundarios
+- Gris #666666: Textos secundarios y fondos
 
 **Tipografías:**
 - DIN Black: H1 (36px), H2 (28px)
@@ -919,24 +936,24 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Sitemap XML enviado a Google Search Console
 
 **Rendimiento:**
-- Imágenes optimizadas con ShortPixel (formato WebP)
+- Imágenes optimizadas con ShortPixel (formato WebP)   **(PLUGIN NO USADO)**
 - Lazy loading activado en todas las imágenes
 - CSS y JS minificados y combinados
 - GZIP compression habilitada
-- Cache de página activado
+- Cache de página activado        **(NECESITO PLUGIN)**
 - **Resultado PageSpeed Insights:** *[Incluir scores reales]*
 
 **Seguridad:**
-- Certificado SSL configurado (HTTPS)
-- Login protegido con 2FA
-- Firewall Wordfence activo
+- Certificado SSL configurado (HTTPS)    **(NO TENEMOS, VALE DINERO)**
+- Login protegido con 2FA                **(LOGIN POR CREAR)**
+- Firewall Wordfence activo              **(NO USADO)**
 - Backups automáticos semanales
 - Versión WordPress oculta
 
 **Accesibilidad:**
-- Contraste de colores: Cumple WCAG 2.1 AA
+- Contraste de colores: Cumple WCAG 2.1 AA      **(NI IDEA)**
 - Navegación por teclado funcional
-- Atributos ARIA en elementos interactivos
+- Atributos ARIA en elementos interactivos      **(NI IDEA)**
 - Labels en formularios
 
 ### 7.7 Testing Realizado (POR TOCAR)
