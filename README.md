@@ -273,20 +273,20 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 5. DISEÑO
 
-### 5.1 Análisis y Selección de Plugins (POR TOCAR)
+### 5.1 Análisis y Selección de Plugins
 
-#### 5.1.1 Plugins de Seguridad (OBLIGATORIO)
+#### 5.1.1 Plugins de Seguridad
 
-| Plugin | Última Actualización | Descargas | Valoración | Características Principales | Decisión |
-|--------|---------------------|-----------|-----------|----------------------------|----------|
-| **Wordfence Security** | Actualización continua | 5M+ | ★★★★★ (4.7/5) | • Firewall de aplicación web (WAF)<br>• Escaneo de malware y vulnerabilidades<br>• Autenticación de dos factores (2FA)<br>• Bloqueo de fuerza bruta<br>• Monitorización en tiempo real<br>• Alertas por email | ✅ **SELECCIONADO** |
-| **Sucuri Security** | Actualización mensual | 800K+ | ★★★★☆ (4.5/5) | • Auditoría de actividad de seguridad<br>• Monitoreo de integridad de archivos<br>• Lista negra de monitorización remota<br>• Limpieza post-hackeo<br>• Acciones de seguridad posteriores al hack | ❌ Descartado |
-| **iThemes Security** | Actualización continua | 1M+ | ★★★★☆ (4.6/5) | • Más de 50 formas de protección<br>• Autenticación de dos factores<br>• Forzar contraseñas fuertes<br>• Detección de cambios en archivos<br>• Programación de escaneos | ❌ Descartado |
+| Plugin | Características Principales | Decisión |
+|--------|----------------------------|----------|
+| **Wordfence Security** | • Firewall de aplicación web (WAF)<br>• Escaneo de malware y vulnerabilidades<br>• Autenticación de dos factores (2FA)<br>• Bloqueo de fuerza bruta<br>• Monitorización en tiempo real<br>• Alertas por email | ✅ **SELECCIONADO** |
+| **Sucuri Security** | • Auditoría de actividad de seguridad<br>• Monitoreo de integridad de archivos<br>• Lista negra de monitorización remota<br>• Limpieza post-hackeo<br>• Acciones de seguridad posteriores al hack | ❌ Descartado |
+| **iThemes Security** | • Más de 50 formas de protección<br>• Autenticación de dos factores<br>• Forzar contraseñas fuertes<br>• Detección de cambios en archivos<br>• Programación de escaneos | ❌ Descartado |
 
 **Plugin seleccionado:** Wordfence Security
 
 **Justificación detallada:**
-- **Mayor número de instalaciones activas** (5M+), lo que demuestra confianza de la comunidad
+- **Mayor número de instalaciones activas**, lo que demuestra confianza de la comunidad
 - **Firewall de aplicación web incluido** en versión gratuita, protección avanzada contra amenazas
 - **Escaneo de malware más completo** que la competencia, detecta backdoors y código malicioso
 - **Dashboard intuitivo** con alertas en tiempo real y métricas de seguridad fáciles de interpretar
@@ -294,60 +294,40 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Ideal para empresas** con información sensible como MIGASA (datos de clientes, información comercial)
 - **Soporte técnico responsive** y documentación extensa en español
 - **Integración con tráfico en vivo** para monitorizar intentos de acceso sospechosos
+- **Compatibilidad comprobada con otros puglins**, ya que otros probados crean conflicto y errores difíciles de resolver.
 
-#### 5.1.2 Plugins de Cache (OBLIGATORIO)
+#### 5.1.2 Plugins de Cache (SE INSTALARÁ PARA SPRINT 2)
 
-| Plugin | Última Actualización | Descargas | Valoración | Características Principales | Decisión |
-|--------|---------------------|-----------|-----------|----------------------------|----------|
-| **WP Rocket** | Actualización continua | Premium (pago) | ★★★★★ (4.9/5) | • Cache de página completa<br>• Lazy loading de imágenes y videos<br>• Minificación de CSS/JS/HTML<br>• Compatible con CDN<br>• Preload de cache<br>• Optimización de base de datos<br>• Configuración 1-click | ✅ **SELECCIONADO** |
-| **W3 Total Cache** | Actualización mensual | 1M+ | ★★★★☆ (4.3/5) | • Cache completa (página, objeto, base datos)<br>• Integración CDN<br>• Minificación recursos<br>• Gratuito<br>• Muchas opciones de configuración<br>• Compatible con SSL | ❌ Descartado |
-| **WP Super Cache** | Actualización trimestral | 2M+ | ★★★★☆ (4.4/5) | • Genera archivos HTML estáticos<br>• Cache simple y efectiva<br>• Totalmente gratuito<br>• Configuración sencilla<br>• Ligero y sin complejidades | ❌ Descartado |
+| Plugin | Características Principales | Decisión |
+|--------|----------------------------|----------|
+| **Autoptimize** | • Gestión de caché de página<br>• Lazy loading (carga diferida) de imágenes <br>• Minificación de CSS/JS/HTML<br>• Compatible con CDN<br>• Interfaz amigable<br>• Optimización de fuentes Google<br> | ✅ **SELECCIONADO** |
+| **W3 Total Cache** | • Cache completa (página, objeto, base datos)<br>• Integración CDN<br>• Minificación recursos<br>• Gratuito<br>• Muchas opciones de configuración<br>• Compatible con SSL | ❌ Descartado |
+| **WP Super Cache** | • Genera archivos HTML estáticos<br>• Cache simple y efectiva<br>• Totalmente gratuito<br>• Configuración sencilla<br>• Ligero y sin complejidades | ❌ Descartado |
 
-**Plugin seleccionado:** WP Rocket
+**Plugin seleccionado:** Autoptimize
 
 **Justificación detallada:**
-- **Mejores resultados en velocidad:** reduce tiempo de carga entre 40-50% en promedio
-- **Configuración automática:** no requiere conocimientos técnicos, activar y funciona
+- **Objetivo principal alineado con la necesidad:** este plugin aborda directamente los problemas más comunes que afectan a la velocidad de un sitio
+- **Reducción del peso y de las peticiones:** optimiza el HTML, lo que reduce el tamaño total de recursos y el número total de solicitudes HTTP.
 - **Lazy loading integrado** de imágenes (crucial para catálogo de productos de MIGASA)
-- **Preload de cache:** garantiza que siempre haya versión cacheada disponible
-- **Optimización de base de datos:** limpia revisiones, spam, transients automáticamente
+- **Flexibilidad para desarrolladores:** permite excluir archivos que generan conflicto o ajustar el comportamiento por tipos de páginas o condiciones.
+- **Escalable:** funciona bien con la infraestructura existente.
 - **Compatible con WooCommerce:** por si en futuro se implementa tienda online
-- **Soporte premium en español:** respuesta en menos de 24h
-- **ROI justificado:** inversión ($59/año) compensada por mejora en conversiones y SEO
+- **Modelo coste/beneficio atractivo:** la versión básica es gratuita y cubre las necesidades. 
 - **Actualizaciones frecuentes:** siempre compatible con última versión WordPress
 
 **Alternativas descartadas:**
 - **W3 Total Cache:** Aunque gratuito, configuración muy compleja para usuario no técnico
 - **WP Super Cache:** Funcionalidad básica insuficiente para necesidades de MIGASA
 
-#### 5.1.3 Plugins de Analytics (OBLIGATORIO)
 
-| Plugin | Última Actualización | Descargas | Valoración | Características Principales | Decisión |
-|--------|---------------------|-----------|-----------|----------------------------|----------|
-| **MonsterInsights** | Actualización continua | 3M+ | ★★★★★ (4.6/5) | • Integración Google Analytics 4 en dashboard<br>• Tracking de e-commerce<br>• Informes automáticos por email<br>• Cumplimiento GDPR<br>• Tracking de formularios y descargas<br>• Segmentación de audiencia<br>• Informes de velocidad de página | ✅ **SELECCIONADO** |
-| **Google Analytics Dashboard** | Actualización mensual | 1M+ | ★★★★☆ (4.5/5) | • Integración básica con GA4<br>• Informes en dashboard WP<br>• Totalmente gratuito<br>• Configuración simple<br>• Estadísticas en tiempo real | ❌ Descartado |
-| **Analytify** | Actualización continua | 200K+ | ★★★★☆ (4.7/5) | • Dashboard visual atractivo<br>• Estadísticas en tiempo real<br>• Tracking de eventos<br>• Informes por página/post<br>• Compatible con Google Analytics | ❌ Descartado |
+#### 5.1.3 Plugins de SEO
 
-**Plugin seleccionado:** MonsterInsights
-
-**Justificación detallada:**
-- **Integración completa con Google Analytics 4:** configuración guiada paso a paso
-- **Dashboard visual en WordPress:** no necesita salir del admin para ver estadísticas
-- **Tracking automático avanzado:** formularios, clics externos, descargas de catálogos PDF
-- **Informes de e-commerce preparados:** útil si MIGASA implementa tienda online futura
-- **Compatible con GDPR:** importante para empresa europea, gestión de consentimientos
-- **Segmentación por país:** crucial para MIGASA con presencia en 120 países
-- **Informes automáticos por email:** envío semanal/mensual a stakeholders
-- **Tracking de eventos personalizados:** medir interacciones específicas (ver productos, contacto)
-- **Soporte premium con prioridad** y actualizaciones garantizadas
-
-#### 5.1.4 Plugins de SEO (OBLIGATORIO)
-
-| Plugin | Última Actualización | Descargas | Valoración | Características Principales | Decisión |
-|--------|---------------------|-----------|-----------|----------------------------|----------|
-| **Yoast SEO** | Actualización semanal | 5M+ | ★★★★★ (4.9/5) | • Análisis de contenido en tiempo real<br>• Generación de XML sitemaps<br>• Breadcrumbs para navegación<br>• Control de meta descripciones<br>• Schema.org markup (Rich Snippets)<br>• Integración redes sociales<br>• Análisis de legibilidad<br>• Redirecciones (versión premium) | ✅ **SELECCIONADO** |
-| **Rank Math** | Actualización continua | 2M+ | ★★★★★ (4.8/5) | • 40+ herramientas SEO gratuitas<br>• Google Search Console integrado<br>• Análisis automático de 404<br>• Redirecciones ilimitadas gratuitas<br>• Múltiples keywords por página<br>• Rich snippets avanzados | ❌ Descartado |
-| **All in One SEO** | Actualización semanal | 3M+ | ★★★★☆ (4.6/5) | • Optimización automática de SEO<br>• Generación de XML sitemaps<br>• Integración con redes sociales<br>• TruSEO score<br>• Schema markup | ❌ Descartado |
+| Plugin | Características Principales | Decisión |
+|--------|----------------------------|----------|
+| **Yoast SEO** | • Análisis de contenido en tiempo real<br>• Generación de XML sitemaps<br>• Breadcrumbs para navegación<br>• Control de meta descripciones<br>• Schema.org markup (Rich Snippets)<br>• Integración redes sociales<br>• Análisis de legibilidad<br>• Redirecciones (versión premium) | ✅ **SELECCIONADO** |
+| **Rank Math** | • 40+ herramientas SEO gratuitas<br>• Google Search Console integrado<br>• Análisis automático de 404<br>• Redirecciones ilimitadas gratuitas<br>• Múltiples keywords por página<br>• Rich snippets avanzados | ❌ Descartado |
+| **All in One SEO** | • Optimización automática de SEO<br>• Generación de XML sitemaps<br>• Integración con redes sociales<br>• TruSEO score<br>• Schema markup | ❌ Descartado |
 
 **Plugin seleccionado:** Yoast SEO
 
@@ -357,7 +337,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Análisis en tiempo real:** feedback inmediato sobre legibilidad y SEO mientras escribes
 - **Optimización para palabras clave:** guía para optimizar términos como "aceite de oliva", "MIGASA"
 - **Schema markup automático:** rich snippets para productos (crucial para catálogo)
-- **Compatibilidad multiidioma:** funciona perfectamente con WPML (español/inglés)
 - **Breadcrumbs SEO-friendly:** mejora navegación y estructura de URLs
 - **Documentación extensa en español:** tutoriales, webinars, soporte activo
 - **Actualizaciones semanales:** siempre al día con algoritmos de Google
@@ -367,7 +346,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Rank Math:** Aunque tiene más funciones gratuitas, menos maduro y estable
 - **All in One SEO:** Interfaz menos intuitiva, documentación menos completa
 
-#### 5.1.5 Otros Plugins Específicos
+#### 5.1.4 Otros Plugins Específicos
 
 **Plugin de Formularios:**
 - **WPForms** (Seleccionado)
