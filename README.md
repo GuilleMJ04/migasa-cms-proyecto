@@ -765,7 +765,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 **Entorno de desarrollo:**
 - **Software:** XAMPP 8.2.4 (Apache 2.4.56, MySQL 8.0.32, PHP 8.2.4)
 - **Sistema operativo:** *[Windows 11 / macOS / Linux Ubuntu]*
-- **URL local:** http://localhost:8080/migasa-wordpress
+- **URL local:** http://localhost/wordpress
 
 **Proceso realizado:**
 
@@ -810,19 +810,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Escaneo: Diario a las 3:00 AM
 - Bloqueo fuerza bruta: 5 intentos máximo
 
-**2. WP Rocket 3.15.4**
-- Cache de página: Activado
-- Lazy loading: Imágenes y videos
-- Minificación: CSS + JS + HTML
-- Resultado inicial: PageSpeed 85/100 (mobile), 92/100 (desktop)
-
-**3. MonsterInsights 8.23.0**
-- Google Analytics 4 conectado
-- Tracking: Enlaces salientes, descargas, formularios
-- GDPR: Anonimización IPs activada
-- Dashboard: Informes últimos 30 días
-
-**4. Yoast SEO 21.7**
+**2. Yoast SEO 21.7**
 - Sitemap XML generado: /sitemap_index.xml
 - Schema: Organization (MIGASA)
 - Breadcrumbs: Activados
@@ -844,7 +832,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 **Páginas implementadas en Sprint 1:**
 
-#### 7.4.1 Página Home
+#### 7.4.1 Página Home (esta es la página de empresa también)
 **URL:** /  
 **Secciones:**
 - Header con imagen de olivar y barra de páginas
@@ -855,17 +843,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot página Home completa (desktop y móvil)]*
 
-#### 7.4.2 Página Empresa
-**URL:** /empresa/  
-**Secciones:**
-- Slider con imágenes
-- Misión, Visión y Valores
-- Instalaciones (Dos Hermanas, La Luisiana)
-- Video institucional
-
-*[PENDIENTE: Screenshot página Empresa]*
-
-#### 7.4.3 Catálogo de Productos
+#### 7.4.2 Catálogo de Productos
 **URL:** /tienda/  
 **Funcionalidad:**
 - Bloque de productos (4 columnas)
@@ -888,7 +866,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshots de catálogo y detalle de producto]*
 
-#### 7.4.4 Página Contacto
+#### 7.4.3 Página Contacto
 **URL:** /contacto/  
 **Elementos:**
 - Formulario WPForms con validación
@@ -897,7 +875,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot página Contacto y prueba de envío formulario]*
 
-#### 7.4.5 Carrito
+#### 7.4.4 Carrito
 **URL:** /carrito/  
 **Elementos:**
 - Bloque con resumen del producto y su precio con impuestos
