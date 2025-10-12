@@ -996,7 +996,8 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 5. **WP Rocket** - Performance Optimization  
    https://docs.wp-rocket.me/
 
-6. **GTranslate** - 
+6. **GTranslate** - Multilanguage translator
+   https://gtranslate.io/
 
 ### 9.2 Manuales de MIGASA (POR TOCAR)
 
@@ -1008,66 +1009,30 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 
 ### 9.3 Metodología SCRUM (POR TOCAR)
 
-9. **Scrum Guide 2020** - Definición oficial de SCRUM  
-   https://scrumguides.org/
-
-10. **Atlassian** - Agile and SCRUM Resources  
-    https://www.atlassian.com/agile/scrum
-
-11. **Mountain Goat Software** - User Stories Applied  
-    https://www.mountaingoatsoftware.com/
+9. **PDF teoría y clases** - Publicado en Teams
 
 ### 9.4 Herramientas Utilizadas (POR TOCAR)
 
-12. **GitHub** - Version Control and Project Management  
+10. **GitHub** - Version Control and Project Management  
     https://github.com
 
-13. **Balsamiq Mockups** - Wireframing Tool  
+11. **Balsamiq Mockups** - Wireframing Tool  
     https://balsamiq.com/
 
-14. **Draw.io** - Diagramming Tool  
+12. **Draw.io** - Diagramming Tool  
     https://app.diagrams.net/
 
-15. **CLAUDE AI & CHAT GPT** - Content Generator
+13. **CLAUDE AI & CHAT GPT** - Content Generator
     https://claude.com
     https://chatgpt.com
 
-### 9.5 Estándares y Buenas Prácticas (POR TOCAR)
+### 9.5 Recursos de Aprendizaje (POR TOCAR)
 
-16. **WCAG 2.1** - Web Content Accessibility Guidelines  
-    https://www.w3.org/WAI/WCAG21/quickref/
+14. **YouTube** - Curso de Wordpress COMPLETO desde Cero (2024)
+    Canal: Matias Porta
 
-17. **Schema.org** - Structured Data Vocabulary  
-    https://schema.org/
-
-18. **Google SEO Starter Guide**  
-    https://developers.google.com/search/docs/beginner/seo-starter-guide
-
-19. **WPBeginner** - WordPress Tutorials for Beginners  
-    https://www.wpbeginner.com/
-
-### 9.6 Diseño Web y UX (POR TOCAR)
-
-22. **Material Design** - Design System  
-    https://material.io/design
-
-23. **Nielsen Norman Group** - UX Research and Guidelines  
-    https://www.nngroup.com/
-
-24. **A11Y Project** - Accessibility Resources  
-    https://www.a11yproject.com/
-
-### 9.7 Recursos de Aprendizaje (POR TOCAR)
-
-25. **YouTube** - Divi Theme Tutorials  
-    Canal: Elegant Themes
-
-26. **CSS-Tricks** - Web Development Blog  
-    https://css-tricks.com/
-
-27. **Stack Overflow** - Developer Community  
-    https://stackoverflow.com/
-
+15. **YouTube** - Curso Crea una Tienda Online WordPress, WooCommerce y Elementor paso a paso | Curso Completo 35 videos GRATIS
+    Canal: Mister Fabian
 ---
 
 ## 10. ANEXOS (POR TOCAR)
