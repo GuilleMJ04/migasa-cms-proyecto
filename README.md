@@ -987,9 +987,6 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 1. **WordPress.org** - Documentación oficial  
    https://wordpress.org/documentation/
 
-2. **Elegant Themes** - Divi Documentation  
-   https://www.elegantthemes.com/documentation/divi/
-
 3. **Wordfence** - Security Best Practices  
    https://www.wordfence.com/learn/
 
@@ -999,8 +996,7 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 5. **WP Rocket** - Performance Optimization  
    https://docs.wp-rocket.me/
 
-6. **WPML** - Multilingual WordPress Guide  
-   https://wpml.org/documentation/
+6. **GTranslate** - 
 
 ### 9.2 Manuales de MIGASA (POR TOCAR)
 
@@ -1029,31 +1025,25 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 13. **Balsamiq Mockups** - Wireframing Tool  
     https://balsamiq.com/
 
-14. **Google Analytics 4** - Web Analytics  
-    https://analytics.google.com/
-
-15. **PageSpeed Insights** - Performance Testing  
-    https://pagespeed.web.dev/
-
-16. **Draw.io** - Diagramming Tool  
+14. **Draw.io** - Diagramming Tool  
     https://app.diagrams.net/
 
-17. **CLAUDE AI & CHAT GPT** - Content Generator
+15. **CLAUDE AI & CHAT GPT** - Content Generator
     https://claude.com
     https://chatgpt.com
 
 ### 9.5 Estándares y Buenas Prácticas (POR TOCAR)
 
-18. **WCAG 2.1** - Web Content Accessibility Guidelines  
+16. **WCAG 2.1** - Web Content Accessibility Guidelines  
     https://www.w3.org/WAI/WCAG21/quickref/
 
-19. **Schema.org** - Structured Data Vocabulary  
+17. **Schema.org** - Structured Data Vocabulary  
     https://schema.org/
 
-20. **Google SEO Starter Guide**  
+18. **Google SEO Starter Guide**  
     https://developers.google.com/search/docs/beginner/seo-starter-guide
 
-21. **WPBeginner** - WordPress Tutorials for Beginners  
+19. **WPBeginner** - WordPress Tutorials for Beginners  
     https://www.wpbeginner.com/
 
 ### 9.6 Diseño Web y UX (POR TOCAR)
