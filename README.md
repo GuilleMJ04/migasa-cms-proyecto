@@ -1011,7 +1011,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ## 8. CONCLUSIONES
 
-
+El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de desarrollo web, en la que el equipo ha invertido numerosas horas de trabajo para transformar una web informativa en una plataforma funcional de comercio electrónico. Se han aplicado metodologías ágiles (Scrum), herramientas colaborativas y principios de diseño responsive y accesible, logrando un sistema que mejora la interacción con los usuarios, la gestión de contenidos y abre un nuevo canal digital de ventas para la empresa. El trabajo en equipo, la planificación y la implementación técnica han permitido alcanzar los objetivos propuestos con resultados satisfactorios.
 
 ---
 
