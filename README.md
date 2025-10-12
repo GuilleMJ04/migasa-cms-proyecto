@@ -760,7 +760,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *Esta sección documenta la implementación real del sitio WordPress para MIGASA. Incluir screenshots y detalles específicos de configuración.*
 
-### 7.1 Instalación de WordPress (POR TOCAR)
+### 7.1 Instalación de WordPress
 
 **Entorno de desarrollo:**
 - **Software:** XAMPP 8.2.4 (Apache 2.4.56, MySQL 8.0.32, PHP 8.2.4)
@@ -780,7 +780,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot del dashboard WordPress recién instalado]*
 
-### 7.2 Configuración de Tema Green Store 1.0.2 (POR TOCAR)
+### 7.2 Configuración de Tema Green Store 1.0.2
 
 **Licencia:** gradientthemes
 
@@ -800,9 +800,9 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshots de Theme Customizer configurado]*
 
-### 7.3 Instalación y Configuración de Plugins (POR TOCAR)
+### 7.3 Instalación y Configuración de Plugins
 
-#### Plugins obligatorios configurados: (POR TOCAR)
+#### Plugins obligatorios configurados:
 
 **1. Wordfence Security 7.11.0**
 - Firewall: Activado (Learning Mode inicial)
@@ -829,10 +829,8 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Meta descripciones: Configuradas
 
 **Plugins adicionales:**
-- **WPML:** Español/Inglés configurado                        (NO USADO)
+- **GTransalte:** 5 idiomas configurados
 - **WPForms Lite:** Formulario de contacto creado
-- **UpdraftPlus:** Backups semanales a Google Drive           (NO USADO)
-- **ShortPixel:** Optimización automática de imágenes         (NO USADO)
 - **Carousel Slider Block:** Carrusel de imágenes
 - **WooCommerce:** Comercio electrónico
 - **WooCommerce Stripe Gateway:** Diferentes formas de pago online
@@ -842,7 +840,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshots de configuración de cada plugin]*
 
-### 7.4 Estructura de Páginas Creadas (POR TOCAR)
+### 7.4 Estructura de Páginas Creadas
 
 **Páginas implementadas en Sprint 1:**
 
@@ -860,10 +858,9 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 #### 7.4.2 Página Empresa  (POR CREAR)
 **URL:** /empresa/  
 **Secciones:**
-- Timeline histórica (vertical con hitos)
+- Slider con imágenes
 - Misión, Visión y Valores
 - Instalaciones (Dos Hermanas, La Luisiana)
-- Google Maps integrado
 - Video institucional
 
 *[PENDIENTE: Screenshot página Empresa]*
@@ -891,14 +888,11 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshots de catálogo y detalle de producto]*
 
-#### 7.4.4 Página Contacto   (POR CREAR)
+#### 7.4.4 Página Contacto
 **URL:** /contacto/  
 **Elementos:**
 - Formulario WPForms con validación
 - Campos: Nombre, Email, Teléfono, Tipo consulta, Mensaje, GDPR checkbox
-- Google Maps con 2 ubicaciones:
-  - Dos Hermanas (Ctra. Madrid-Cádiz, Km. 556)
-  - La Luisiana
 - Datos de contacto: Tel. 954 720 550, Email: info@migasa.com
 
 *[PENDIENTE: Screenshot página Contacto y prueba de envío formulario]*
@@ -913,7 +907,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot página Contacto y prueba de envío formulario]*
 
-### 7.5 Identidad Visual Implementada (POR TOCAR)
+### 7.5 Identidad Visual Implementada
 
 **Colores aplicados (según manual corporativo):**
 - Verde claro #A3AB11: Botones primarios, enlaces, highlights
@@ -932,7 +926,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Tamaño mínimo: 100px (móvil), 150px (tablet), 180px (desktop)
 - Versión: Principal sobre fondo blanco
 
-### 7.6 Optimizaciones Realizadas (POR TOCAR)
+### 7.6 Optimizaciones Realizadas
 
 **SEO:**
 - Meta títulos y descripciones en todas las páginas
@@ -950,16 +944,13 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Resultado PageSpeed Insights:** *[Incluir scores reales]*
 
 **Seguridad:**
-- Certificado SSL configurado (HTTPS)    **(NO TENEMOS, VALE DINERO)**
-- Login protegido con 2FA                **(LOGIN POR CREAR)**
+- Login protegido con 2FA
 - Firewall Wordfence activo              **(NO USADO)**
 - Backups automáticos semanales
 - Versión WordPress oculta
 
 **Accesibilidad:**
-- Contraste de colores: Cumple WCAG 2.1 AA      **(NI IDEA)**
 - Navegación por teclado funcional
-- Atributos ARIA en elementos interactivos      **(NI IDEA)**
 - Labels en formularios
 
 ### 7.7 Testing Realizado (POR TOCAR)
