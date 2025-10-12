@@ -999,7 +999,7 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 6. **GTranslate** - Multilanguage translator
    https://gtranslate.io/
 
-### 9.2 Manuales de MIGASA (POR TOCAR)
+### 9.2 Manuales de MIGASA
 
 7. **Manual de Identidad Corporativa MIGASA**  
    Documento proporcionado por la empresa (incluido en repositorio)
@@ -1007,11 +1007,11 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 8. **Sitio web actual de MIGASA**  
    www.migasa.com (análisis de referencia)
 
-### 9.3 Metodología SCRUM (POR TOCAR)
+### 9.3 Metodología SCRUM
 
 9. **PDF teoría y clases** - Publicado en Teams
 
-### 9.4 Herramientas Utilizadas (POR TOCAR)
+### 9.4 Herramientas Utilizadas
 
 10. **GitHub** - Version Control and Project Management  
     https://github.com
@@ -1026,7 +1026,7 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
     https://claude.com
     https://chatgpt.com
 
-### 9.5 Recursos de Aprendizaje (POR TOCAR)
+### 9.5 Recursos de Aprendizaje
 
 14. **YouTube** - Curso de Wordpress COMPLETO desde Cero (2024)
     Canal: Matias Porta
@@ -1082,136 +1082,8 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 - En fondos oscuros (#3B593B) se usa texto blanco (#FFFFFF)
 - Hover effects utilizan el siguiente color de la paleta para crear jerarquía visual
 
-### Anexo D: Checklist Pre-Lanzamiento a Producción
 
-**Lista de verificación completa antes de hacer el sitio público:**
-
-#### Configuración Técnica
-- [ ] SSL certificado instalado y funcionando (HTTPS)
-- [ ] Redirección 301 de HTTP a HTTPS configurada
-- [ ] Certificado SSL válido para www y sin www
-- [ ] DNS configurado correctamente (A records, CNAME)
-- [ ] Backups automáticos configurados y probados
-- [ ] Plugins actualizados a última versión estable
-- [ ] Tema actualizado a última versión
-- [ ] WordPress core actualizado a última versión
-- [ ] PHP versión 8.0 o superior
-- [ ] MySQL versión 5.7 o superior
-
-#### Usuarios y Seguridad
-- [ ] Usuarios de prueba eliminados
-- [ ] Contraseñas seguras para todos los usuarios
-- [ ] 2FA activado para administradores
-- [ ] Usuario "admin" renombrado o eliminado
-- [ ] Roles y permisos revisados
-- [ ] Firewall Wordfence en modo "Enabled and Protecting"
-- [ ] Login protegido contra fuerza bruta
-- [ ] Versión de WordPress oculta del código fuente
-
-#### Contenido
-- [ ] Todas las páginas principales publicadas
-- [ ] Mínimo 10 productos en catálogo
-- [ ] Imágenes optimizadas (WebP, tamaño correcto)
-- [ ] Todos los textos revisados ortográficamente
-- [ ] Enlaces internos verificados (sin 404s)
-- [ ] Enlaces externos verificados
-- [ ] Formularios probados y funcionando
-- [ ] Textos placeholder reemplazados por contenido real
-- [ ] Información de contacto correcta (teléfono, email, dirección)
-
-#### SEO
-- [ ] Sitemap XML generado y enviado a Google Search Console
-- [ ] Robots.txt configurado correctamente
-- [ ] Meta títulos completados en todas las páginas
-- [ ] Meta descripciones completadas en todas las páginas
-- [ ] URLs amigables activadas (permalinks)
-- [ ] Imágenes con atributos ALT descriptivos
-- [ ] Schema markup implementado (Organization, Product)
-- [ ] Google Analytics 4 funcionando y rastreando
-- [ ] Google Search Console configurado
-- [ ] Bing Webmaster Tools configurado (opcional)
-- [ ] Palabras clave focus configuradas en páginas principales
-
-#### Rendimiento
-- [ ] WP Rocket cache activado
-- [ ] Lazy loading funcionando
-- [ ] Minificación CSS/JS/HTML activada
-- [ ] GZIP compression habilitado
-- [ ] PageSpeed Insights >80/100 (móvil y desktop)
-- [ ] Tiempo de carga <3 segundos
-- [ ] Imágenes convertidas a WebP
-- [ ] CDN configurado (si aplica)
-- [ ] Base de datos optimizada (sin revisiones/spam)
-
-#### Responsive y Compatibilidad
-- [ ] Probado en Chrome (última versión)
-- [ ] Probado en Firefox (última versión)
-- [ ] Probado en Safari (última versión)
-- [ ] Probado en Edge (última versión)
-- [ ] Probado en iPhone (iOS)
-- [ ] Probado en Android
-- [ ] Probado en iPad/tablets
-- [ ] Menú móvil funcionando correctamente
-- [ ] Formularios funcionales en móvil
-- [ ] Imágenes responsive
-
-#### Accesibilidad
-- [ ] Contraste de colores cumple WCAG 2.1 AA
-- [ ] Navegación por teclado funcional
-- [ ] Atributos ARIA en elementos interactivos
-- [ ] Labels en todos los campos de formulario
-- [ ] Textos alternativos en todas las imágenes
-- [ ] Videos con subtítulos (si aplica)
-
-#### Legal y Privacidad
-- [ ] Política de privacidad publicada
-- [ ] Aviso legal publicado
-- [ ] Política de cookies publicada
-- [ ] GDPR compliance: Cookie consent banner
-- [ ] Formularios con checkbox de consentimiento GDPR
-- [ ] Google Analytics con anonimización de IPs
-- [ ] Enlaces a políticas en footer
-
-#### Funcionalidades
-- [ ] Formulario de contacto envía emails correctamente
-- [ ] Email de confirmación al usuario funciona
-- [ ] Notificaciones a MIGASA funcionan
-- [ ] Anti-spam activado y probado
-- [ ] Búsqueda interna funcionando
-- [ ] Filtros de productos operativos
-- [ ] Google Maps cargando correctamente
-- [ ] Selector de idioma funcionando (WPML)
-- [ ] Todas las traducciones completadas
-
-#### Contenido Social
-- [ ] Open Graph meta tags configurados (Facebook)
-- [ ] Twitter Cards configurados
-- [ ] Imágenes optimizadas para compartir en redes (1200x630px)
-- [ ] Enlaces a redes sociales de MIGASA en footer
-- [ ] Botones de compartir en blog/noticias (si aplica)
-
-#### Monitorización
-- [ ] Google Analytics rastreando correctamente
-- [ ] Google Search Console recibiendo datos
-- [ ] MonsterInsights dashboard mostrando estadísticas
-- [ ] Uptime monitoring configurado (UptimeRobot, Pingdom, etc.)
-- [ ] Alertas por email configuradas para downtime
-
-#### Mantenimiento
-- [ ] Modo mantenimiento preparado (Coming Soon plugin)
-- [ ] Plan de actualización de WordPress/plugins establecido
-- [ ] Responsable de mantenimiento asignado
-- [ ] Documentación de acceso en lugar seguro
-- [ ] Backups off-site configurados
-
-#### Entregables al Cliente
-- [ ] Manual de usuario WordPress entregado
-- [ ] Credenciales de acceso proporcionadas
-- [ ] Formación al equipo MIGASA completada
-- [ ] Documentación técnica entregada
-- [ ] Videos tutoriales proporcionados (opcional)
-
-### Anexo F: Contacto del Equipo
+### Anexo F: Contacto del Equipo  (POR TOCAR)
 
 **Integrantes del proyecto y responsabilidades principales:**
 
