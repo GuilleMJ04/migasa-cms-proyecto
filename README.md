@@ -349,29 +349,45 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 #### 5.1.4 Otros Plugins Específicos
 
 **Plugin de Formularios:**
-- **WPForms** (Seleccionado)
+- **WPForms Lite** (Seleccionado)
 - **Características:** Drag & drop builder, plantillas pre-diseñadas, protección anti-spam, notificaciones email, integración con MonsterInsights
-- **Justificación:** Interfaz visual sin código, formularios responsive, tracking de conversiones, GDPR compliant
+- **Justificación:** Interfaz visual sin código, formularios responsive, tracking de conversiones, GDPR compliant, facilidad de uso y fiabilidad. Permite crear formularios funcionales sin necesidad de código.
 
 **Plugin Multiidioma:**
 - **GTranslate** (Seleccionado)
 - **Características:** Traducción completa del sitio, compatible con Yoast SEO, gestión de URLs por idioma, traductor integrado
 - **Justificación:** Presencia en 120 países requiere mínimo español/inglés, posibilidad de añadir más idiomas, SEO multiidioma optimizado
 
-**Plugin de Galería:**
-- **Envira Gallery** (Seleccionado)
-- **Características:** Lightbox responsive, lazy loading integrado, álbumes de productos, protección de imágenes
-- **Justificación:** Catálogo visual atractivo de productos, presentación profesional, optimización automática
+**Plugins de E-Commerce:**
+- **1. WooCommerce** (Seleccionado)
+- **Características:** plugin principal para transformar WordPress en una tienda online completa. Gestión de productos, pagos, envíos, impuestos, inventario y clientes.
+- **Justificación:** solución más estable, extensible y ampliamente usada para e-commerce en WordPress, compatibilidad con miles de extensiones y soporte activo.
 
-**Plugin de Backup:**
-- **UpdraftPlus** (Seleccionado)
-- **Características:** Backup automático programable, restauración 1-click, almacenamiento en cloud (Google Drive, Dropbox), backups incrementales
-- **Justificación:** Protección de datos críticos, fácil recuperación ante desastres, backups off-site
+- **2. Google for WooCommerce** (Seleccionado)
+- **Características:** integra WooCommerce con los servicios de Google: Merchant Center, Google Ads y Google Analytics. Permite sincronizar productos y medir conversiones.
+- **Justificación:** se seleccionó para mejorar la visibilidad de los productos en Google Shopping y para conectar la tienda con herramientas de marketing digital.
 
-**Plugin de Optimización de Imágenes:**
-- **ShortPixel** (Seleccionado)
-- **Características:** Compresión automática, conversión a WebP, lazy load, optimización bulk
-- **Justificación:** Catálogo con muchas imágenes de productos, mejora velocidad, mantiene calidad visual
+- **3. WooCommerce Stripe Gateway** (Seleccionado)
+- **Características:** extiende WooCommerce para aceptar pagos mediante Stripe (tarjetas, Apple Pay, Google Pay, etc.) de forma segura.
+- **Justificación:** ofrece pagos rápidos y seguros, con soporte para múltiples divisas y sin redigir al usuario fuera del sitio, lo que mejora la conversión.
+
+- **4. WooCommerce PayPal Payments** (Seleccionado)
+- **Características:** permite aceptar pagos mediante Paypal, Pay Later y otros métodos directamente en WooCommerce.
+- **Justificación:** es una de las pasarelas de pago más populares y confiables, garantizando compatibilidad y confianza para los clientes.
+
+**Plugins de búsqueda y navegación:**
+- **1. Advance Woo Search** (Seleccionado)
+- **Características:** mejora la búsqueda de productos en WooCommerce con resultados instantáneos, miniaturas, precios y filtros avanzados.
+- **Justificación:** mejora la experiencia de usuario y facilita la localización de productos, algo que es crucial en tiendas con catálogos amplios.
+
+- **2. Carousel Slider Block** (Seleccionado)
+- **Características:** crea carruseles de imágenes, productos o contendio mediante bloques, sin código.
+- **Justificación:** permite mostrar productos destacados o promociones de forma actractiva, mejorando la presentación visual y el engagement del usuario. 
+
+**Plugin de Gestión de usuarios:**
+- **Profile Builder** (Seleccionado)
+- **Características:** personalización de formularios de registro, inicio de sesión y edición del perfil. Permite controlar roles y acceso a contenido.
+- **Justificación:** ofrece una experiencia de usuario profesional y coherente, evitando el formulario genérico de WordPress y adaptándolo al estilo de la tienda.
 
 ### 5.2 Análisis y Selección de Temas (POR TOCAR)
 
