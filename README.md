@@ -855,7 +855,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 *[PENDIENTE: Screenshot página Home completa (desktop y móvil)]*
 
-#### 7.4.2 Página Empresa  (POR CREAR)
+#### 7.4.2 Página Empresa
 **URL:** /empresa/  
 **Secciones:**
 - Slider con imágenes
@@ -941,7 +941,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - CSS y JS minificados y combinados
 - GZIP compression habilitada
 - Cache de página activado        **(NECESITO PLUGIN)**
-- **Resultado PageSpeed Insights:** *[Incluir scores reales]*
 
 **Seguridad:**
 - Login protegido con 2FA
@@ -953,50 +952,25 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - Navegación por teclado funcional
 - Labels en formularios
 
-### 7.7 Testing Realizado (POR TOCAR)
+### 7.7 Testing Realizado
 
 **Compatibilidad navegadores:**
 - ✅ Chrome (última versión)
-- ✅ Firefox (última versión)
-- ✅ Safari (última versión)
 - ✅ Edge (última versión)
 
-**Dispositivos móviles testados:**
-- ✅ iPhone 12/13/14 (Safari iOS)
-- ✅ Samsung Galaxy S21/S22 (Chrome Android)
-- ✅ iPad Pro (Safari iPadOS)
-
 **Funcionalidades probadas:**
-- ✅ Navegación menú responsive (hamburguesa en móvil)
+- ✅ Navegación menú responsive
 - ✅ Formulario contacto (envío y recepción email)
 - ✅ Búsqueda interna
 - ✅ Filtros de productos
-- ✅ Galería de imágenes con lightbox
-- ✅ Google Maps integrado
-- ✅ Cambio de idioma ES/EN (WPML)
+- ✅ Galería de imágenes
+- ✅ Cambio de idioma ES/EN/PT/FR/ZH (GTranslate)
 
-**Bugs encontrados y corregidos:**
+**Bugs encontrados y corregidos:** (POR TOCAR)
 - *[Listar bugs encontrados durante testing y cómo se solucionaron]*
 - *[Ejemplo: Problema con menú móvil en iOS - Solucionado ajustando z-index]*
 
 ### 7.8 Próximos Pasos (Sprint 2) (POR TOCAR)
-
-**Funcionalidades pendientes:**
-1. Completar traducciones al inglés con WPML
-2. Crear página de Mercados con mapa interactivo 120 países
-3. Implementar página de Sostenibilidad completa
-4. Añadir sección Blog/Noticias con 5 entradas
-5. Optimizar velocidad (objetivo: PageSpeed >90/100)
-6. Configuración avanzada Google Analytics (eventos personalizados)
-7. Implementar schema markup avanzado para productos
-8. Formación al equipo MIGASA para gestión autónoma
-
-**Mejoras identificadas:**
-- Añadir más productos al catálogo (objetivo: 30 productos)
-- Crear landing pages específicas por tipo de producto
-- Implementar sistema de descargas (catálogos PDF, certificaciones)
-- Mejorar animaciones y micro-interacciones
-- Añadir testimonios de clientes
 
 ---
 
@@ -1008,7 +982,7 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 
 ## 9. REFERENCIAS
 
-### 9.1 Documentación Técnica (POR TOCAR)
+### 9.1 Documentación Técnica
 
 1. **WordPress.org** - Documentación oficial  
    https://wordpress.org/documentation/
