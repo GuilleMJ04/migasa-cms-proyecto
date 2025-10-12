@@ -557,12 +557,12 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ### 6.3 Product Backlog (POR TOCAR)
 
-**Total puntos Product Backlog:** 80 puntos  
-**Velocidad estimada:** 40 puntos por sprint (2 semanas cada uno)
+**Total puntos Product Backlog:** 28 puntos  
+**Velocidad estimada:** 14 puntos por sprint (2 semanas cada uno, 1 punto por día)
 
 | ID | Historia de Usuario | Descripción Detallada | Criterios de Aceptación | Prioridad | Puntos | Sprint |
 |----|--------------------|-----------------------|------------------------|-----------|--------|---------|
-| **PBI-01** | Como visitante, quiero navegar fácilmente por el sitio | Implementar menú responsive con estructura jerárquica clara y breadcrumbs | • Menú visible en todas las páginas<br>• Breadcrumbs en todas las páginas internas<br>• Navegación intuitiva (máximo 3 clics) | Alta | 8 | Sprint 1 |
+| **PBI-01** | Como visitante, quiero navegar fácilmente por el sitio | Implementar menú responsive con estructura jerárquica clara y breadcrumbs | • Menú visible en todas las páginas<br>• Breadcrumbs en todas las páginas internas<br>• Navegación intuitiva (máximo 3 clics) | Alta | 1 | Sprint 1 |
 | **PBI-02** | Como administrador, quiero gestionar contenido fácilmente | Configurar WordPress con roles, permisos y Divi Builder | • Dashboard WordPress intuitivo<br>• Roles definidos (admin/editor)<br>• Divi Builder configurado y funcional<br>• Documentación de uso entregada | Alta | 5 | Sprint 1 |
 | **PBI-03** | Como visitante, quiero ver productos de aceite | Catálogo de productos con filtros por tipo y ficha detallada | • Mínimo 10 productos publicados<br>• Filtro por tipo de aceite funcional<br>• Ficha detallada con especificaciones técnicas<br>• Imágenes de alta calidad | Alta | 13 | Sprint 1 |
 | **PBI-04** | Como visitante, quiero contactar con MIGASA | Formulario funcional con validación y notificaciones email | • Campos obligatorios validados<br>• Email confirmación a usuario<br>• Notificación a MIGASA funcional<br>• Anti-spam activo (Akismet)<br>• GDPR checkbox obligatorio | Alta | 3 | Sprint 1 |
