@@ -557,8 +557,8 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ### 6.3 Product Backlog (POR TOCAR)
 
-**Total puntos Product Backlog:** 28 puntos  
-**Velocidad estimada:** 14 puntos por sprint (2 semanas cada uno, 1 punto por día)
+**Total puntos Product Backlog:** 18 puntos  
+**Duración por cada punto:** 1 día
 
 | ID | Historia de Usuario | Descripción Detallada | Criterios de Aceptación | Prioridad | Puntos | Sprint |
 |----|--------------------|-----------------------|------------------------|-----------|--------|---------|
