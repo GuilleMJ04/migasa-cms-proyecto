@@ -584,9 +584,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Alta prioridad (Sprint 1):** Funcionalidades core (navegación, productos, contacto, seguridad)
 - **Media prioridad (Sprint 2):** Optimizaciones y contenido adicional (analytics, multiidioma, historia)
 
-# PROYECTO CMS - WORDPRESS MIGASA
-## Secciones 6.4 en adelante
-
 ---
 
 ## 6.4 Sprint Backlog - Sprint 1 (POR TOCAR)
