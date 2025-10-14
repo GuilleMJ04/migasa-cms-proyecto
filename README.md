@@ -396,81 +396,73 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Características:** personalización de formularios de registro, inicio de sesión y edición del perfil. Permite controlar roles y acceso a contenido.
 - **Justificación:** ofrece una experiencia de usuario profesional y coherente, evitando el formulario genérico de WordPress y adaptándolo al estilo de la tienda.
 
-### 5.2 Análisis y Selección de Temas (POR TOCAR)
+### 5.2 Análisis y Selección de Temas
 
-| Tema | Precio | Valoración | Características Principales | Compatibilidad | Decisión |
-|------|--------|-----------|----------------------------|----------------|----------|
-| **Divi** | $89/año | ★★★★★ (4.9/5) | • Visual Builder drag & drop<br>• +800 diseños prediseñados<br>• Responsive por defecto<br>• Compatible WooCommerce<br>• Tema + plugin incluido<br>• 47 elementos de diseño<br>• Actualizaciones de por vida | Todos los plugins seleccionados | ✅ **SELECCIONADO** |
-| **Astra Pro** | $59/año | ★★★★★ (4.8/5) | • Ultraligero (menos de 50KB)<br>• Velocidad optimizada<br>• +180 templates starter<br>• Compatible con page builders<br>• WooCommerce ready<br>• Schema markup integrado | WPML, Yoast, WPForms, compatible con Elementor | ❌ Descartado |
-| **OceanWP** | Gratis + Pro $39 | ★★★★☆ (4.7/5) | • Tema multiuso flexible<br>• Demos pre-construidas<br>• E-commerce ready<br>• Extensiones modulares<br>• Compatible page builders<br>• RTL y traducible | Mayoría de plugins populares | ❌ Descartado |
+| Tema | Características Principales | Compatibilidad | Decisión |
+|------|----------------------------|----------------|----------|
+| **Green Store 1.0.2 (GradientThemes)** | • Optimizado para tiendas online (WooCommerce)<br>• Diseño limpio y ecológico orientado a productos naturales<br>• Plantillas prediseñadas para catálogo, blog y contacto<br>•Responsive y rápido en móviles<br>• Personalizable desde e Personalizador de WordPress<br>• Carga ligera y código optimizado | Todos los plugins seleccionados | ✅ **SELECCIONADO** |
+| **Astra Pro** | • Ultraligero (menos de 50KB)<br>• Velocidad optimizada<br>• +180 templates starter<br>• Compatible con page builders<br>• WooCommerce ready<br>• Schema markup integrado | WPML, Yoast, WPForms, compatible con Elementor | ❌ Descartado |
+| **OceanWP** | • Tema multiuso flexible<br>• Demos pre-construidas<br>• E-commerce ready<br>• Extensiones modulares<br>• Compatible page builders<br>• RTL y traducible | Mayoría de plugins populares | ❌ Descartado |
 
 **Tema seleccionado:** Divi by Elegant Themes
 
 **Justificación detallada:**
 
 **1. Flexibilidad de diseño:**
-- Visual Builder permite diseñar páginas sin escribir código
-- Fácil implementación precisa de la identidad corporativa MIGASA
-- Control pixel-perfect de colores Pantone corporativos (RGB exactos)
-- Más de 200 elementos de diseño personalizables
-- Módulos reutilizables para mantener consistencia visual
+- Plantillas prediseñadas para productos, categorías y páginas corporativas.
+- Personalización completa desde el Personalizador nativo de WordPress.
+- Total compatibilidad con Elementor para diseños avanzados sin código.
+- Colores, tipografías y logotipos configurables para reflejar la identidad visual de MIGASA.
+- Diseño moderno, limpio y ecológico, coherente con valores de sostenibilidad.
 
 **2. Rendimiento:**
-- Optimizado para SEO out-of-the-box
-- Compatible con WP Rocket para máxima velocidad
-- Código limpio y estructurado según estándares WordPress
-- Carga condicional de assets (solo carga lo necesario)
-- Minificación automática de CSS/JS
+- Tema ligero, con código optimizado y carga rápida.
+- Compatible con WP Rocket y LiteSpeed Cache.
+- Minificación y combinación de CSS/JS soportadas.
+- Carga diferida de imágenes (lazy load) integrada.
+- Cumple con buenas prácticas SEO según los estándares de WordPress.
 
 **3. Responsive design:**
-- Responsive por defecto con controles específicos desktop/tablet/móvil
-- Vista previa en tiempo real para cada dispositivo
-- Menú hamburguesa personalizable y táctil
-- Optimización automática de imágenes según dispositivo
-- Control independiente de márgenes y padding por breakpoint
+- Totalmente responsive con adaptación automática a móvil, tablet y escritorio.
+- Soporte para imágenes adaptativas (srcset).
+- Menú móvil optimizado y accesible.
+- Control independiente de márgenes y espaciados en cada dispositivo.
 
 **4. Compatibilidad total:**
-- 100% compatible con Yoast SEO, WPML, WPForms
-- Integración nativa con WooCommerce (para futuro e-commerce)
-- Compatible con todos los plugins seleccionados
-- Actualizaciones regulares y soporte continuo
-- No genera conflictos con plugins de terceros
+- Compatible con WooCommerce, WPML, Yoast SEO, WPForms, y los plugins seleccionados.
+- Sin conflictos con constructores visuales ni complementos de optimización.
+- Actualizaciones periódicas garantizadas por GradientThemes.
+- Cumple con los estándares del repositorio oficial de WordPress.org.
 
 **5. Facilidad de uso para el cliente:**
-- El equipo de MIGASA podrá editar contenido sin conocimientos técnicos
-- Biblioteca de layouts pre-diseñados acelera desarrollo
-- Split testing A/B integrado (versión premium)
-- Roles y permisos personalizables por usuario
-- Interfaz visual intuitiva en español
+- Edición sencilla mediante el personalizador visual de WordPress.
+- Integración fluida con Elementor para arrastrar y soltar contenido.
+- No requiere conocimientos técnicos para actualizar textos o imágenes.
+- Panel de opciones intuitivo y documentado en español.
 
 **6. Implementación de identidad corporativa:**
-- Carga sencilla de colores Pantone exactos (RGB: #A3AB11, #7C9323, #3B593B)
-- Subida de tipografías personalizadas (DIN Black, Myriad Pro) sin plugins adicionales
-- Control total sobre spacing y áreas de seguridad del logo
-- Módulos reutilizables para elementos de marca (headers, footers, CTAs)
-- Presets de estilo guardables para reutilizar diseños
+- Permite definir paleta de colores corporativos Pantone (RGB: #A3AB11, #7C9323, #3B593B).
+- Soporte para tipografías personalizadas (DIN Black, Myriad Pro).
+- Personalización total de encabezados, pies de página y botones de llamada a la acción.
+- Diseño modular para mantener coherencia en todas las secciones
 
 **7. Multiidioma:**
-- Totalmente compatible con WPML
-- Gestión sencilla de contenido traducido
-- URLs amigables por idioma (/es/, /en/)
-- Menús y widgets traducibles
-- Visual Builder funciona en todos los idiomas
+- 100% compatible con GTranslate.
+- Widgets y menús traducibles.
+- URLs amigables por idioma (/es/, /en/).
+- Compatible con contenidos traducidos desde Elementor.
 
 **8. ROI y valor:**
-- Inversión única anual razonable ($89)
-- Incluye tema + Divi Builder (plugin standalone)
-- Licencia incluye uso ilimitado en sitios web
-- Soporte premium incluido (chat y tickets)
-- Actualizaciones de por vida garantizadas
-- Ahorro en desarrollo al no necesitar programación custom
+- Costo cero (tema gratuito) sin sacrificar rendimiento ni compatibilidad.
+- Actualizaciones frecuentes incluidas.
+- Ideal para proyectos con control de presupuesto.
+- Reducción del tiempo de desarrollo gracias a sus plantillas prediseñadas.
 
 **9. Comunidad y recursos:**
-- Comunidad masiva de usuarios (millones)
-- Miles de tutoriales en YouTube y blogs
-- Layouts gratuitos compartidos por la comunidad
-- Child themes disponibles
-- Documentación oficial extensa en español
+- Tema disponible en el repositorio oficial de WordPress.org, con soporte activo.
+- Comunidad creciente de usuarios y documentación completa.
+- Foros y tutoriales gratuitos disponibles en línea.
+- Plantillas de demostración importables en un clic.
 
 **Alternativas descartadas:**
 
