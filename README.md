@@ -635,62 +635,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 **Distribución:** X horas por persona (4 integrantes)  
 **Capacidad diaria:** 4 horas/día laborable (medio tiempo - proyecto académico)
 
-### Distribución de tareas por integrante:   (YO ESTO LO ELIMINABA)
-
-**------ (23h):**
-- T-01: Instalación WordPress (4h)
-- T-03: Instalación tema Divi (2h)
-- T-14: Instalar plugins adicionales (2h)
-- T-20: Configurar menús (2h)
-- T-22: Crear página Empresa (5h)
-- T-29: Configurar backups (1h)
-- T-30: Testing responsive (1h)
-- T-33: Revisar identidad (0.5h)
-- T-34: Ajustes finales (0.75h)
-
-**------ (26h):**
-- T-02: Análisis de temas (6h)
-- T-08: Análisis plugins SEO (3h)
-- T-09: Análisis plugins Analytics (3h)
-- T-12: Configurar Yoast SEO (2h)
-- T-13: Configurar MonsterInsights (2h)
-- T-19: Diagrama de clases (4h)
-- T-26: Crear formulario contacto (3h)
-- T-27: Crear página Contacto (3h)
-- T-31: Testing formularios (2h)
-- T-33: Revisar identidad (0.5h)
-- T-34: Ajustes finales (0.75h)
-
-**------ (24h):**
-- T-06: Análisis plugins seguridad (3h)
-- T-07: Análisis plugins cache (3h)
-- T-10: Configurar Wordfence (2h)
-- T-11: Configurar WP Rocket (2h)
-- T-23: Crear categorías productos (2h)
-- T-24: Añadir 10 productos (6h)
-- T-28: Optimizar imágenes (3h)
-- T-30: Testing responsive (1h)
-- T-33: Revisar identidad (0.5h)
-- T-34: Ajustes finales (0.75h)
-
-**------ (25h):**
-- T-04: Configurar colores corporativos (2h)
-- T-05: Cargar tipografías (1h)
-- T-15: Mockup Home (3h)
-- T-16: Mockup Empresa (3h)
-- T-17: Mockup Productos (2h)
-- T-18: Mockup Contacto (1h)
-- T-21: Crear página Home (6h)
-- T-25: Template producto individual (4h)
-- T-32: Documentar implementación (4h)
-- T-33: Revisar identidad (0.5h)
-- T-34: Ajustes finales (0.75h)
-
-**Notas importantes:**
-- Las tareas T-30, T-33 y T-34 se realizan de forma colaborativa
-- Daily standups virtuales cada 2 días para sincronización
-- Commits frecuentes en GitHub con referencias a tareas (#T-XX)
-- Pull requests para revisión cruzada antes de merge a develop
 
 ---
 
@@ -720,36 +664,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | 9 | *[Fecha]* | 9.6 | *[Actualizar]* | *[±X]* | *[IDs]* | *[Notas del día]* |
 | 10 | *12/10/25* | 0 | *0* | *[±X]* | *[IDs]* | Sprint Review |
 
-**Herramientas recomendadas para crear el burndown:**
-1. **GitHub Projects:** Gráficos automáticos integrados
-2. **Excel/Google Sheets:** Gráfico de líneas personalizable
-3. **Herramientas online:** Burndown for Trello, ZenHub
-4. **Script personalizado:** Python con matplotlib o JavaScript con Chart.js
-
-**Métricas adicionales a monitorizar:**
-
-**1. Velocidad del equipo:**
-- Puntos de historia comprometidos: 39
-- Puntos completados al final del sprint: *[Actualizar]*
-- Porcentaje de completitud: *[X%]*
-
-**2. Impedimentos encontrados:**
-- *[Listar impedimentos técnicos, bloqueos, dependencias externas]*
-- *[Ejemplo: Retraso en obtención de contenido real de MIGASA]*
-- *[Ejemplo: Problemas de compatibilidad entre plugin X y Y]*
-
-**3. Tareas añadidas durante el sprint (scope creep):**
-- *[Documentar tareas no planificadas que se añadieron]*
-- *[Justificación de por qué fueron necesarias]*
-
-**4. Calidad y retrabajo:**
-- Bugs encontrados en testing: *[Número]*
-- Tareas que requirieron retrabajo: *[IDs tareas]*
-- Tiempo adicional invertido: *[Horas]*
-
-**5. Riesgos materializados:**
-- *[Listar riesgos identificados que ocurrieron]*
-- *[Acciones correctivas tomadas]*
 
 *[PENDIENTE: Incluir imagen del gráfico burndown al finalizar el sprint]*
 
