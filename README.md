@@ -1061,9 +1061,9 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 
 **Guillermo Mendo Jiménez**
 - Rol: Desarrollador Backend / Administrador de Sistema
-- Responsabilidades: Instalación WordPress, configuración servidor, backups, base de datos
-- Email: *[email universitario]*
-- GitHub: *[usuario GitHub]*
+- Responsabilidades: Instalación WordPress, configuración GitHub y plantillas, Creación requisitos, Creación UML, backups, futura base de datos.
+- Email: *guimenjim@alum.us.es*
+- GitHub: *GuilleMJ04*
 
 **Emilio Cuevas Rendón**
 - Rol: Especialista SEO / Analítica
@@ -1088,26 +1088,10 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 **Repositorio GitHub del proyecto:**  
 https://github.com/GuilleMJ04/migasa-cms-proyecto
 
-**Fecha de elaboración:** *[Completar con fecha real]*  
+**Fecha de elaboración:** *29/09/2025 - 15/10/2025*  
 **Versión del documento:** 1.0 - Sprint 1  
 **Próxima revisión:** Sprint 2 Review
 
----
-
-## NOTA FINAL
-
-Este documento representa el **Primer Entregable** del proyecto CMS para MIGASA. Todas las secciones marcadas como *[PENDIENTE]* deben completarse con información real, capturas de pantalla y datos concretos durante y después de la ejecución del Sprint 1.
-
-**Para el Sprint 2 se debe:**
-1. Actualizar este documento con resultados reales del Sprint 1
-2. Añadir screenshots de la implementación
-3. Incluir gráfico burndown con datos reales
-4. Documentar bugs encontrados y solucionados
-5. Completar métricas de rendimiento (PageSpeed, tiempos de carga)
-6. Incluir feedback del cliente (MIGASA)
-7. Preparar documento similar para Sprint 2
-
-**El documento debe exportarse a PDF** para la entrega oficial académica, incluyendo todas las imágenes, diagramas y tablas formateados profesionalmente.
 
 ---
 
