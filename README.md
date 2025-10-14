@@ -1055,7 +1055,7 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 - Hover effects utilizan el siguiente color de la paleta para crear jerarquía visual
 
 
-### Anexo F: Contacto del Equipo  (POR TOCAR)
+### Anexo F: Contacto del Equipo  (POR TOCAR, ILUMINADA Y NAZARET)
 
 **Integrantes del proyecto y responsabilidades principales:**
 
