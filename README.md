@@ -557,7 +557,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Resolución de conflictos:** Herramientas visuales para merge conflicts (conflictos de fusión) aparecen por ejemplo cuando dos personas editan la misma línea de un archivo o ambas ramas tienen cambios incompatibles en el mismo lugar.
 
 
-### 6.3 Product Backlog (POR TOCAR)
+### 6.3 Product Backlog
 
 **Total puntos Product Backlog:** 18 puntos  
 **Duración por cada punto:** 1 día
