@@ -404,7 +404,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **Astra Pro** | • Ultraligero (menos de 50KB)<br>• Velocidad optimizada<br>• +180 templates starter<br>• Compatible con page builders<br>• WooCommerce ready<br>• Schema markup integrado | WPML, Yoast, WPForms, compatible con Elementor | ❌ Descartado |
 | **OceanWP** | • Tema multiuso flexible<br>• Demos pre-construidas<br>• E-commerce ready<br>• Extensiones modulares<br>• Compatible page builders<br>• RTL y traducible | Mayoría de plugins populares | ❌ Descartado |
 
-**Tema seleccionado:** Divi by Elegant Themes
+**Tema seleccionado:** Green Store 1.0.2 by GradientThemes
 
 **Justificación detallada:**
 
