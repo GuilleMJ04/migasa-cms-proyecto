@@ -586,49 +586,49 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 **Fecha inicio:** *29/09/2025*  
 **Fecha fin:** *12/10/2025*  
 
-| ID | Tarea | Descripción Detallada | Responsable | Estado | Horas Est. | Horas Real | Dependencias | Observaciones |
-|----|-------|-----------------------|-------------|--------|------------|------------|--------------|---------------|
-| **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear BD migasa_cms_db | Guillermo | Done | 1 | 0'5 | Ninguna | Documentar credenciales |
-| **T-02** | Creación de Requisitos | Creación de Requisitos: Funcionales, no Funcionales y de Información sobre la empresa MIGASA  | Guillermo y Emilio| Done | 15 | 12.5 | Reunión, Transcripción y Resumen de Transcripción con Personal Migasa | Incluyen versiones tanto de Emilio como de Guillermo |
-| **T-03** | Creación de Documentos REM | Documento donde se recogen todos los requisitos con estructura jerárquica y profesional | Emilio | Done | 5 | 3.5| Documentos de Requisitos | La estructura de REM por defecto pone: en resumen: |
-| **T-04** | Análisis de temas | Investigar y comparar temas de WordPress con tabla comparativa | Iluminada | Done | - | - | Ninguna | Incluir criterios de decisión |
-| **T-05** | Instalación tema Divi | Descargar, instalar, activar licencia Elegant Themes | Nazaret | Done | 0'5 | 0'25 | T-01, T-02 | Guardar licencia segura |
-| **T-06** | Configurar colores corporativos | Aplicar RGB Pantone (#A3AB11, #7C9323, #3B593B) en Theme Customizer | Iluminada | Done | - | - | T-03 | Usar manual identidad |
-| **T-07** | Cargar tipografías | Subir DIN Black y Myriad Pro | Iluminada | Done | - | - | T-03 | Formato web (WOFF2) |
-| **T-08** | Análisis plugins seguridad | Comparar Wordfence, Sucuri, iThemes Security, etc con tabla | Nazaret | Done |  | - | Ninguna | Criterios: descargas, rating |
-| **T-09** | Análisis plugins cache | Comparar Autoptimize, W3 Total Cache, LiteSpeed Cache con tabla | Nazaret | Done |  | - | Ninguna | Justificar inversión |
-| **T-010** | Análisis plugins SEO | Comparar Yoast SEO, Rank Math, SEOPress con tabla | Nazaret | Done |  | - | Ninguna | Énfasis multiidioma |
-| **T-11** | Análisis plugins Analytics | Comparar MonsterInsights, GA Dashboard, Analytify con tabla | ------ | To Do |  | - | Ninguna | GDPR compliance |
-| **T-12** | Instalar y configurar Wordfence | Activar firewall, configurar 2FA, programar escaneos | ------ | To Do |  | - | T-01, T-06 | Learning mode inicial |
-| **T-13** | Instalar y configurar Autoptimize | Activar cache, lazy load, minificación CSS/JS | ------ | To Do |  | - | T-01, T-07 | Limpiar cache tras cambios |
-| **T-14** | Instalar y configurar Yoast SEO | Configurar sitemap, schema Organization, breadcrumbs | ------ | To Do |  | - | T-01, T-08 | Palabra clave: aceite oliva |
-| **T-15** | Instalar y configurar MonsterInsights | Conectar con cuenta GA4, activar tracking formularios | ------ | To Do |  | - | T-01, T-09 | Crear cuenta GA4 previa |
-| **T-16** | Instalar plugins adicionales | WPForms, GTranslate, WooCommerce, etc | Iluminada | Done |  | - | T-01 | Configuración básica |
-| **T-17** | Crear mockup Home | Diseñar con Balsamiq: hero, productos destacados, cifras | Nazaret | Done |  | - | Ninguna | Exportar PNG alta res |
-| **T-18** | Crear mockup Empresa | Diseñar con Balsamiq: timeline, valores, instalaciones | Nazaret | Done |  | - | Ninguna | Incluir Google Maps |
-| **T-19** | Crear mockup Productos | Diseñar con Balsamiq: grid productos, filtros, detalle | Nazaret | Done |  | - | Ninguna | Layout responsive |
-| **T-20** | Crear mockup Contacto | Diseñar con Balsamiq: formulario, datos, mapa | Nazaret | Done |  | - | Ninguna | GDPR checkbox visible |
-| **T-21** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | Emilio y Guillermo | Done |  | - | Ninguna | Usar draw.io o Lucidchart |
-| **T-22** | Configurar estructura de menús | Crear menú principal y footer con jerarquía | Iluminada | Done |  | - | T-03 | 7 items principales |
-| **T-23** | Crear página Home | Implementar con Woocommerce: todas las secciones | Iluminada | Done |  | - | T-03, T-04, T-05, T-15 | Usar colores corporativos |
-| **T-24** | Crear página Empresa | Historia, valores, imágenes | Iluminada | Done |  | - | T-03, T-16 | Integrar Google Maps |
-| **T-25** | Crear categorías de productos | Custom post type: Aceite Oliva, Girasol, Orujo | Iluminada | Done |  | - | T-03 | Taxonomía personalizada |
-| **T-26** | Añadir 10 productos mínimo | Fichas completas: imágenes, descripciones, specs | Iluminada | Done |  | - | T-23 | Contenido de web actual |
-| **T-27** | Diseñar template producto individual | Layout detalle: galería, specs, CTA contacto | Iluminada | Done |  | - | T-03, T-17 | Reutilizable para todos |
-| **T-28** | Crear formulario contacto | WPForms: campos, validación, notificaciones, GDPR | Iluminada | Done |  | - | T-14, T-18 | Testing envío real |
-| **T-29** | Crear página Contacto | Formulario + datos corporativos | Iluminada | Done |  | - | T-03, T-26 | 2 ubicaciones en mapa |
-| **T-30** | Optimizar imágenes | Comprimir todas, convertir a WebP, añadir ALT | ------ | To Do |  | - | T-21, T-22, T-24 | ShortPixel bulk |
-| **T-31** | Configurar UpdraftPlus | Backup semanal automático a Google Drive | ------ | To Do |  | - | T-14 | Retener 4 copias |
-| **T-32** | Testing responsive | Probar en iPhone, Android, iPad, diferentes resoluciones | ------ | To Do |  | - | T-21 a T-27 | Chrome DevTools + real |
-| **T-33** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | Iluminada | Done |  | - | T-26, T-27 | Verificar anti-spam |
-| **T-34** | Documentar implementación | Screenshots de cada página, descripciones detalladas | Iluminada | Done |  | - | T-21 a T-27 | Para entregable PDF |
-| **T-35** | Documentar análisis | UML y glosario | Guillermo | Done |  | - | T-19 | Para entregable PDF |
-| **T-36** | Documentar REM | Objetivos y requisitos | Emilio | Done |  | - | Todos los requisitos (punto 3) | Para entregable PDF |
-| **T-37** | Documentar plugins | Tablas comparativas plugins y explicación plugin elegido | Nazaret | Done |  | - | T-06 a T-08 | Para entregable PDF |
-| **T-38** | Documentar mockups | Mockups con sus descripciones | Nazaret | Done |  | - | T-15 a T-18 | Para entregable PDF |
-| **T-39** | Documentar product backlog | Tabla product backlog | Iluminada | Done |  | - | PBl-01 a PBl-15 | Para entregable PDF |
-| **T-40** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do |  | - | Todas anteriores | Checklist manual |
-| **T-41** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do |  | - | Todas anteriores | QA final |
+| ID | Tarea | Descripción Detallada | Responsable | Estado | Dependencias | Observaciones |
+|----|-------|-----------------------|-------------|--------|--------------|---------------|
+| **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear BD migasa_cms_db | Guillermo | Done | Ninguna | Documentar credenciales |
+| **T-02** | Creación de Requisitos | Creación de Requisitos: Funcionales, no Funcionales y de Información sobre la empresa MIGASA  | Guillermo y Emilio| Done | Reunión, Transcripción y Resumen de Transcripción con Personal Migasa | Incluyen versiones tanto de Emilio como de Guillermo |
+| **T-03** | Creación de Documentos REM | Documento donde se recogen todos los requisitos con estructura jerárquica y profesional | Emilio | Done | Documentos de Requisitos | La estructura de REM por defecto pone: en resumen: |
+| **T-04** | Análisis de temas | Investigar y comparar temas de WordPress con tabla comparativa | Iluminada | Done | Ninguna | Incluir criterios de decisión |
+| **T-05** | Instalación tema Divi | Descargar, instalar, activar licencia Elegant Themes | Nazaret | Done | T-01, T-02 | Guardar licencia segura |
+| **T-06** | Configurar colores corporativos | Aplicar RGB Pantone (#A3AB11, #7C9323, #3B593B) en Theme Customizer | Iluminada | Done | T-03 | Usar manual identidad |
+| **T-07** | Cargar tipografías | Subir DIN Black y Myriad Pro | Iluminada | Done | T-03 | Formato web (WOFF2) |
+| **T-08** | Análisis plugins seguridad | Comparar Wordfence, Sucuri, iThemes Security, etc con tabla | Nazaret | Done | Ninguna | Criterios: descargas, rating |
+| **T-09** | Análisis plugins cache | Comparar Autoptimize, W3 Total Cache, LiteSpeed Cache con tabla | Nazaret | Done | Ninguna | Justificar inversión |
+| **T-010** | Análisis plugins SEO | Comparar Yoast SEO, Rank Math, SEOPress con tabla | Nazaret | Done | Ninguna | Énfasis multiidioma |
+| **T-11** | Análisis plugins Analytics | Comparar MonsterInsights, GA Dashboard, Analytify con tabla | ------ | To Do | Ninguna | GDPR compliance |
+| **T-12** | Instalar y configurar Wordfence | Activar firewall, configurar 2FA, programar escaneos | ------ | To Do | T-01, T-06 | Learning mode inicial |
+| **T-13** | Instalar y configurar Autoptimize | Activar cache, lazy load, minificación CSS/JS | ------ | To Do | T-01, T-07 | Limpiar cache tras cambios |
+| **T-14** | Instalar y configurar Yoast SEO | Configurar sitemap, schema Organization, breadcrumbs | ------ | To Do | T-01, T-08 | Palabra clave: aceite oliva |
+| **T-15** | Instalar y configurar MonsterInsights | Conectar con cuenta GA4, activar tracking formularios | ------ | To Do | T-01, T-09 | Crear cuenta GA4 previa |
+| **T-16** | Instalar plugins adicionales | WPForms, GTranslate, WooCommerce, etc | Iluminada | Done | T-01 | Configuración básica |
+| **T-17** | Crear mockup Home | Diseñar con Balsamiq: hero, productos destacados, cifras | Nazaret | Done | Ninguna | Exportar PNG alta res |
+| **T-18** | Crear mockup Empresa | Diseñar con Balsamiq: timeline, valores, instalaciones | Nazaret | Done | Ninguna | Incluir Google Maps |
+| **T-19** | Crear mockup Productos | Diseñar con Balsamiq: grid productos, filtros, detalle | Nazaret | Done | Ninguna | Layout responsive |
+| **T-20** | Crear mockup Contacto | Diseñar con Balsamiq: formulario, datos, mapa | Nazaret | Done | Ninguna | GDPR checkbox visible |
+| **T-21** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | Emilio y Guillermo | Done | Ninguna | Usar draw.io o Lucidchart |
+| **T-22** | Configurar estructura de menús | Crear menú principal y footer con jerarquía | Iluminada | Done | T-03 | 7 items principales |
+| **T-23** | Crear página Home | Implementar con Woocommerce: todas las secciones | Iluminada | Done | T-03, T-04, T-05, T-15 | Usar colores corporativos |
+| **T-24** | Crear página Empresa | Historia, valores, imágenes | Iluminada | Done | T-03, T-16 | Integrar Google Maps |
+| **T-25** | Crear categorías de productos | Custom post type: Aceite Oliva, Girasol, Orujo | Iluminada | Done | T-03 | Taxonomía personalizada |
+| **T-26** | Añadir 10 productos mínimo | Fichas completas: imágenes, descripciones, specs | Iluminada | Done | T-23 | Contenido de web actual |
+| **T-27** | Diseñar template producto individual | Layout detalle: galería, specs, CTA contacto | Iluminada | Done | T-03, T-17 | Reutilizable para todos |
+| **T-28** | Crear formulario contacto | WPForms: campos, validación, notificaciones, GDPR | Iluminada | Done | T-14, T-18 | Testing envío real |
+| **T-29** | Crear página Contacto | Formulario + datos corporativos | Iluminada | Done | T-03, T-26 | 2 ubicaciones en mapa |
+| **T-30** | Optimizar imágenes | Comprimir todas, convertir a WebP, añadir ALT | ------ | To Do | T-21, T-22, T-24 | ShortPixel bulk |
+| **T-31** | Configurar UpdraftPlus | Backup semanal automático a Google Drive | ------ | To Do | T-14 | Retener 4 copias |
+| **T-32** | Testing responsive | Probar en iPhone, Android, iPad, diferentes resoluciones | ------ | To Do | T-21 a T-27 | Chrome DevTools + real |
+| **T-33** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | Iluminada | Done | T-26, T-27 | Verificar anti-spam |
+| **T-34** | Documentar implementación | Screenshots de cada página, descripciones detalladas | Iluminada | Done | T-21 a T-27 | Para entregable PDF |
+| **T-35** | Documentar análisis | UML y glosario | Guillermo | Done | T-19 | Para entregable PDF |
+| **T-36** | Documentar REM | Objetivos y requisitos | Emilio | Done | Todos los requisitos (punto 3) | Para entregable PDF |
+| **T-37** | Documentar plugins | Tablas comparativas plugins y explicación plugin elegido | Nazaret | Done | T-06 a T-08 | Para entregable PDF |
+| **T-38** | Documentar mockups | Mockups con sus descripciones | Nazaret | Done | T-15 a T-18 | Para entregable PDF |
+| **T-39** | Documentar product backlog | Tabla product backlog | Iluminada | Done | PBl-01 a PBl-15 | Para entregable PDF |
+| **T-40** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do | Todas anteriores | Checklist manual |
+| **T-41** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do | Todas anteriores | QA final |
 
 **Total horas estimadas Sprint 1:** X horas  
 **Distribución:** X horas por persona (4 integrantes)  
