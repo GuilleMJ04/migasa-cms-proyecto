@@ -639,7 +639,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 ---
 
-## 6.5 Burndown Chart - Sprint 1 (POR TOCAR)
+## 6.5 Burndown Chart - Sprint 1 (HECHO EN EXCEL)
 
 *El burndown chart debe actualizarse diariamente durante la ejecución del sprint*
 
