@@ -589,8 +589,8 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | ID | Tarea | Descripción Detallada | Responsable | Estado | Horas Est. | Horas Real | Dependencias | Observaciones |
 |----|-------|-----------------------|-------------|--------|------------|------------|--------------|---------------|
 | **T-01** | Instalación WordPress | Configurar entorno local (XAMPP), instalar WordPress, crear BD migasa_cms_db | Guillermo | Done | 1 | 0'5 | Ninguna | Documentar credenciales |
-| **T-02** | Creación de Requisitos | Creación de Requisitos: Funcionales, no Funcionales y de Información sobre la empresa MIGASA  | Guillermo y Emilio| Done | 15 | 12.5 | Reunión, Transcripción y Resumen de Transcripción con Personal Migasa |  |
-| **T-03** | Creación de Documentos REM | Documento donde se recogen todos los requisitos con estructura jerárquica y profesional | Emilio | Done | 5 | 3.5| Documentos de Requisitos |  |
+| **T-02** | Creación de Requisitos | Creación de Requisitos: Funcionales, no Funcionales y de Información sobre la empresa MIGASA  | Guillermo y Emilio| Done | 15 | 12.5 | Reunión, Transcripción y Resumen de Transcripción con Personal Migasa | Incluyen versiones tanto de Emilio como de Guillermo |
+| **T-03** | Creación de Documentos REM | Documento donde se recogen todos los requisitos con estructura jerárquica y profesional | Emilio | Done | 5 | 3.5| Documentos de Requisitos | La estructura de REM por defecto pone: en resumen: |
 | **T-04** | Análisis de temas | Investigar y comparar temas de WordPress con tabla comparativa | Iluminada | Done | - | - | Ninguna | Incluir criterios de decisión |
 | **T-05** | Instalación tema Divi | Descargar, instalar, activar licencia Elegant Themes | Nazaret | Done | 0'5 | 0'25 | T-01, T-02 | Guardar licencia segura |
 | **T-06** | Configurar colores corporativos | Aplicar RGB Pantone (#A3AB11, #7C9323, #3B593B) en Theme Customizer | Iluminada | Done | - | - | T-03 | Usar manual identidad |
