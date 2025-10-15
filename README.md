@@ -630,9 +630,9 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **T-40** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do | Todas anteriores | Checklist manual |
 | **T-41** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do | Todas anteriores | QA final |
 
-**Total horas estimadas Sprint 1:** X horas  
-**Distribución:** X horas por persona (4 integrantes)  
-**Capacidad diaria:** 4 horas/día laborable (medio tiempo - proyecto académico)
+**Total horas estimadas Sprint 1:** 168 horas  
+**Distribución estimada:** 42 horas por persona (4 integrantes)  
+**Capacidad diaria estimada:** 6 horas/día laborable (medio tiempo - proyecto académico)
 
 
 ---
