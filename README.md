@@ -610,8 +610,8 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **T-20** | Crear mockup Contacto | Diseñar con Balsamiq: formulario, datos, mapa | Nazaret | Done | Ninguna | GDPR checkbox visible |
 | **T-21** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | Emilio y Guillermo | Done | Ninguna | Usar draw.io o Lucidchart |
 | **T-22** | Configurar estructura de menús | Crear menú principal y footer con jerarquía | Iluminada | Done | T-04 | 7 items principales |
-| **T-23** | Crear página Home | Implementar con Woocommerce: todas las secciones | Iluminada | Done | T-04, T-05, T-06, T-17 | Usar colores corporativos |
-| **T-24** | Crear página Empresa | Historia, valores, imágenes | Iluminada | Done | T-03, T-17 | Integrar slider imágenes |
+| **T-23** | Crear página Home | Implementar con Woocommerce: todas las secciones | Iluminada | Done | T-04, T-05, T-06, T-22 | Usar colores corporativos |
+| **T-24** | Crear página Empresa | Historia, valores, imágenes | Iluminada | Done | T-04, T-22 | Integrar slider imágenes |
 | **T-25** | Crear categorías de productos | Custom post type: Aceite Oliva, Girasol, Orujo | Iluminada | Done | T-04 | Taxonomía personalizada |
 | **T-26** | Añadir 10 productos mínimo | Fichas completas: imágenes, descripciones, specs | Iluminada | Done | T-25 | Contenido de web actual |
 | **T-27** | Diseñar template producto individual | Layout detalle: galería, specs, CTA contacto | Iluminada | Done | T-04, T-22 | Reutilizable para todos |
