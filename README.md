@@ -606,7 +606,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **T-16** | Crear mockup Empresa | Diseñar con Balsamiq: timeline, valores, instalaciones | Nazaret | Done |  | - | Ninguna | Incluir Google Maps |
 | **T-17** | Crear mockup Productos | Diseñar con Balsamiq: grid productos, filtros, detalle | Nazaret | Done |  | - | Ninguna | Layout responsive |
 | **T-18** | Crear mockup Contacto | Diseñar con Balsamiq: formulario, datos, mapa | Nazaret | Done |  | - | Ninguna | GDPR checkbox visible |
-| **T-19** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | Emilio y Guillermo | Doing |  | - | Ninguna | Usar draw.io o Lucidchart |
+| **T-19** | Crear diagrama de clases | UML con clases: Usuario, Página, Producto, etc. | Emilio y Guillermo | Done |  | - | Ninguna | Usar draw.io o Lucidchart |
 | **T-20** | Configurar estructura de menús | Crear menú principal y footer con jerarquía | Iluminada | Done |  | - | T-03 | 7 items principales |
 | **T-21** | Crear página Home | Implementar con Woocommerce: todas las secciones | Iluminada | Done |  | - | T-03, T-04, T-05, T-15 | Usar colores corporativos |
 | **T-22** | Crear página Empresa | Historia, valores, imágenes | Iluminada | Done |  | - | T-03, T-16 | Integrar Google Maps |
@@ -618,8 +618,13 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **T-28** | Optimizar imágenes | Comprimir todas, convertir a WebP, añadir ALT | ------ | To Do |  | - | T-21, T-22, T-24 | ShortPixel bulk |
 | **T-29** | Configurar UpdraftPlus | Backup semanal automático a Google Drive | ------ | To Do |  | - | T-14 | Retener 4 copias |
 | **T-30** | Testing responsive | Probar en iPhone, Android, iPad, diferentes resoluciones | ------ | To Do |  | - | T-21 a T-27 | Chrome DevTools + real |
-| **T-31** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | Iluminada | Doing |  | - | T-26, T-27 | Verificar anti-spam |
-| **T-32** | Documentar implementación | Screenshots de cada página, descripciones detalladas | Iluminada | Doing |  | - | T-21 a T-27 | Para entregable PDF |
+| **T-31** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | Iluminada | Done |  | - | T-26, T-27 | Verificar anti-spam |
+| **T-32** | Documentar implementación | Screenshots de cada página, descripciones detalladas | Iluminada | Done |  | - | T-21 a T-27 | Para entregable PDF |
+| **T-32** | Documentar análisis | UML y glosario | Guillermo | Done |  | - | T-19 | Para entregable PDF |
+| **T-32** | Documentar REM | Objetivos y requisitos | Emilio | Done |  | - | Todos los requisitos (punto 3) | Para entregable PDF |
+| **T-32** | Documentar plugins | Tablas comparativas plugins y explicación plugin elegido | Nazaret | Done |  | - | T-06 a T-08 | Para entregable PDF |
+| **T-32** | Documentar mockups | Mockups con sus descripciones | Nazaret | Done |  | - | T-15 a T-18 | Para entregable PDF |
+| **T-32** | Documentar product backlog | Tabla product backlog | Iluminada | Done |  | - | PBl-01 a PBl-15 | Para entregable PDF |
 | **T-33** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do |  | - | Todas anteriores | Checklist manual |
 | **T-34** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do |  | - | Todas anteriores | QA final |
 
