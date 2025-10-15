@@ -972,28 +972,28 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
 **Integrantes del proyecto y responsabilidades principales:**
 
 **Guillermo Mendo Jiménez**
-- Rol: Desarrollador Backend / Administrador de Sistema
-- Responsabilidades: Instalación WordPress, configuración GitHub y plantillas, Creación requisitos, Creación UML, backups, futura base de datos.
+- Rol: Especialista UML / Administrador de Sistema
+- Responsabilidades: Instalación WordPress, configuración GitHub y plantillas, Creación requisitos, Creación UML
 - Email: *guimenjim@alum.us.es*
 - GitHub: *GuilleMJ04*
 
 **Emilio Cuevas Rendón**
-- Rol: Especialista SEO / Analítica
-- Responsabilidades: Configuración SEO, Analytics, análisis de temas, diagrama de clases
+- Rol: Especialista UML
+- Responsabilidades: Creación requisitos, Creación UML, modificaciones GitHUb
 - Email: *emicueren@alum.us.es*
 - GitHub: *Cuevas2004*
 
 **Iluminada Baena Herruzo**
-- Rol: Desarrolladora Frontend / Seguridad
-- Responsabilidades: Productos, seguridad, optimización imágenes, plugins cache
-- Email: *[email universitario]*
-- GitHub: *[usuario GitHub]*
+- Rol: Desarrolladora web / Documentación
+- Responsabilidades: Página web, base de datos, documentos entrega
+- Email: *ilubaeher@alum.us.es*
+- GitHub: *ilubaeher*
 
 **Nazaret María Villalba Delgado**
-- Rol: Diseñadora UX/UI / Documentación
-- Responsabilidades: Mockups, diseño visual, identidad corporativa, documentación
-- Email: *[email universitario]*
-- GitHub: *[usuario GitHub]*
+- Rol: Especialista plugins
+- Responsabilidades: Mockups, plugins
+- Email: *nazvildel@alum.us.es*
+- GitHub: *nazaretvillalba22*
 
 ---
 
