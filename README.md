@@ -632,7 +632,7 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 
 **Total horas estimadas Sprint 1:** 168 horas  
 **Distribución estimada:** 42 horas por persona (4 integrantes)  
-**Capacidad diaria estimada:** 6 horas/día laborable (medio tiempo - proyecto académico)
+**Capacidad diaria estimada:** 4 horas/día laborable (medio tiempo - proyecto académico)
 
 
 ---
