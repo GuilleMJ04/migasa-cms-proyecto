@@ -927,7 +927,7 @@ El proyecto CMS - WordPress para MIGASA ha supuesto una experiencia completa de 
     Canal: Mister Fabian
 ---
 
-## 10. ANEXOS (POR TOCAR)
+## 10. ANEXOS
 
 ### Anexo A: Glosario de Términos
 
