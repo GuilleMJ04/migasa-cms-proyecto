@@ -620,13 +620,13 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 | **T-30** | Testing responsive | Probar en iPhone, Android, iPad, diferentes resoluciones | ------ | To Do |  | - | T-21 a T-27 | Chrome DevTools + real |
 | **T-31** | Testing formularios | Envíos de prueba, validaciones, emails recibidos | Iluminada | Done |  | - | T-26, T-27 | Verificar anti-spam |
 | **T-32** | Documentar implementación | Screenshots de cada página, descripciones detalladas | Iluminada | Done |  | - | T-21 a T-27 | Para entregable PDF |
-| **T-32** | Documentar análisis | UML y glosario | Guillermo | Done |  | - | T-19 | Para entregable PDF |
-| **T-32** | Documentar REM | Objetivos y requisitos | Emilio | Done |  | - | Todos los requisitos (punto 3) | Para entregable PDF |
-| **T-32** | Documentar plugins | Tablas comparativas plugins y explicación plugin elegido | Nazaret | Done |  | - | T-06 a T-08 | Para entregable PDF |
-| **T-32** | Documentar mockups | Mockups con sus descripciones | Nazaret | Done |  | - | T-15 a T-18 | Para entregable PDF |
-| **T-32** | Documentar product backlog | Tabla product backlog | Iluminada | Done |  | - | PBl-01 a PBl-15 | Para entregable PDF |
-| **T-33** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do |  | - | Todas anteriores | Checklist manual |
-| **T-34** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do |  | - | Todas anteriores | QA final |
+| **T-33** | Documentar análisis | UML y glosario | Guillermo | Done |  | - | T-19 | Para entregable PDF |
+| **T-34** | Documentar REM | Objetivos y requisitos | Emilio | Done |  | - | Todos los requisitos (punto 3) | Para entregable PDF |
+| **T-35** | Documentar plugins | Tablas comparativas plugins y explicación plugin elegido | Nazaret | Done |  | - | T-06 a T-08 | Para entregable PDF |
+| **T-36** | Documentar mockups | Mockups con sus descripciones | Nazaret | Done |  | - | T-15 a T-18 | Para entregable PDF |
+| **T-37** | Documentar product backlog | Tabla product backlog | Iluminada | Done |  | - | PBl-01 a PBl-15 | Para entregable PDF |
+| **T-38** | Revisar identidad corporativa | Verificar colores Pantone, tipografías, logo correcto | ------ | To Do |  | - | Todas anteriores | Checklist manual |
+| **T-39** | Ajustes finales y pulido | Corregir detalles, alinear elementos, spacing | ------ | To Do |  | - | Todas anteriores | QA final |
 
 **Total horas estimadas Sprint 1:** X horas  
 **Distribución:** X horas por persona (4 integrantes)  
