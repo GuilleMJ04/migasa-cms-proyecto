@@ -348,7 +348,26 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Rank Math:** Aunque tiene más funciones gratuitas, menos maduro y estable
 - **All in One SEO:** Interfaz menos intuitiva, documentación menos completa
 
-#### 5.1.4 Otros Plugins Específicos
+#### 5.1.4 Plugins de Chat
+### Plugins de Chat / Comunicación
+
+| Plugin | Características Principales | Decisión |
+|--------|------------------------------|-----------|
+| **Chaty + Chatway Live Chat** | • Botones multicanal (WhatsApp, Messenger, Instagram, Telegram, etc.)<br>• Chat en vivo integrado (Chatway)<br>• Respuestas rápidas y FAQ personalizables<br>• Aplicaciones móviles (iOS/Android)<br>• Integración con WooCommerce<br>• Configuración muy sencilla en WordPress | SELECCIONADO |
+| **Tidio Chat** | • Chat en vivo y bandeja multicanal (web, IG, Messenger, WhatsApp)<br>• Chatbots con IA (Lyro/GPT)<br>• Constructor visual de flujos (“Flows”)<br>• Automatizaciones avanzadas (disparadores, segmentaciones)<br>• Panel analítico y estadísticas de conversaciones<br>• Soporte y documentación muy completos | DESCARTADO |
+| **Crisp** | • Chat en vivo con bandeja colaborativa<br>• Chatbots visuales y automatización sin código<br>• Integración con correo y redes sociales<br>• Sistema CRM interno<br>• Apps móviles y escritorio<br>• Soporte activo y comunidad en crecimiento | DESCARTADO |
+
+**Plugins seleccionados:** Chaty + Chatway Live Chat
+
+**Justificación detallada:**
+- **Multicanalidad visible:** Permite mostrar múltiples widgets de comunicación (WhatsApp, Messenger, Instagram, Telegram, chatbot, etc.) al mismo tiempo.
+- **Diseño minimalista:** Presenta los widgets de manera minimalista y visualmente atractiva, manteniendo la web limpia y ordenada.
+- **Gestión centralizada:** Integra un inbox centralizado a través de Chatway, facilitando la gestión de conversaciones desde un solo lugar.
+- **Movilidad:** Ofrece apps móviles para responder desde cualquier dispositivo.
+- **Facilidad de implementación:** La combinación de Chaty y Chatway asegura configuración sencilla en WordPress y rápida implementación.
+- **Equilibrio funcional-estético:** Logra un equilibrio entre visibilidad de canales, estética y funcionalidad, optimizando la experiencia del usuario sin sobrecargar el diseño del sitio.
+
+#### 5.1.5 Otros Plugins Específicos
 
 **Plugin de Formularios:**
 
@@ -376,10 +395,6 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 - **Características:** extiende WooCommerce para aceptar pagos mediante Stripe (tarjetas, Apple Pay, Google Pay, etc.) de forma segura.
 - **Justificación:** ofrece pagos rápidos y seguros, con soporte para múltiples divisas y sin redigir al usuario fuera del sitio, lo que mejora la conversión.
 
-**4. WooCommerce PayPal Payments** (Seleccionado)
-- **Características:** permite aceptar pagos mediante Paypal, Pay Later y otros métodos directamente en WooCommerce.
-- **Justificación:** es una de las pasarelas de pago más populares y confiables, garantizando compatibilidad y confianza para los clientes.
-
 **Plugins de búsqueda y navegación:**
 
 **1. Advance Woo Search** (Seleccionado)
@@ -395,6 +410,16 @@ Transformar la plataforma web actual en una herramienta funcional de ventas con 
 **Profile Builder** (Seleccionado)
 - **Características:** personalización de formularios de registro, inicio de sesión y edición del perfil. Permite controlar roles y acceso a contenido.
 - **Justificación:** ofrece una experiencia de usuario profesional y coherente, evitando el formulario genérico de WordPress y adaptándolo al estilo de la tienda.
+
+**Plugin de Filtrado de Productos:**
+
+**Product Filter by WBW** (Seleccionado)
+
+- **Filtros avanzados de productos:** Permite crear filtros personalizados según categorías, etiquetas, atributos y barra de precio, facilitando que los usuarios encuentren rápidamente lo que buscan.
+- **Control de visualización:** Ofrece opciones para ordenar productos según distintos criterios, mejorando la experiencia de compra.
+- **Flexibilidad y personalización:** Se adapta fácilmente a distintos tipos de tiendas y permite configurar filtros de forma intuitiva sin necesidad de conocimientos técnicos avanzados.
+- **Mejora de la experiencia de usuario:** Ayuda a los clientes a navegar y localizar productos de manera eficiente, reduciendo la frustración y aumentando la probabilidad de conversión.
+- **Compatibilidad con WooCommerce:** Se integra perfectamente con tiendas WooCommerce, asegurando funcionalidad completa y sin conflictos.
 
 ### 5.2 Análisis y Selección de Temas
 
